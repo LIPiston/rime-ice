@@ -50,7 +50,7 @@ jobs:
             - `README.md`：简易的使用说明
             - `full.zip` : 包含所有词典和方案文件
             - `cn_dicts.zip`：中文词库
-            - 'cn_dicts_cell.zip'：中文词库（搜狗细胞词库）
+            - `cn_dicts_cell.zip`：中文词库（搜狗细胞词库）
             - `en_dicts.zip`：英文词库
             - `opencc.zip`：opencc 词库（emoji 等）
             - `all_dicts.zip`：以上四个词库的整合
