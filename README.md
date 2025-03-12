@@ -1,7 +1,6 @@
 # 雾凇拼音
 
 [![License: GPL 3.0](https://img.shields.io/badge/License-GPL--3.0--only-34ad9b)](https://www.gnu.org/licenses/gpl-3.0.txt)
-[![GitHub Release](https://img.shields.io/github/v/release/LIPiston/rime-ice?filter=!nightly)](https://github.com/LIPiston/rime-ice/releases/)
 [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/LIPiston/rime-ice/NightlyBuildWeekly.yml)](https://github.com/LIPiston/rime-ice/actions/workflows/NightlyBuildWeekly.yml)
 ![GitHub Repo stars](https://img.shields.io/github/stars/LIPiston/rime-ice)
 
@@ -78,7 +77,7 @@
 - `base` 基础词库。
 - `ext` 扩展词库，小词库。
 - `tencent` 扩展词库，大词库。
-- Emoji
+- `Emoji`
 
 维护内容主要是异形词、错别字的校对，错误注音的修正，缺失的常用词汇的增添，词频的调整。
 
