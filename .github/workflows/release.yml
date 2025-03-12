@@ -45,11 +45,13 @@ jobs:
           mkdir dist
           echo "Pack all ..."
           find . -maxdepth 1 -name "*.lua" -o -name "*.yaml" -o -name "*.txt" | zip dist/full.zip -@
-          zip -r dist/full.zip cn_dicts en_dicts lua opencc LICENSE
+          zip -r dist/full.zip cn_dicts cn_dicts_cell en_dicts lua opencc LICENSE
           echo "Pack dicts ..."
           zip -r dist/all_dicts.zip cn_dicts en_dicts opencc radical_pinyin.dict.yaml
           echo "Pack cn_dicts ..."
           zip -r dist/cn_dicts.zip cn_dicts
+          echo "Pack cn_dicts_cell ..."
+          zip -r dist/cn_dicts_cell.zip cn_dicts_cell
           echo "Pack en_dicts ..."
           zip -r dist/en_dicts.zip en_dicts
           echo "Pack opencc ..."
@@ -70,9 +72,10 @@ jobs:
             - `README.md`：简易的使用说明
             - `full.zip` : 包含所有词典和方案文件
             - `cn_dicts.zip`：中文词库
+            - 'cn_dicts_cell.zip'：中文词库（搜狗细胞词库）
             - `en_dicts.zip`：英文词库
             - `opencc.zip`：opencc 词库（emoji 等）
-            - `all_dicts.zip`：以上三个词库的整合
+            - `all_dicts.zip`：以上四个词库的整合
             - `LICENSE.txt`：开源协议
 
           tag_name: nightly
@@ -92,6 +95,7 @@ jobs:
             - `full.zip` : 包含所有词典和方案文件
             - `cn_dicts.zip`：中文词库
             - `en_dicts.zip`：英文词库
+            - 'cn_dicts_cell.zip'：中文词库（搜狗细胞词库）
             - `opencc.zip`：opencc 词库（emoji 等）
             - `all_dicts.zip`：以上三个词库的整合
             - `LICENSE.txt`：开源协议
