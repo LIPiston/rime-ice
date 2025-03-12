@@ -28,7 +28,7 @@ jobs:
       # 传递运行ID确保目录唯一性
         GITHUB_RUN_ID: ${{ github.run_id }}
       run: |
-        [ -f "cn_dicts/hot_words.dict.*" ] && rm cn_dicts/hot_words.dict.*
+        [ -f "cn_dicts_cell/hot_words.dict.*" ] && rm cn_dicts_cell/hot_words.dict.*
         pip install selenium
         python3 others/get_hotwords.py
         mv 网络流行新词.scel hotwords.scel
@@ -38,13 +38,13 @@ jobs:
         wget https://github.com/studyzy/imewlconverter/releases/download/v3.2.0/imewlconverter_Linux.tar.gz
         tar -zxvf imewlconverter_Linux.tar.gz 
         sudo apt-get update && sudo apt-get install -y dotnet-sdk-8.0
-        dotnet publish/ImeWlConverterCmd.dll -i:scel hotwords.scel -os:linux -r:300000 -o:rime cn_dicts/temphotwords.dict.yml
+        dotnet publish/ImeWlConverterCmd.dll -i:scel hotwords.scel -os:linux -r:300000 -o:rime cn_dicts_cell/temphotwords.dict.yaml
 
     - name: Commit changes
       run: |
-        (echo -e "#======================================\n# 搜狗 网络流行新词\n# 自动构建于 $(TZ=Asia/Shanghai date +"%Y-%m-%d %H:%M:%S")\n# 由深蓝词库转换\n#======================================\n" ; cat cn_dicts/temphotwords.dict.yml) > cn_dicts/hot_words.dict.yaml
+        (echo -e "#======================================\n# 搜狗 网络流行新词\n# 自动构建于 $(TZ=Asia/Shanghai date +"%Y-%m-%d %H:%M:%S")\n# 由深蓝词库转换\n#======================================\n" ; cat cn_dicts_cell/temphotwords.dict.yaml) > cn_dicts_cell/hot_words.dict.yaml
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
-        git add cn_dicts/hot_words.dict.yaml
+        git add cn_dicts_cell/hot_words.dict.yaml
         git commit -m "Auto: Update hot words $(date +'%Y-%m-%d')" || echo "No changes to commit"
         git push
