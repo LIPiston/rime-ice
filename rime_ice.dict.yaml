@@ -13,7 +13,7 @@ import_tables:
   - cn_dicts/others   # 一些杂项
 
   # 建议把扩展词库放到下面，有重复词条时，最上面的权重生效
-  - cn_dicts/hot_words #搜狗新词词库
+  - cn_dicts_cell/hot_words #搜狗新词词库
   # 细胞词库
   - cn_dicts_cell/medication
   - cn_dicts_cell/industry_product
