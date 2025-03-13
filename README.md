@@ -73,12 +73,52 @@
 因为没有找到一份比较好的词库，干脆自己维护一个。综合了几个不错的词库，精心调教了很多。
 
 主要维护的词库：
+LIPiston：主要有这些词库
 
-- `8105` 字表。
-- `base` 基础词库。
-- `ext` 扩展词库，小词库。
-- `tencent` 扩展词库，大词库。
-- `Emoji`
+``` txt
+├── cn_dicts
+│   ├── 41448.dict.yaml
+│   ├── 8105.dict.yaml
+│   ├── base.dict.yaml
+│   ├── ext.dict.yaml
+│   ├── others.dict.yaml
+│   └── tencent.dict.yaml
+├── cn_dicts_cell
+│   ├── animal.dict.yaml
+│   ├── chess2.dict.yaml
+│   ├── chess.dict.yaml
+│   ├── composite.dict.yaml
+│   ├── computer.dict.yaml
+│   ├── exthot.dict.yaml
+│   ├── food.dict.yaml
+│   ├── game.dict.yaml
+│   ├── geography.dict.yaml
+│   ├── history.dict.yaml
+│   ├── hot_words.dict.yaml
+│   ├── idiom.dict.yaml
+│   ├── industry_product.dict.yaml
+│   ├── inputmethod.dict.yaml
+│   ├── literature.dict.yaml
+│   ├── media.dict.yaml
+│   ├── medication.dict.yaml
+│   ├── music.dict.yaml
+│   ├── name2.dict.yaml
+│   ├── name.dict.yaml
+│   ├── place.dict.yaml
+│   ├── shulihua.dict.yaml
+│   └── sport.dict.yaml
+└── en_dicts
+    ├── cn_en_abc.txt
+    ├── cn_en_double_pinyin.txt
+    ├── cn_en_flypy.txt
+    ├── cn_en_mspy.txt
+    ├── cn_en_sogou.txt
+    ├── cn_en.txt
+    ├── cn_en_ziguang.txt
+    ├── en.dict.yaml
+    └── en_ext.dict.yaml
+
+```
 
 维护内容主要是异形词、错别字的校对，错误注音的修正，缺失的常用词汇的增添，词频的调整。
 
