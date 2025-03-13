@@ -244,18 +244,6 @@ preset_color_schemes:
     text_color: 0x3F000000
     hilited_text_color: 0xD8000000
 
-  win10_weasel:
-    author: "luminosa"
-    back_color: 0xF3F3F3 # 背景颜色 颜色均取色自 Windows 10 默认
-    border_color: 0xDBDCDC # 边框颜色
-    candidate_text_color: 0x000000 # 候选文字颜色
-    hilited_candidate_back_color: 0xFFD8A6 # 高亮颜色
-    hilited_label_color: 0x6F6F6F # 高亮序号颜色
-    hilited_mark_color: 0x00000000 # 此项不生效
-    label_color: 0x6F6F6F # 候选数字颜色
-    shadow_color: 0x20000000 # 阴影颜色，新版小狼毫 CI 更改了绘制，若无法看到阴影，请更改为 000000，观察是否能正常绘制阴影
-    text_color: 0x000000 # 拼音文字颜色
-
   win11_weasel:
     name: "Windows 11 默认"
     author: "luminosa"
