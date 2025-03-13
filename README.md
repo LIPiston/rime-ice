@@ -55,6 +55,7 @@
     -   [简化字八股文](https://github.com/rime/rime-essay-simp)（by rime | [LGPL](https://github.com/rime/rime-essay-simp/blob/master/LICENSE)）
     -   [清华大学开源词库](https://github.com/thunlp/THUOCL)（by THUNLP | [MIT](https://github.com/thunlp/THUOCL/blob/master/LICENSE)）
     -   [腾讯词向量](https://ai.tencent.com/ailab/nlp/en/download.html)（@Huandeep [整理](https://github.com/iDvel/rime-ice/issues/24) | by Tencent AI Lab | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)）
+    - 一大坨搜狗细胞词库（从 rime-frost 里面掏过来的）
 - 词库修订
     - 校对大量异形词、错别字、错误注音
     - 全词库完成注音
@@ -164,7 +165,7 @@ Linux 依赖问题的具体解释请参考 [#840](https://github.com/iDvel/rime-
 
 您可以将仓库打包下载，将所有文件复制粘贴到 RIME 前端的配置目录，重新部署。
 
-只需要使用或者更新词库的话，可以手动粘贴覆盖 `cn_dicts` `en_dicts` `opencc` 三个文件夹。
+只需要使用或者更新词库的话，可以手动粘贴覆盖 `cn_dicts` `en_dicts` `cn_dicts_cell` `opencc` 四个文件夹。
 
 > [!NOTE]
 > 雾凇拼音中多个文件可能与其他方案同名冲突，如果是新手想一键安装，建议备份原先配置，**清空配置目录**再导入。
