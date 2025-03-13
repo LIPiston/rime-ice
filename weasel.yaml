@@ -48,7 +48,7 @@ global_ascii: false                        # 切换为 ascii 模式时，是否�
 # [style]
 # 字体；候选项、候选窗口的行为、布局及样式
 style:
-  color_scheme: purity_of_form_custom      # 默认配色方案
+  color_scheme: win11_weasel_dark      # 默认配色方案 本来是 纯粹的格式 现在换成了 Windows 11 默认／深色
   # color_scheme_dark: nord                # 深色模式下，Weasel 的配色方案，Windows 10 1809+ 可用
 
   # 全局字体
