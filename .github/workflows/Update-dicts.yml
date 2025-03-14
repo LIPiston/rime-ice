@@ -32,13 +32,13 @@ jobs:
     
     - name: hotwords_adder
       run: |
-        python3 others/hotwords_adder.py
+        python3 ./others/hotwords_adder.py
 
     - name: hotwords_clearer
       run: |
         sed -i '1,6d' cn_dicts_cell/hotwords.dict.yaml
         (echo -e "#======================================\n# 搜狗 网络流行新词\n# 自动构建于 $(TZ=Asia/Shanghai date +"%Y-%m-%d %H:%M:%S")\n# 由深蓝词库转换\n#======================================\n" ; cat cn_dicts_cell/temphotwords.dict.yaml) > cn_dicts_cell/hotwords.dict.yaml
-        python3 others/hotwords_clearer.py
+        python3 ./others/hotwords_clearer.py
 
     - name: Commit changes
       run: |
