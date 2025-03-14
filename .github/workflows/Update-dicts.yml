@@ -20,8 +20,10 @@ jobs:
     - name: get-dicts
       run: |
         rm -f cn_dicts/moegirl.dict.yaml
+        rm -f 
         wget https://github.com/outloudvi/mw2fcitx/releases/latest/download/moegirl.dict.yaml -O cn_dicts/moegirl.dict.yaml
         wget "https://pinyin.sogou.com/d/dict/download_cell.php?id=4&name=%E7%BD%91%E7%BB%9C%E6%B5%81%E8%A1%8C%E6%96%B0%E8%AF%8D" -O downloaded_hotwords.scel
+        
 
     - name: imewlconverter
       run: |
@@ -29,19 +31,10 @@ jobs:
         tar -zxvf imewlconverter_Linux.tar.gz 
         sudo apt-get update && sudo apt-get install -y dotnet-sdk-8.0
         dotnet publish/ImeWlConverterCmd.dll -i:scel downloaded_hotwords.scel -os:linux -r:1 -o:rime cn_dicts_cell/temphotwords.dict.yaml
-    
-    - name: hotwords_adder
-      run: |
-        python3 ./others/hotwords_adder.py
-
-    - name: hotwords_clearer
-      run: |
-        sed -i '1,6d' cn_dicts_cell/hotwords.dict.yaml
-        (echo -e "#======================================\n# 搜狗 网络流行新词\n# 自动构建于 $(TZ=Asia/Shanghai date +"%Y-%m-%d %H:%M:%S")\n# 由深蓝词库转换\n#======================================\n" ; cat cn_dicts_cell/temphotwords.dict.yaml) > cn_dicts_cell/hotwords.dict.yaml
-        python3 ./others/hotwords_clearer.py
 
     - name: Commit changes
       run: |
+        (echo -e "#======================================\n# 搜狗 网络流行新词\n# 自动构建于 $(TZ=Asia/Shanghai date +"%Y-%m-%d %H:%M:%S")\n# 由深蓝词库转换\n#======================================\n" ; cat cn_dicts_cell/temphotwords.dict.yaml) > cn_dicts_cell/hotwords.dict.yaml
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
         git add cn_dicts_cell/hotwords.dict.yaml
