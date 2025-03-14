@@ -43,9 +43,6 @@ jobs:
 
     - name: Commit changes
       run: |
-        sed -i '1,6d' cn_dicts_cell/hotwords.dict.yaml
-        (echo -e "#======================================\n# 搜狗 网络流行新词\n# 自动构建于 $(TZ=Asia/Shanghai date +"%Y-%m-%d %H:%M:%S")\n# 由深蓝词库转换\n#======================================\n" ; cat cn_dicts_cell/temphotwords.dict.yaml) > cn_dicts_cell/hotwords.dict.yaml
-        python3 others/hotwords_clearer.py
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
         git add cn_dicts_cell/hotwords.dict.yaml
