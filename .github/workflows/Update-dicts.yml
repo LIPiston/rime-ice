@@ -22,7 +22,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.x'
+        python-version: '3.13.2'
 
     - name: get-dicts
       run: |
@@ -36,13 +36,7 @@ jobs:
         tar -zxvf imewlconverter_Linux.tar.gz 
         sudo apt-get update && sudo apt-get install -y dotnet-sdk-8.0
         dotnet publish/ImeWlConverterCmd.dll -i:scel downloaded_hotwords.scel -os:linux -r:1 -o:rime cn_dicts_cell/temphotwords.dict.yaml
-
-    - name: hotwords_clearer
-      run: |
-        sed -i '1,6d' cn_dicts_cell/hotwords.dict.yaml
-        python3 ./others/hotwords_clearer.py
         (echo -e "#======================================\n# 搜狗 网络流行新词\n# 自动构建于 $(TZ=Asia/Shanghai date +"%Y-%m-%d %H:%M:%S")\n# 由深蓝词库转换\n#======================================\n" ; cat cn_dicts_cell/temphotwords.dict.yaml) > cn_dicts_cell/hotwords.dict.yaml
-
 
     - name: Commit changes
       run: |
