@@ -11,7 +11,8 @@ def check_and_append(source_file, target_file):
         # 读取目标文件内容（如果存在）
         if os.path.exists(target_file):
             with open(target_file, 'r', encoding='utf-8') as f:
-                target_lines = set(f.readlines())
+                # 去除每行的换行符后存入集合
+                target_lines = set(line.rstrip('\r\n') for line in f.readlines())
         else:
             target_lines = set()
             print(f"目标文件不存在，即将创建：{target_file}")
@@ -24,8 +25,14 @@ def check_and_append(source_file, target_file):
         with open(source_file, 'r', encoding='utf-8') as f:
             source_lines = f.readlines()
 
-        # 过滤已存在的行
-        new_lines = [line for line in source_lines if line not in target_lines]
+        # 过滤已存在的行（比较时去除换行符）
+        new_lines = []
+        for line in source_lines:
+            stripped_line = line.rstrip('\r\n')
+            if stripped_line not in target_lines:
+                new_lines.append(line)
+                # 更新目标行集合以避免重复添加同一内容
+                target_lines.add(stripped_line)
 
         # 追加新内容
         if new_lines:
