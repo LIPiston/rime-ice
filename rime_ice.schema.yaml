@@ -300,6 +300,11 @@ translator:
     - xform/([nl])v/$1v/       # 显示为 nv lv
     - xform/([nl])ue/$1ve/     # 显示为 nve lve
 
+# 长句语言模型 来自 https://github.com/LufsX/rime
+grammar:
+  language: zh-hans-t-essay-bgw
+
+
 
 # 次翻译器，英文
 melt_eng:
