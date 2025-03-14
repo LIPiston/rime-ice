@@ -175,7 +175,6 @@ preset_color_schemes:
   macos12_light:
     name: "高仿亮色 macOS"
     author: "Lufs X <i@isteed.cc>"
-
     back_color: 0xFFFFFF
     border_color: 0xFFFFFF
     candidate_text_color: 0xD8000000
@@ -191,7 +190,6 @@ preset_color_schemes:
   macos12_dark:
     name: "高仿暗色 macOS"
     author: "Lufs X <i@isteed.cc>"
-
     back_color: 0x1E1F24
     border_color: 0x1E1F24
     candidate_text_color: 0xE8E8E8
@@ -205,6 +203,7 @@ preset_color_schemes:
     hilited_text_color: 0xD8000000
 
   win10_weasel:
+    name: "Windows 10 默认"
     author: "luminosa"
     back_color: 0xF3F3F3 # 背景颜色 颜色均取色自 Windows 10 默认
     border_color: 0xDBDCDC # 边框颜色
