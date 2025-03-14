@@ -13,19 +13,6 @@ def has_valid_timestamp(line, time_format):
     except ValueError:
         return False
 
-def add_timestamp(line, time_format):
-    """为无有效时间戳的行追加当前时间"""
-    line = line.rstrip()
-    if has_valid_timestamp(line, time_format):
-        return line + '\n'
-    
-    # 移除旧无效时间戳（如果有）
-    if '#' in line:
-        line = line.rsplit('#', 1)[0].rstrip()
-    
-    timestamp = datetime.datetime.now().strftime(time_format)
-    return f"{line} #{timestamp}\n"
-
 def process_file(file_path, time_format, expire_days, file_encoding='utf-8'):
     try:
         current_time = datetime.datetime.now()
@@ -44,16 +31,14 @@ def process_file(file_path, time_format, expire_days, file_encoding='utf-8'):
         for line in process_lines:
             original_line = line.rstrip()
             
-            # 跳过已有有效时间戳的行
-            if has_valid_timestamp(original_line, time_format):
-                new_line = original_line + '\n'
-            else:
-                new_line = add_timestamp(original_line, time_format)
-                if new_line.strip() != original_line:
-                    print(f"添加时间戳：{new_line.strip()}")
+            # 跳过无有效时间戳的行
+            if not has_valid_timestamp(original_line, time_format):
+                print(f"保留无时间戳行：{original_line}")
+                kept_lines.append(original_line + '\n')
+                continue
             
             # 过期检查
-            parts = new_line.strip().rsplit('#', 1)
+            parts = original_line.rsplit('#', 1)
             if len(parts) == 2:
                 data_part, time_str = parts[0].strip(), parts[1].strip()
                 try:
@@ -62,9 +47,9 @@ def process_file(file_path, time_format, expire_days, file_encoding='utf-8'):
                         print(f"删除过期数据：{data_part}")
                         continue
                 except ValueError:
-                    print(f"保留时间格式错误行：{new_line.strip()}")
+                    print(f"保留时间格式错误行：{original_line}")
             
-            kept_lines.append(new_line)
+            kept_lines.append(original_line + '\n')
 
         # 合并并写回文件
         with open(file_path, 'w', encoding=file_encoding) as f:
