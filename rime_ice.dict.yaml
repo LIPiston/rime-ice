@@ -15,6 +15,7 @@ import_tables:
   # 建议把扩展词库放到下面，有重复词条时，最上面的权重生效
   - cn_dicts_cell/hot_words #搜狗新词词库
   - cn_dicts/moegirl  # 萌娘百科
+  - cn_dicts/minecraft-cn  # Minecraft 中文 Wiki
   # 细胞词库
   - cn_dicts_cell/medication
   - cn_dicts_cell/industry_product
