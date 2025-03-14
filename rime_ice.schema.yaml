@@ -300,12 +300,6 @@ translator:
     - xform/([nl])v/$1v/       # 显示为 nv lv
     - xform/([nl])ue/$1ve/     # 显示为 nve lve
 
-# 长句语言模型 来自 https://github.com/LufsX/rime
-grammar:
-  language: zh-hans-t-essay-bgw
-
-
-
 # 次翻译器，英文
 melt_eng:
   dictionary: melt_eng     # 挂载词库 melt_eng.dict.yaml
@@ -407,6 +401,10 @@ key_binder:
   search: "`"             # 辅码引导符，要添加到 speller/alphabet
   # bindings:             # 也可以再增加方案专有的快捷键
 
+
+# 长句语言模型 来自 https://github.com/LufsX/rime
+grammar:
+  language: zh-hans-t-essay-bgw
 
 # 拼写设定
 speller:
