@@ -20,6 +20,6 @@ def check_and_append(source_file, target_file):
 
 # 示例用法
 if __name__ == "__main__":
-    source = "cn_dicts_cell/temphotwords.dict.yaml"  # 源文件名
-    target = "cn_dicts_cell/hotwords.dict.yaml"  # 目标文件名
+    source = "cn_dicts_cell/hotwords.dict.yaml"  # 源文件名
+    target = "cn_dicts_cell/temphotwords.dict.yaml"  # 目标文件名
     check_and_append(source, target)
