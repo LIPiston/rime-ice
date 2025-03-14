@@ -1,5 +1,6 @@
 import os
 from datetime import datetime
+import re
 
 def check_and_append(source_file, target_file):
     try:
@@ -29,15 +30,20 @@ def check_and_append(source_file, target_file):
         # 获取当前日期
         current_date = datetime.now().strftime('%Y-%m-%d')
 
+        # 正则表达式匹配行末的日期注释
+        date_pattern = re.compile(r' # \d{4}-\d{2}-\d{2}$')
+
         # 过滤已存在的行（比较时去除换行符）
         new_lines = []
         for line in source_lines:
             stripped_line = line.rstrip('\r\n')
-            if stripped_line not in target_lines:
-                new_line = f"{stripped_line} # {current_date}\n"
-                new_lines.append(new_line)
-                # 更新目标行集合以避免重复添加同一内容
-                target_lines.add(stripped_line)
+            if stripped_line and stripped_line not in target_lines:
+                # 检查行末是否已有日期注释
+                if not date_pattern.search(stripped_line):
+                    new_line = f"{stripped_line} # {current_date}\n"
+                    new_lines.append(new_line)
+                    # 更新目标行集合以避免重复添加同一内容
+                    target_lines.add(stripped_line)
 
         # 追加新内容
         if new_lines:
