@@ -1,4 +1,5 @@
 import os
+from datetime import datetime
 
 def check_and_append(source_file, target_file):
     try:
@@ -25,12 +26,16 @@ def check_and_append(source_file, target_file):
         with open(source_file, 'r', encoding='utf-8') as f:
             source_lines = f.readlines()
 
+        # 获取当前日期
+        current_date = datetime.now().strftime('%Y-%m-%d')
+
         # 过滤已存在的行（比较时去除换行符）
         new_lines = []
         for line in source_lines:
             stripped_line = line.rstrip('\r\n')
             if stripped_line not in target_lines:
-                new_lines.append(line)
+                new_line = f"{stripped_line} # {current_date}\n"
+                new_lines.append(new_line)
                 # 更新目标行集合以避免重复添加同一内容
                 target_lines.add(stripped_line)
 

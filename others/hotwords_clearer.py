@@ -78,7 +78,7 @@ if __name__ == "__main__":
     # 配置区 ------------------------------------------------
     FILE_PATH = 'cn_dicts_cell/hotwords.dict.yaml'  # 文件路径
     TIME_FORMAT = "%Y-%m-%d %H:%M:%S"    # 时间格式必须与文件一致
-    EXPIRE_DAYS = 40                      # 保留天数
+    EXPIRE_DAYS = 126                     # 保留天数
     FILE_ENCODING = 'utf-8'              # 文件编码（gbk/utf-8等）
     # ------------------------------------------------------
 
