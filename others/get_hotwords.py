@@ -7,7 +7,7 @@ import tempfile
 import os
 
 # 配置路径（需要绝对路径）
-download_path = r"/home/runner/work/rime-frost-plus/rime-frost-plus/"  # 替换为你的实际下载路径
+download_path = r"/home/runner/work/rime-ice/rime-ice/"  # 替换为你的实际下载路径
 # 动态生成唯一用户数据目录（GitHub Actions 兼容）
 user_data_dir = os.path.join(tempfile.gettempdir(), f"chrome_profile_{os.getenv('GITHUB_RUN_ID', 'default')}")
 os.makedirs(user_data_dir, exist_ok=True)
