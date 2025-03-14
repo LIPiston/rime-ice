@@ -26,7 +26,7 @@ jobs:
     - name: get-moegirldict
       run: |
         rm -f cn_dicts/moegirl.dict.yaml
-        wget https://github.com/outloudvi/mw2fcitx/releases/download/latest/moegirl.dict.yaml -O cn_dicts/moegirl.dict.yaml
+        wget https://github.com/outloudvi/mw2fcitx/releases/latest/download/moegirl.dict.yaml -O cn_dicts/moegirl.dict.yaml
     
     - name: get-hotwords
       env:
