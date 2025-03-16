@@ -8,35 +8,29 @@ on:
 jobs:
   update-words:
     runs-on: ubuntu-latest
-    env:
-      pythonLocation: /opt/hostedtoolcache/Python/3.13.2/x64
-      PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.13.2/x64/lib/pkgconfig
-      Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.2/x64
-      Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.2/x64
-      Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.2/x64
-      LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.13.2/x64/lib
     steps:
     - name: Checkout code
-      uses: actions/checkout@v4
-
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.13.2'
+      uses: actions/checkout@v4 # 检出代码
 
     - name: get-dicts
       run: |
         rm -f cn_dicts/moegirl.dict.yaml
         wget https://github.com/outloudvi/mw2fcitx/releases/latest/download/moegirl.dict.yaml -O cn_dicts/moegirl.dict.yaml
         wget "https://pinyin.sogou.com/d/dict/download_cell.php?id=4&name=%E7%BD%91%E7%BB%9C%E6%B5%81%E8%A1%8C%E6%96%B0%E8%AF%8D" -O downloaded_hotwords.scel
+        wget https://github.com/oldherl/fcitx5-pinyin-minecraft/releases/latest/download/minecraft-cn.dict -O cn_dicts/minecraft-cn.dict
 
-    - name: imewlconverter
+    - name: convert-dicts
       run: |
         wget https://github.com/studyzy/imewlconverter/releases/download/v3.2.0/imewlconverter_Linux.tar.gz
         tar -zxvf imewlconverter_Linux.tar.gz 
         sudo apt-get update && sudo apt-get install -y dotnet-sdk-8.0
-        dotnet publish/ImeWlConverterCmd.dll -i:scel downloaded_hotwords.scel -os:linux -r:1 -o:rime cn_dicts_cell/temphotwords.dict.yaml
+        dotnet publish/ImeWlConverterCmd.dll -i:scel downloaded_hotwords.scel -os:linux -r:0 -o:rime cn_dicts_cell/temphotwords.dict.yaml
         (echo -e "#======================================\n# 搜狗 网络流行新词\n# 自动构建于 $(TZ=Asia/Shanghai date +"%Y-%m-%d %H:%M:%S")\n# 由深蓝词库转换\n#======================================\n" ; cat cn_dicts_cell/temphotwords.dict.yaml) > cn_dicts_cell/hotwords.dict.yaml
+        sudo apt-get install libime-bin
+        libime_pinyindict -d cn_dicts/minecraft-cn.dict cn_dicts/minecraft-cn.txt
+        dotnet publish/ImeWlConverterCmd.dll -i:libpy cn_dicts/minecraft-cn.txt -os:linux -r:0 -o:rime cn_dicts/tempminecraft-cn.dict.yaml
+        (echo -e "#======================================\n# Minecraft 简体中文词典 https://github.com/oldherl/fcitx5-pinyin-minecraft/\n# 自动构建于 $(TZ=Asia/Shanghai date +"%Y-%m-%d %H:%M:%S")\n# 由深蓝词库转换\n#======================================\n" ; cat cn_dicts/tempminecraft-cn.dict.yaml) > cn_dicts/minecraft-cn.dict.yaml
+
 
     - name: Commit changes
       run: |
@@ -44,5 +38,6 @@ jobs:
         git config --global user.email "actions@github.com"
         git add cn_dicts_cell/hotwords.dict.yaml
         git add cn_dicts/moegirl.dict.yaml
+        git add cn_dicts/minecraft-cn.dict.yaml
         git commit -m "Auto: Update dicts $(date +'%Y-%m-%d')" || echo "No changes to commit"
         git push
