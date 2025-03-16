@@ -402,10 +402,6 @@ key_binder:
   # bindings:             # 也可以再增加方案专有的快捷键
 
 
-# 长句语言模型 来自 https://github.com/LufsX/rime
-grammar:
-  language: zh-hans-t-essay-bgw
-
 # 拼写设定
 speller:
   # 如果不想让什么标点直接上屏，可以加在 alphabet，或者编辑标点符号为两个及以上的映射
