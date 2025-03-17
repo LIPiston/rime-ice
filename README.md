@@ -15,3 +15,25 @@ LIPiston 修改的 rime-ice
 - 自动更新的 Minecraft词库
 - 自动更新的 搜狗热词
 - 添加了好几个配色（懒得做演示了）
+
+## HOW-TO-USE
+
+如果你需要使用一整个由 LIPiston 修改的 rime-ice，就需要将一整个`full.zip`解压导入到用户文件夹（其实最好是删完整个用户文件夹然后导入一整个`full.zip`，因为我的rime-ice跟原本的rime-ice有点冲突）
+
+### 用户文件夹路径
+
+- Weasel: `%APPDATA%\Rime`
+- Squirrel: `~/Library/Rime`
+- iBus: `~/.config/ibus/rime`
+- Fcitx: `~/.config/fcitx/rime`
+- Fcitx5: `~/.local/share/fcitx5/rime/`
+
+如果是仅使用词库的话，就下载 releases 的词库 zip，导入到你的 rime 即可。
+
+### 注意事项
+
+1. **备份**：在进行任何操作之前，请确保备份您的现有配置文件。
+2. **兼容性**：由于修改内容较多，可能会与原版 rime-ice 存在兼容性问题。
+3. **更新**：定期检查更新，以获取最新的词库和功能改进。
+
+希望这些信息对你有所帮助！
