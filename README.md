@@ -35,7 +35,7 @@ LIPiston 修改的 rime-ice
 这里推荐使用[华宇语言模型-来自飞鹤快拼](https://github.com/boomker/rime-fast-xhup/releases/tag/v1.0.0)  
 当然你也可以使用[万象语言模型](https://github.com/amzxyz/RIME-LMDG/releases/tag/LTS)
 
-#### 快速启用方法  
+**快速启用方法**  
 在用户文件夹运行下方命令后重新部署 rime 即可。
 
 Unix-like平台：  
@@ -44,7 +44,7 @@ curl -sL https://raw.githubusercontent.com/lipiston/rime-ice/main/others/get-gra
 ```
 
 Windows平台：  
-```ps1
+```PowerShell
 irm https://raw.githubusercontent.com/lipiston/rime-ice/main/others/get-grammar-powershell.ps1 | iex
 ```
 
