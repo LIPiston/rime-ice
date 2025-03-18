@@ -8,4 +8,4 @@
        "translator/contextual_suggestions": true
        "translator/max_homophones": 7
        "translator/max_homographs": 7
-     EOF
+EOF
