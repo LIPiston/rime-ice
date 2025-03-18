@@ -30,6 +30,24 @@ LIPiston 修改的 rime-ice
 
 如果是仅使用词库的话，就下载 releases 的词库 zip，导入到你的 rime 即可。
 
+### 语言模型相关
+
+这里推荐使用[华宇语言模型-来自飞鹤快拼](https://github.com/boomker/rime-fast-xhup/releases/tag/v1.0.0)  
+当然你也可以使用[万象语言模型](https://github.com/amzxyz/RIME-LMDG/releases/tag/LTS)
+
+#### 快速启用方法  
+在用户文件夹运行下方命令后重新部署 rime 即可。
+
+Unix-like平台：  
+```bash
+curl -sL https://raw.githubusercontent.com/lipiston/rime-ice/main/others/get-grammar-bash.sh | bash
+```
+
+Windows平台：  
+```ps1
+irm https://raw.githubusercontent.com/lipiston/rime-ice/main/others/get-grammar-powershell.ps1 | iex
+```
+
 ### 注意事项
 
 1. **备份**：在进行任何操作之前，请确保备份您的现有配置文件。
