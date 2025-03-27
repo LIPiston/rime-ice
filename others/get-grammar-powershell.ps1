@@ -1,4 +1,4 @@
-iwr https://github.com/boomker/rime-fast-xhup/releases/download/v1.0.0/zh-hans-t-huayu-v7-bgw.gram -OutFile zh-hans-t-huayu-v7-bgw.gram
+iwr https://github.com/amzxyz/RIME-LMDG/releases/download/LTS/wanxiang-lts-zh-hans.gram -OutFile wanxiang-lts-zh-hans.gram
     @"
     patch:
       ""grammar/language"": zh-hans-t-huayu-v7-bgw

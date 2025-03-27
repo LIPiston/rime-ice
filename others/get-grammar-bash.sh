@@ -1,8 +1,8 @@
 #!/bin/bash
-    curl -LO https://github.com/boomker/rime-fast-xhup/releases/download/v1.0.0/zh-hans-t-huayu-v7-bgw.gram
+    curl -LO https://github.com/amzxyz/RIME-LMDG/releases/download/LTS/wanxiang-lts-zh-hans.gram
     tee rime_ice.schema.custom.yaml >/dev/null <<EOF
     patch:
-      "grammar/language": zh-hans-t-huayu-v7-bgw
+      "grammar/language": wanxiang-lts-zh-hans.gram
       "grammar/collocation_max_length": 5
       "grammar/collocation_min_length": 2
       "translator/contextual_suggestions": true
