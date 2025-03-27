@@ -45,12 +45,12 @@ catch {
 
 @"
 patch:
-  "grammar/language": $filename
-  "grammar/collocation_max_length": 5
-  "grammar/collocation_min_length": 2
-  "translator/contextual_suggestions": true
-  "translator/max_homophones": 7
-  "translator/max_homographs": 7
+    "grammar/language": $filename
+    "grammar/collocation_max_length": 5
+    "grammar/collocation_min_length": 2
+    "translator/contextual_suggestions": true
+    "translator/max_homophones": 7
+    "translator/max_homographs": 7
 "@ | Set-Content rime_ice.schema.custom.yaml
 
 Write-Host "配置完成！已创建 rime_ice.schema.custom.yaml"

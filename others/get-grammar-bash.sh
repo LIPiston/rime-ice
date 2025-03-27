@@ -40,12 +40,12 @@ echo "下载完成：$filename"
 
 cat > rime_ice.schema.custom.yaml <<EOF
 patch:
-  "grammar/language": $filename
-  "grammar/collocation_max_length": 5
-  "grammar/collocation_min_length": 2
-  "translator/contextual_suggestions": true
-  "translator/max_homophones": 7
-  "translator/max_homographs": 7
+    "grammar/language": $filename
+    "grammar/collocation_max_length": 5
+    "grammar/collocation_min_length": 2
+    "translator/contextual_suggestions": true
+    "translator/max_homophones": 7
+    "translator/max_homographs": 7
 EOF
 
 echo "配置完成！已创建 rime_ice.schema.custom.yaml"
