@@ -1,4 +1,4 @@
-# 保存为 configure_rime.ps1
+﻿# 保存为 configure_rime.ps1
 Remove-Item -Path *.gram -ErrorAction SilentlyContinue
 Remove-Item -Path rime_ice.schema.custom.yaml -ErrorAction SilentlyContinue
 
