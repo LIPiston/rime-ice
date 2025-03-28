@@ -214,6 +214,11 @@ preset_color_schemes:
     label_color: 0x6F6F6F # 候选数字颜色
     shadow_color: 0x20000000 # 阴影颜色，新版小狼毫 CI 更改了绘制，若无法看到阴影，请更改为 000000，观察是否能正常绘制阴影
     text_color: 0x000000 # 拼音文字颜色
+    #
+    # 如果需要启动直角就在 weasel.custom.yaml 里面添加这些
+    # patch:
+    #   "style/layout/round_corner": 8
+    #   "style/layout/corner_radius": 8
 
   win11_weasel:
     name: "Windows 11 默认"
