@@ -13,7 +13,6 @@ LIPiston 修改的 rime-ice
 - 来自 [cpd](https://github.com/wuhgit/CustomPinyinDictionary) 的大词库
 - 萌娘百科词库
 - 自动更新的 Minecraft词库
-- 自动更新的 搜狗热词
 - 添加了好几个配色（懒得做演示了）
 
 ## HOW-TO-USE
