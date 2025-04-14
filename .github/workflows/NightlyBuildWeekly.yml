@@ -36,6 +36,13 @@ jobs:
           cp LICENSE dist/LICENSE.txt
           cp README.md dist/README.md
 
+      - name: Get current time (UTC+8)
+        id: time
+        run: |
+          export TZ='Asia/Shanghai'
+          echo "time=$(date +'%Y-%m-%d %H:%M:%S UTC+8')" >> $GITHUB_OUTPUT
+
+
       - name: Create nightly release
         if: ${{ github.ref == 'refs/heads/main' }}
         uses: "softprops/action-gh-release@v2"
@@ -44,6 +51,7 @@ jobs:
             ## 说明
 
             这里是每次提交后自动打包的版本，包含最新的功能和词库
+            📅 构建时间：${{ steps.time.outputs.time }}
 
             - `README.md`：简易的使用说明
             - `full.zip` : 包含所有词典和方案文件
