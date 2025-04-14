@@ -28,8 +28,6 @@ jobs:
           zip -r dist/all_dicts.zip cn_dicts en_dicts opencc radical_pinyin.dict.yaml
           echo "Pack cn_dicts ..."
           zip -r dist/cn_dicts.zip cn_dicts
-          echo "Pack cn_dicts_cell ..."
-          zip -r dist/cn_dicts_cell.zip cn_dicts_cell
           echo "Pack en_dicts ..."
           zip -r dist/en_dicts.zip en_dicts
           echo "Pack opencc ..."
@@ -50,7 +48,6 @@ jobs:
             - `README.md`：简易的使用说明
             - `full.zip` : 包含所有词典和方案文件
             - `cn_dicts.zip`：中文词库
-            - `cn_dicts_cell.zip`：中文词库（搜狗细胞词库）
             - `en_dicts.zip`：英文词库
             - `opencc.zip`：opencc 词库（emoji 等）
             - `all_dicts.zip`：以上四个词库的整合
