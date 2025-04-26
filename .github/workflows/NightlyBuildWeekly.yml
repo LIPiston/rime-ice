@@ -43,6 +43,11 @@ jobs:
           echo "time=$(date +'%Y-%m-%d %H:%M:%S UTC+8')" >> $GITHUB_OUTPUT
 
 
+      - name: Delete existing nightly release
+        if: ${{ github.ref == 'refs/heads/main' }}
+        run: |
+          gh release delete nightly -y || echo "No existing nightly release to delete"
+
       - name: Create nightly release
         if: ${{ github.ref == 'refs/heads/main' }}
         uses: "softprops/action-gh-release@v2"
