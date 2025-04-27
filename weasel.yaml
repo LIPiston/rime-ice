@@ -20,23 +20,23 @@ config_version: "2024-09-25"
 app_options:
   firefox.exe:
     inline_preedit: true   # 行内显示预编辑区：规避 <https://github.com/rime/weasel/issues/946>
-  # cmd.exe:               # 带 .exe 的进程名：Weasel 15.0 及之前版本须小写
-  #   ascii_mode: true     # 英文模式
-  # conhost.exe:
-  #   ascii_mode: true
-  # windowsterminal.exe:
-  #   ascii_mode: true
-  # wt.exe:
-  #   ascii_mode: true
-  # pwsh.exe:
-  #   ascii_mode: true
-  # powershell.exe:
-  #   ascii_mode: true
-  # mintty.exe:
-  #   ascii_mode: true
-  # nvim-qt.exe:
-  #   ascii_mode: true
-  #   vim_mode: true       # vim 模式, Esc <C-c> <C-[> 切换到 ascii 状态
+  cmd.exe:               # 带 .exe 的进程名：Weasel 15.0 及之前版本须小写
+    ascii_mode: true     # 英文模式
+  conhost.exe:
+    ascii_mode: true
+  windowsterminal.exe:
+    ascii_mode: true
+  wt.exe:
+    ascii_mode: true
+  pwsh.exe:
+    ascii_mode: true
+  powershell.exe:
+    ascii_mode: true
+  mintty.exe:
+    ascii_mode: true
+  nvim-qt.exe:
+    ascii_mode: true
+    vim_mode: true       # vim 模式, Esc <C-c> <C-[> 切换到 ascii 状态
 # [End of <app_options>]
 
 # [global settings]
@@ -48,7 +48,7 @@ global_ascii: false                        # 切换为 ascii 模式时，是否�
 # [style]
 # 字体；候选项、候选窗口的行为、布局及样式
 style:
-  color_scheme: purity_of_form_custom      # 默认配色方案
+  color_scheme: win11_weasel_dark      # 默认配色方案 本来是 纯粹的格式 现在换成了 Windows 11 默认／深色
   # color_scheme_dark: nord                # 深色模式下，Weasel 的配色方案，Windows 10 1809+ 可用
 
   # 全局字体
@@ -149,7 +149,7 @@ preset_color_schemes:
     hilited_candidate_border_color: 0x8FBCBB # 边框
     hilited_candidate_back_color: 0x8FBCBB   # 背景
     # hilited_candidate_shadow_color:        # 阴影
-    # inline_preedit: false 时翻页箭头颜色，不设置则不显示箭头
+    # inline_preedit: false # 时翻页箭头颜色，不设置则不显示箭头
     # nextpage_color: 0x000000               # 下一页
     # prevpage_color: 0x000000               # 上一页
 
@@ -170,6 +170,110 @@ preset_color_schemes:
     hilited_candidate_border_color: 0xE3E3E3
     hilited_candidate_label_color: 0x4C4C4C
     hilited_candidate_text_color: 0x000000
+
+  #以下是来自https://github.com/LufsX/rime/blob/master/weasel.yaml的配色方案
+  macos12_light:
+    name: "高仿亮色 macOS"
+    author: "Lufs X <i@isteed.cc>"
+    back_color: 0xFFFFFF
+    border_color: 0xFFFFFF
+    candidate_text_color: 0xD8000000
+    comment_text_color: 0x3F000000
+    label_color: 0x7F7F7F
+    hilited_candidate_back_color: 0xD05925
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_comment_text_color: 0x808080
+    hilited_candidate_label_color: 0xFFFFFF
+    text_color: 0x3F000000
+    hilited_text_color: 0xD8000000
+
+  macos12_dark:
+    name: "高仿暗色 macOS"
+    author: "Lufs X <i@isteed.cc>"
+    back_color: 0x1E1F24
+    border_color: 0x1E1F24
+    candidate_text_color: 0xE8E8E8
+    comment_text_color: 0x3F000000
+    label_color: 0x7C7C7C
+    hilited_candidate_back_color: 0xDA6203
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_comment_text_color: 0x808080
+    hilited_candidate_label_color: 0xFFE7D6
+    text_color: 0x3F000000
+    hilited_text_color: 0xD8000000
+
+  win10_weasel:
+    name: "Windows 10 默认"
+    author: "luminosa"
+    back_color: 0xF3F3F3 # 背景颜色 颜色均取色自 Windows 10 默认
+    border_color: 0xDBDCDC # 边框颜色
+    candidate_text_color: 0x000000 # 候选文字颜色
+    hilited_candidate_back_color: 0xFFD8A6 # 高亮颜色
+    hilited_label_color: 0x6F6F6F # 高亮序号颜色
+    hilited_mark_color: 0x00000000 # 此项不生效
+    label_color: 0x6F6F6F # 候选数字颜色
+    shadow_color: 0x20000000 # 阴影颜色，新版小狼毫 CI 更改了绘制，若无法看到阴影，请更改为 000000，观察是否能正常绘制阴影
+    text_color: 0x000000 # 拼音文字颜色
+    #
+    # 如果需要启动直角就在 weasel.custom.yaml 里面添加这些
+    # patch:
+    #   "style/layout/round_corner": 8
+    #   "style/layout/corner_radius": 8
+
+  win11_weasel:
+    name: "Windows 11 默认"
+    author: "luminosa"
+    back_color: 0xF9F9F9 # 背景颜色 颜色均取色自 Windows 11 默认
+    border_color: 0xE7E7E7 # 边框颜色
+    candidate_text_color: 0x000000 # 候选文字颜色
+    hilited_candidate_back_color: 0xF0F0F0 # 高亮颜色
+    hilited_label_color: 0x727272 # 高亮序号颜色
+    hilited_mark_color: 0xFFD8A6 # 此项生效，前面那|的颜色，更新到支持的小狼毫 CI 版本才会生效
+    label_color: 0x727272 # 候选数字颜色
+    shadow_color: 0x20000000 # 阴影颜色，新版小狼毫 CI 更改了绘制，若无法看到阴影，请更改为 000000，观察是否能正常绘制阴影
+    text_color: 0x000000 # 拼音文字颜色
+
+  win11_weasel_dark:
+    name: "Windows 11 默认／深色"
+    author: "Lufs X <i@isteed.cc>"
+    back_color: 0x2C2C2C # 背景颜色 颜色均取色自 Windows 11 默认
+    border_color: 0x333333 # 边框颜色
+    candidate_text_color: 0xFFFFFF # 候选文字颜色
+    hilited_candidate_back_color: 0x383838 # 高亮颜色
+    hilited_label_color: 0xCFCFCF # 高亮序号颜色
+    hilited_mark_color: 0x595959 # 此项生效，前面那|的颜色，更新到支持的小狼毫 CI 版本才会生效
+    label_color: 0x727272 # 候选数字颜色
+    shadow_color: 0x20000000 # 阴影颜色，新版小狼毫 CI 更改了绘制，若无法看到阴影，请更改为 000000，观察是否能正常绘制阴影
+    text_color: 0xFFFFFF # 拼音文字颜色
+
+  wechat:
+    name: "微信键盘 / WeChat-keyboard" # 配色取自微信键盘
+    author: zsakvo
+    back_color: 0xC8F0F0F0
+    comment_text_color: 0x999999
+    hilited_candidate_back_color: 0x75B100
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_mark_color: 0xBF616A # 标签前的标记
+    horizontal: true
+    text_color: 0x424242
+    border_color: 0xFFFFFF
+    # 选中区域配色
+    hilited_candidate_shadow_color: 0xDDDDDD # 阴影
+    # 候选框配色
+    shadow_color: 0xDDDDDD
+  
+  wechat_dark:
+    name: '微信键盘_深色 / WeChat-keyboard_dark' # 配色取自微信键盘
+    back_color: 0xC85D5D5D #设置输入条的背景色，色值是按照 BGR 的形式 16 进制填写
+    border_color: 0x151515 #输入条边框颜色，似乎在横向模式下不起作用
+    border_color_width: 0 #输入条边框宽度
+    candidate_text_color: 0xFFFFFF #候选字颜色
+    text_color: 0xFFFFFF #普通候选字的颜色，非第一候选字
+    hilited_candidate_label_color: 0x151515 #第一候选字标签颜色，也就是数字 1
+    hilited_text_color: 0x151515 #第一候选字颜色
+    hilited_candidate_back_color: 0x75B100 #第一候选字高亮颜色（背景色）
+    # label_color: 0x888888 #普通标签的颜色(非第一候选字)，也就是候选字数字
+    hilited_candidate_shadow_color: 0xDDDDDD # 阴影
 
   # 以下为 weasel 自带的配色方案
   # source: <https://github.com/rime/weasel/blob/master/output/data/weasel.yaml>

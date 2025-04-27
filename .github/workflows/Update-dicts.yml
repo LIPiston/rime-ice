@@ -1,0 +1,43 @@
+name: Update-dicts
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'  # 每周日 00:00 UTC 执行
+  workflow_dispatch:      # 允许手动触发
+
+jobs:
+  update-words:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4 # 检出代码
+
+    - name: get-dicts
+      run: |
+        rm -f cn_dicts/moegirl.dict.yaml
+        wget https://github.com/outloudvi/mw2fcitx/releases/latest/download/moegirl.dict.yaml -O cn_dicts/moegirl.dict.yaml
+        wget "https://pinyin.sogou.com/d/dict/download_cell.php?id=4&name=%E7%BD%91%E7%BB%9C%E6%B5%81%E8%A1%8C%E6%96%B0%E8%AF%8D" -O downloaded_hotwords.scel
+        wget https://github.com/oldherl/fcitx5-pinyin-minecraft/releases/latest/download/minecraft-cn.dict -O cn_dicts/minecraft-cn.dict
+
+    - name: convert-dicts
+      run: |
+        wget https://github.com/studyzy/imewlconverter/releases/download/v3.2.0/imewlconverter_Linux.tar.gz
+        tar -zxvf imewlconverter_Linux.tar.gz 
+        sudo apt-get update && sudo apt-get install -y dotnet-sdk-8.0
+        dotnet publish/ImeWlConverterCmd.dll -i:scel downloaded_hotwords.scel -os:linux -r:0 -o:rime cn_dicts/temphotwords.dict.yaml
+        (echo -e "#======================================\n# 搜狗 网络流行新词\n# 自动构建于 $(TZ=Asia/Shanghai date +"%Y-%m-%d %H:%M:%S")\n# 由深蓝词库转换\n#======================================\n" ; cat cn_dicts/temphotwords.dict.yaml) > cn_dicts/hotwords.dict.yaml
+        sudo apt-get install libime-bin
+        libime_pinyindict -d cn_dicts/minecraft-cn.dict cn_dicts/minecraft-cn.txt
+        dotnet publish/ImeWlConverterCmd.dll -i:libpy cn_dicts/minecraft-cn.txt -os:linux -r:0 -o:rime cn_dicts/tempminecraft-cn.dict.yaml
+        (echo -e "#======================================\n# Minecraft 简体中文词典 https://github.com/oldherl/fcitx5-pinyin-minecraft/\n# 自动构建于 $(TZ=Asia/Shanghai date +"%Y-%m-%d %H:%M:%S")\n# 由深蓝词库转换\n#======================================\n" ; cat cn_dicts/tempminecraft-cn.dict.yaml) > cn_dicts/minecraft-cn.dict.yaml
+
+
+    - name: Commit changes
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add cn_dicts/hotwords.dict.yaml
+        git add cn_dicts/moegirl.dict.yaml
+        git add cn_dicts/minecraft-cn.dict.yaml
+        git commit -m "Auto: Update dicts $(date +'%Y-%m-%d')" || echo "No changes to commit"
+        git push
