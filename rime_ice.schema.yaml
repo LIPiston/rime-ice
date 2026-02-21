@@ -6,7 +6,7 @@
 schema:
   schema_id: rime_ice
   name: 雾凇拼音
-  version: "2025-11-02"
+  version: "2026-01-29"
   author:
     - Dvel
   description: |
@@ -125,10 +125,10 @@ reduce_english_filter:
   # 自定义的单词列表，示例列表没有降低部分常用单词，如 and cat mail Mac but bad shit ……
   words: [
     aid, ann,
-    bail, bait, bam, band, bans, bat, bay, bend, bent, benz, bib, bid, bien, biz, boc, bop, bos, bud, buf, bus, bach, bench, bush,
+    bail, bait, bam, band, bans, bat, bay, bend, bent, benz, bib, bid, bien, biz, boc, bop, bos, bud, buf, bus, bach, bench, bush, bog,
     cab, cad, cain, cam, cans, cap, cef, chad, chan, chap, chef, cher, chew, chic, chin, chip, chit, coup, cum, cunt, cur, couch,
     dab, dag, dal, dam, dent, dew, dial, diet, dim, din, dip, dis, dit, doug, dub, dug, dunn, don,
-    fab, fax, fob, fog, foul, fur,
+    fab, fax, fob, fog, foul, fur, fend,
     gag, gail, gain, gal, gam, gaol, ged, gel, ger, guam, gus, gut,
     hail, ham, hank, hans, hat, hay, heil, heir, hem, hep, hex, hud, hum, hung, hunk, hut, hush,
     jim, jug,
@@ -174,6 +174,7 @@ translator:
     - xform/([nl])v/$1v/       # 显示为 nv lv
     - xform/([nl])ue/$1ve/     # 显示为 nve lve
     - xform/(?<=[A-Z])\s(?=[A-Z])//  # 消除大写字母之间的空格
+  # dictionary_exclude: [肏屄, 鸡巴]  # 如有屏蔽 NSFW 词汇需求 librime >= 1.14.0 等价于从 .dict.yaml 中删除对应词条，但不影响组句和用户词库。
 
 # 次翻译器，英文
 melt_eng:

@@ -17,9 +17,9 @@ local function generate_uuid_v4()
 		rand(0, 255),
 		rand(0, 255),
 		rand(0, 255),
-		(rand(0, 255) & 0x0F) | 0x40,
+		((rand(0, 255) % 16) + 64),
 		rand(0, 255),
-		(rand(0, 255) & 0x3F) | 0x80,
+		((rand(0, 255) % 64) + 128),
 		rand(0, 255),
 		rand(0, 255),
 		rand(0, 255),
@@ -33,12 +33,12 @@ end
 local M = {}
 
 function M.init(env)
+	randomseed(math.floor(os.time() + os.clock() * 1000))
 	M.uuid = env.engine.schema.config:get_string(env.name_space:gsub("^*", "")) or "uuid"
 end
 
 function M.func(input, seg, _)
 	if input == M.uuid then
-		randomseed(os.time())
 		yield_cand(seg, generate_uuid_v4())
 	end
 end
