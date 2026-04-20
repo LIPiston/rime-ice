@@ -4,22 +4,51 @@
 
 ---
 
+*2026.03.26 Release*
+
+## 2026-03-26
+
+- test: 新增自动化测试和 yaml / lua 语法检查。用例覆盖主流程，在提交时运行。
+
+## 2026-03-21
+
+- fix(lua): 修复时区问题(#1501)
+
+## 2026-03-11
+
+- dict(radical)：拆字词典覆盖拓展区 b - j 汉字
+
+## 2026-03-08
+
+- feat: 加入一些时间和日期的自定义展示 [#1485](https://github.com/iDvel/rime-ice/pull/1485)
+    - 中英日期触发关键字，全拼默认为 `rqzh` 和 `rqen`，双拼默认为 `datezh` 和 `dateen`
+
+## 2026-01-26
+
+- dict(symbol)：删除了 V/v 模式中的 emoji 集合
+
+## 2026-01-05
+
+- docs: 添加在线试用链接，由 @Mintimate 友情构建
+
+---
+
 *2025.12.08 Release*
 
-### 2025-12-08
+## 2025-12-08
 
 - 修正了 lua 注释中的引入错误 [#1405](https://github.com/iDvel/rime-ice/issues/1405)
 
-### 2025-10-31
+## 2025-10-31
 
 - `uuid.lua` 生成符合 RFC 4122 标准的 UUID v4 [#1383](https://github.com/iDvel/rime-ice/pull/1383)
 
-### 2025-10-23
+## 2025-10-23
 
 - 以词定字长句输入支持 ([#1252](https://github.com/iDvel/rime-ice/issues/1252))
 - 计算器百分号支持([#1298](https://github.com/iDvel/rime-ice/pull/1298))
 
-### 2025-06-09
+## 2025-06-09
 
 - 添加拼音加加双拼方案 [#1228](https://github.com/iDvel/rime-ice/pull/1228)
 
