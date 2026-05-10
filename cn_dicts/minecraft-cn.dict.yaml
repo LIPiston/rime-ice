@@ -1,6 +1,6 @@
 #======================================
 # Minecraft 简体中文词典 https://github.com/oldherl/fcitx5-pinyin-minecraft/
-# 自动构建于 2026-05-03 09:52:38
+# 自动构建于 2026-05-10 09:56:01
 # 由深蓝词库转换
 #======================================
 
@@ -85,6 +85,7 @@
 斑驳的铜傀儡雕像	ban bo de tong kui lei diao xiang	0
 斑驳的铜傀儡像	ban bo de tong kui lei xiang	0
 斑驳的铜活板门	ban bo de tong huo ban men	0
+斑驳的铜陷阱	ban bo de tong xian jing	0
 斑驳的铜箱子	ban bo de tong xiang zi	0
 斑驳的铜质箱子	ban bo de tong zhi xiang zi	0
 斑驳的涂蜡铜提灯	ban bo de tu la tong ti deng	0
@@ -126,6 +127,7 @@
 半自动熔炉	ban zi dong rong lu	0
 绑定的诅咒	bang ding de zu zhou	0
 绑定诅咒	bang ding zu zhou	0
+宝宝当家	bao bao dang jia	0
 剥皮者	bao pi zhe	0
 豹猫	bao mao	0
 豹猫护甲	bao mao hu jia	0
@@ -157,6 +159,7 @@
 爆炸击退抗性	bao zha ji tui kang xing	0
 爆炸伤害	bao zha shang hai	0
 爆炸室	bao zha shi	0
+爆炸实体影响	bao zha shi ti ying xiang	0
 爆炸威力	bao zha wei li	0
 暴食蛮猪	bao shi man zhu	0
 宝藏	bao zang	0
@@ -302,6 +305,7 @@
 不透明度	bu tou ming du	0
 布料	bu liao	0
 不该做的事	bu gai zuo de shi	0
+不共存魔咒	bu gong cun mo zhou	0
 不可破坏	bu ke po huai	0
 不可破坏的末地水晶	bu ke po huai de mo di shui jing	0
 不可替代方块	bu ke ti dai fang kuai	0
@@ -312,6 +316,8 @@
 不可合成嘅药箭	bu ke he cheng kai yao jian	0
 不可合成嘅药水	bu ke he cheng kai yao shui	0
 不可再生	bu ke zai sheng	0
+不可再生方块	bu ke zai sheng fang kuai	0
+不可再生物品	bu ke zai sheng wu pin	0
 补货	bu huo	0
 不界传送门	bu jie chuan song men	0
 不兼容魔咒	bu jian rong mo zhou	0
@@ -326,9 +332,8 @@
 不祥试炼	bu xiang shi lian	0
 不祥试炼生成笼	bu xiang shi lian sheng cheng long	0
 不祥试炼刷怪笼	bu xiang shi lian shua guai long	0
-不祥试炼锁匙	bu xiang shi lian suo chi	0
+不祥试炼钥匙	bu xiang shi lian yao shi	0
 不祥事件	bu xiang shi jian	0
-不祥锁匙	bu xiang suo chi	0
 不祥钥匙	bu xiang yao shi	0
 不熟练的村民	bu shu lian de cun min	0
 不死图腾	bu si tu teng	0
@@ -692,6 +697,7 @@
 猛击	meng ji	0
 梦魇	meng yan	0
 梦魇之噬	meng yan zhi shi	0
+萌物来袭	meng wu lai xi	0
 魔法苹果	mo fa ping guo	0
 魔法金苹果	mo fa jin ping guo	0
 魔法指令	mo fa zhi ling	0
@@ -748,10 +754,12 @@
 蘑菇梗	mo gu geng	0
 蘑菇茎	mo gu jing	0
 蘑菇种植	mo gu zhong zhi	0
+莫江办公室海角	mo jiang ban gong shi hai jiao	0
 墨西哥钝口螈	mo xi ge dun kou yuan	0
 魔像	mo xiang	0
 模型	mo xing	0
 模型覆写	mo xing fu xie	0
+魔杖	mo zhang	0
 魔咒	mo zhou	0
 魔咒保护系数	mo zhou bao hu xi shu	0
 魔咒标签	mo zhou biao qian	0
@@ -764,9 +772,16 @@
 磨制	mo zhi	0
 磨制凝灰岩	mo zhi ning hui yan	0
 磨制凝灰岩阶梯	mo zhi ning hui yan jie ti	0
+磨制硫黄	mo zhi liu huang	0
+磨制硫黄台阶	mo zhi liu huang tai jie	0
+磨制硫黄楼梯	mo zhi liu huang lou ti	0
+磨制硫黄墙	mo zhi liu huang qiang	0
 磨制黑石	mo zhi hei shi	0
 磨制花岗岩	mo zhi hua gang yan	0
 磨制玄武岩	mo zhi xuan wu yan	0
+磨制朱砂	mo zhi zhu sha	0
+磨制朱砂楼梯	mo zhi zhu sha lou ti	0
+磨制朱砂墙	mo zhi zhu sha qiang	0
 磨制闪长岩	mo zhi shan zhang yan	0
 磨制深板岩	mo zhi shen ban yan	0
 磨制安山岩	mo zhi an shan yan	0
@@ -777,6 +792,7 @@
 末日弩	mo ri nu	0
 魔赞工作室	mo zan gong zuo shi	0
 模组	mo zu	0
+摩擦力修正系数	mo ca li xiu zheng xi shu	0
 末影	mo ying	0
 末影螨	mo ying man	0
 末影螨刷怪蛋	mo ying man shua guai dan	0
@@ -825,11 +841,14 @@
 迷之炖菜	mi zhi dun cai	0
 迷雾	mi wu	0
 秒表时间存储格式	miao biao shi jian cun chu ge shi	0
+秒表存储格式	miao biao cun chu ge shi	0
 面包	mian bao	0
 面条洞穴	mian tiao dong xue	0
 绵羊	mian yang	0
 绵羊刷怪蛋	mian yang shua guai dan	0
 名牌	ming pai	0
+名牌分数距离	ming pai fen shu ju li	0
+名牌距离	ming pai ju li	0
 命名	ming ming	0
 命名牌	ming ming pai	0
 命名空间	ming ming kong jian	0
@@ -983,6 +1002,7 @@
 防御	fang yu	0
 防卫僵尸围城	fang wei jiang shi wei cheng	0
 房屋类型	fang wu lei xing	0
+非门	fei men	0
 废土	fei tu	0
 非固体方块	fei gu ti fang kuai	0
 绯红	fei hong	0
@@ -1251,6 +1271,8 @@
 大象牙膏	da xiang ya gao	0
 大型	da xing	0
 大型房屋	da xing fang wu	0
+大型滴水石	da xing di shui shi	0
+大型滴水石锥	da xing di shui shi zhui	0
 大型铜箱子	da xing tong xiang zi	0
 大型矿脉	da xing kuang mai	0
 大型湖泊	da xing hu po	0
@@ -1300,6 +1322,7 @@
 带黄绿色蜡烛的蛋糕	dai huang lv se la zhu de dan gao	0
 带黄色蜡烛的蛋糕	dai huang se la zhu de dan gao	0
 带青色蜡烛的蛋糕	dai qing se la zhu de dan gao	0
+带信标回家	dai xin biao hui jia	0
 带箱子的红树木船	dai xiang zi de hong shu mu chuan	0
 带箱子的桦木船	dai xiang zi de hua mu chuan	0
 带箱子的金合欢木船	dai xiang zi de jin he huan mu chuan	0
@@ -1436,6 +1459,7 @@
 动力轨道	dong li gui dao	0
 动力矿车	dong li kuang che	0
 洞窟	dong ku	0
+洞窟与悬崖	dong ku yu xuan ya	0
 冻河	dong he	0
 动画	dong hua	0
 动画宣传片	dong hua xuan chuan pian	0
@@ -1500,6 +1524,7 @@
 滴水石块	di shui shi kuai	0
 滴水石锥	di shui shi zhui	0
 滴水石锥农场	di shui shi zhui nong chang	0
+滴水石锥簇	di shui shi zhui cu	0
 滴水石锥岩浆装置	di shui shi zhui yan jiang zhuang zhi	0
 滴水石簇	di shui shi cu	0
 第三天	di san tian	0
@@ -1511,6 +1536,7 @@
 地狱堡垒	di yu bao lei	0
 地狱门	di yu men	0
 地狱苗	di yu miao	0
+地狱更新	di yu geng xin	0
 地狱交通	di yu jiao tong	0
 地狱砖	di yu zhuan	0
 地狱砖台阶	di yu zhuan tai jie	0
@@ -1574,8 +1600,10 @@
 雕纹磨制黑石	diao wen mo zhi hei shi	0
 雕纹铜块	diao wen tong kuai	0
 雕纹凝灰岩	diao wen ning hui yan	0
+雕纹硫黄	diao wen liu huang	0
 雕纹红砂岩	diao wen hong sha yan	0
 雕纹下界砖块	diao wen xia jie zhuan kuai	0
+雕纹朱砂	diao wen zhu sha	0
 雕纹砂岩	diao wen sha yan	0
 雕纹深板岩	diao wen shen ban yan	0
 雕纹石砖	diao wen shi zhuan	0
@@ -1721,6 +1749,7 @@
 探险家地图	tan xian jia di tu	0
 探险家陶片	tan xian jia tao pian	0
 探险纹样陶片	tan xian wen yang tao pian	0
+弹性	tan xing	0
 探穴者护甲	tan xue zhe hu jia	0
 弹射物	tan she wu	0
 弹射物保护	tan she wu bao hu	0
@@ -1759,9 +1788,11 @@
 铜灯	tong deng	0
 铜灯泡	tong deng pao	0
 铜灯笼	tong deng long	0
+铜斗篷	tong dou peng	0
 铜雕花格	tong diao hua ge	0
 铜锭	tong ding	0
 铜锭块	tong ding kuai	0
+铜台阶	tong tai jie	0
 铜头盔	tong tou kui	0
 铜提灯	tong ti deng	0
 铜条	tong tiao	0
@@ -1796,6 +1827,7 @@
 铜剑	tong jian	0
 铜器时代	tong qi shi dai	0
 铜锹	tong qiao	0
+铜陷阱	tong xian jing	0
 铜箱子	tong xiang zi	0
 铜胸甲	tong xiong jia	0
 铜靴子	tong xue zi	0
@@ -1881,6 +1913,7 @@
 铁匠屋	tie jiang wu	0
 铁巨人	tie ju ren	0
 铁锹	tie qiao	0
+铁陷阱	tie xian jing	0
 铁胸甲	tie xiong jia	0
 铁靴子	tie xue zi	0
 铁栅栏	tie zha lan	0
@@ -1977,6 +2010,7 @@
 涂蜡的斑驳铜块	tu la de ban bo tong kuai	0
 涂蜡的斑驳铜傀儡像	tu la de ban bo tong kui lei xiang	0
 涂蜡的斑驳铜活板门	tu la de ban bo tong huo ban men	0
+涂蜡的斑驳铜陷阱	tu la de ban bo tong xian jing	0
 涂蜡的斑驳铜箱子	tu la de ban bo tong xiang zi	0
 涂蜡的斑驳铜质箱子	tu la de ban bo tong zhi xiang zi	0
 涂蜡的斑驳切制铜台阶	tu la de ban bo qie zhi tong tai jie	0
@@ -1996,6 +2030,7 @@
 涂蜡的铜傀儡雕像	tu la de tong kui lei diao xiang	0
 涂蜡的铜傀儡像	tu la de tong kui lei xiang	0
 涂蜡的铜活板门	tu la de tong huo ban men	0
+涂蜡的铜陷阱	tu la de tong xian jing	0
 涂蜡的铜箱子	tu la de tong xiang zi	0
 涂蜡的铜质箱子	tu la de tong zhi xiang zi	0
 涂蜡的铜锁链	tu la de tong suo lian	0
@@ -2013,6 +2048,7 @@
 涂蜡的锈蚀铜块	tu la de xiu shi tong kuai	0
 涂蜡的锈蚀铜傀儡像	tu la de xiu shi tong kui lei xiang	0
 涂蜡的锈蚀铜活板门	tu la de xiu shi tong huo ban men	0
+涂蜡的锈蚀铜陷阱	tu la de xiu shi tong xian jing	0
 涂蜡的锈蚀铜箱子	tu la de xiu shi tong xiang zi	0
 涂蜡的锈蚀铜质箱子	tu la de xiu shi tong zhi xiang zi	0
 涂蜡的锈蚀切制铜台阶	tu la de xiu shi qie zhi tong tai jie	0
@@ -2031,6 +2067,7 @@
 涂蜡的氧化铜块	tu la de yang hua tong kuai	0
 涂蜡的氧化铜傀儡像	tu la de yang hua tong kui lei xiang	0
 涂蜡的氧化铜活板门	tu la de yang hua tong huo ban men	0
+涂蜡的氧化铜陷阱	tu la de yang hua tong xian jing	0
 涂蜡的氧化铜箱子	tu la de yang hua tong xiang zi	0
 涂蜡的氧化铜质箱子	tu la de yang hua tong zhi xiang zi	0
 涂蜡的氧化切制铜台阶	tu la de yang hua qie zhi tong tai jie	0
@@ -2391,6 +2428,7 @@
 裂口	lie kou	0
 烈火	lie huo	0
 裂隙	lie xi	0
+烈性硫黄	lie xing liu huang	0
 猎手弓	lie shou gong	0
 裂石砖	lie shi zhuan	0
 裂石砖怪物蛋	lie shi zhuan guai wu dan	0
@@ -2424,6 +2462,10 @@
 聊天框	liao tian kuang	0
 聊天组件	liao tian zu jian	0
 瞭望台	liao wang tai	0
+硫方怪	liu fang guai	0
+硫方怪桶	liu fang guai tong	0
+硫方怪刷怪蛋	liu fang guai shua guai dan	0
+硫方怪原型	liu fang guai yuan xing	0
 流动旗帜样式	liu dong qi zhi yang shi	0
 流动水	liu dong shui	0
 流动熔岩	liu dong rong yan	0
@@ -2437,8 +2479,21 @@
 流浪商人陷阱	liu lang shang ren xian jing	0
 六氯化钨	liu lv hua wu	0
 硫化亚铁	liu hua ya tie	0
-硫磺	liu huang	0
 硫黄	liu huang	0
+硫黄洞穴	liu huang dong xue	0
+硫黄台阶	liu huang tai jie	0
+硫黄楼梯	liu huang lou ti	0
+硫黄立方怪	liu huang li fang guai	0
+硫黄怪	liu huang guai	0
+硫黄尖锥	liu huang jian zhui	0
+硫黄荆棘	liu huang jing ji	0
+硫黄墙	liu huang qiang	0
+硫黄砖	liu huang zhuan	0
+硫黄砖台阶	liu huang zhuan tai jie	0
+硫黄砖楼梯	liu huang zhuan lou ti	0
+硫黄砖墙	liu huang zhuan qiang	0
+硫黄池	liu huang chi	0
+硫黄涌泉	liu huang yong quan	0
 流水	liu shui	0
 硫酸钡	liu suan bei	0
 硫酸盐	liu suan yan	0
@@ -2632,6 +2687,7 @@
 高对比度	gao dui bi du	0
 高墩大厅	gao dun da ting	0
 高塔	gao ta	0
+高亮	gao liang	0
 高炉	gao lu	0
 高干草丛	gao gan cao cong	0
 高枯草丛	gao ku cao cong	0
@@ -2668,9 +2724,12 @@
 个人资料	ge ren zi liao	0
 葛斯特纹样陶片	ge si te wen yang tao pian	0
 给工程添加美感	gei gong cheng tian jia mei gan	0
+跟随	gen sui	0
 耕地	geng di	0
 更新	geng xin	0
 更新类型	geng xin lei xing	0
+更新水域世界	geng xin shui yu shi jie	0
+更新日志	geng xin ri zhi	0
 更新抑制	geng xin yi zhi	0
 更长的线	geng zhang de xian	0
 耕种	geng zhong	0
@@ -2925,6 +2984,7 @@
 空气检测	kong qi jian ce	0
 空气闸	kong qi zha	0
 空气值	kong qi zhi	0
+空气阻力修正系数	kong qi zu li xiu zheng xi shu	0
 空箱子房间	kong xiang zi fang jian	0
 控制	kong zhi	0
 空置域	kong zhi yu	0
@@ -3101,6 +3161,7 @@
 寒冰行者	han bing xing zhe	0
 寒带牛	han dai niu	0
 寒带鸡	han dai ji	0
+寒带青蛙	han dai qing wa	0
 寒带猪	han dai zhu	0
 寒冷沙滩	han leng sha tan	0
 罕见掉落物	han jian diao luo wu	0
@@ -3139,6 +3200,7 @@
 合成器	he cheng qi	0
 合成器合成合成器	he cheng qi he cheng he cheng qi	0
 合成需要配方	he cheng xu yao pei fang	0
+合成产物	he cheng chan wu	0
 合适挖掘工具	he shi wa jue gong ju	0
 合作联动	he zuo lian dong	0
 荷叶	he ye	0
@@ -3443,6 +3505,7 @@
 活动服务器	huo dong fu wu qi	0
 火体虫	huo ti chong	0
 火弩箭	huo nu jian	0
+活化方块	huo hua fang kuai	0
 火箭	huo jian	0
 火球	huo qiu	0
 火球类弹射物	huo qiu lei tan she wu	0
@@ -3532,6 +3595,7 @@
 唤魔者尖牙	huan mo zhe jian ya	0
 唤魔者刷怪蛋	huan mo zhe shua guai dan	0
 唤魔长袍	huan mo chang pao	0
+焕发生机	huan fa sheng ji	0
 唤藤者	huan teng zhe	0
 缓降	huan jiang	0
 缓降箭矢	huan jiang jian shi	0
@@ -3643,6 +3707,7 @@
 计分板准则	ji fen ban zhun ze	0
 记分板准则	ji fen ban zhun ze	0
 记分板存储格式	ji fen ban cun chu ge shi	0
+击打	ji da	0
 鸡蛋	ji dan	0
 击退	ji tui	0
 击退攻击	ji tui gong ji	0
@@ -3734,6 +3799,7 @@
 基岩版颗粒效果文档	ji yan ban ke li xiao guo wen dang	0
 基岩版颗粒文档	ji yan ban ke li wen dang	0
 基岩版函数	ji yan ban han shu	0
+基岩版结构文件	ji yan ban jie gou wen jian	0
 基岩版距离现象	ji yan ban ju li xian xiang	0
 基岩版中的距离现象	ji yan ban zhong de ju li xian xiang	0
 基岩版指南	ji yan ban zhi nan	0
@@ -3770,6 +3836,7 @@
 极恶女巫	ji e nv wu	0
 饥饿管理	ji e guan li	0
 饥饿值	ji e zhi	0
+家庭披风	jia ting pi feng	0
 佳酿纹样陶片	jia niang wen yang tao pian	0
 家具	jia ju	0
 假区块	jia qu kuai	0
@@ -3837,6 +3904,7 @@
 节肢生物	jie zhi sheng wu	0
 节省时间的小窍门	jie sheng shi jian de xiao qiao men	0
 结束标签	jie shu biao qian	0
+结束了	jie shu le	0
 解锁密室	jie suo mi shi	0
 脚本	jiao ben	0
 教堂	jiao tang	0
@@ -3910,6 +3978,7 @@
 尖叫山羊	jian jiao shan yang	0
 剑气	jian qi	0
 尖峭山峰	jian qiao shan feng	0
+间歇泉	jian xie quan	0
 尖啸	jian xiao	0
 尖啸体	jian xiao ti	0
 煎炸台	jian zha tai	0
@@ -3926,6 +3995,7 @@
 监守纹饰盔甲	jian shou wen shi kui jia	0
 箭矢	jian shi	0
 尖锐滴水石	jian rui di shui shi	0
+建造	jian zao	0
 建造模板	jian zao mu ban	0
 建造地板	jian zao di ban	0
 建造过山车	jian zao guo shan che	0
@@ -3996,6 +4066,7 @@
 金护腿	jin hu tui	0
 金胡萝卜	jin hu luo bo	0
 金剑	jin jian	0
+金奖杯	jin jiang bei	0
 金锹	jin qiao	0
 金西瓜	jin xi gua	0
 金西瓜片	jin xi gua pian	0
@@ -4480,6 +4551,7 @@
 去皮	qu pi	0
 去皮白桦木	qu pi bai hua mu	0
 去皮白桦原木	qu pi bai hua yuan mu	0
+去皮木	qu pi mu	0
 去皮木头	qu pi mu tou	0
 去皮绯红菌柄	qu pi fei hong jun bing	0
 去皮绯红菌碇	qu pi fei hong jun ding	0
@@ -4543,6 +4615,7 @@
 曲奇奶牛	qu qi nai niu	0
 曲奇牛	qu qi niu	0
 曲奇乳牛	qu qi ru niu	0
+取消组合	qu xiao zu he	0
 曲速泡	qu su pao	0
 区域	qu yu	0
 区域难度	qu yu nan du	0
@@ -4556,6 +4629,7 @@
 全球资源套件	quan qiu zi yuan tao jian	0
 权限	quan xian	0
 权限等级	quan xian deng ji	0
+全物品	quan wu pin	0
 群狼聚首	qun lang ju shou	0
 群骑纷争	qun qi fen zheng	0
 群系	qun xi	0
@@ -4754,6 +4828,7 @@
 锈蚀的铜块	xiu shi de tong kuai	0
 锈蚀的铜傀儡像	xiu shi de tong kui lei xiang	0
 锈蚀的铜活板门	xiu shi de tong huo ban men	0
+锈蚀的铜陷阱	xiu shi de tong xian jing	0
 锈蚀的铜箱子	xiu shi de tong xiang zi	0
 锈蚀的铜质箱子	xiu shi de tong zhi xiang zi	0
 锈蚀的涂蜡铜提灯	xiu shi de tu la tong ti deng	0
@@ -4982,6 +5057,7 @@
 雪地	xue di	0
 雪地方块	xue di fang kuai	0
 雪堆	xue dui	0
+血条	xue tiao	0
 雪狼	xue lang	0
 雪林	xue lin	0
 血量	xue liang	0
@@ -5092,6 +5168,8 @@
 振动频率	zhen dong pin lv	0
 帧率	zhen lv	0
 珍珠	zhen zhu	0
+珍珠炮	zhen zhu pao	0
+珍珠加载器	zhen zhu jia zai qi	0
 帧生成时间图表	zhen sheng cheng shi jian tu biao	0
 侦测	zhen ce	0
 侦测器	zhen ce qi	0
@@ -5388,6 +5466,13 @@
 柱状石英砖	zhu zhuang shi ying zhuan	0
 柱状紫珀块	zhu zhuang zi po kuai	0
 朱砂	zhu sha	0
+朱砂台阶	zhu sha tai jie	0
+朱砂楼梯	zhu sha lou ti	0
+朱砂墙	zhu sha qiang	0
+朱砂砖	zhu sha zhuan	0
+朱砂砖台阶	zhu sha zhuan tai jie	0
+朱砂砖楼梯	zhu sha zhuan lou ti	0
+朱砂砖墙	zhu sha zhuan qiang	0
 猪神	zhu shen	0
 主手	zhu shou	0
 助手	zhu shou	0
@@ -5658,6 +5743,7 @@
 触摸控制	chu mo kong zhi	0
 触发及战胜袭击	chu fa ji zhan sheng xi ji	0
 触发器	chu fa qi	0
+储电	chu dian	0
 锄头	chu tou	0
 触控	chu kong	0
 触控模式	chu kong mo shi	0
@@ -5670,6 +5756,7 @@
 出生点区块	chu sheng dian qu kuai	0
 初始平台	chu shi ping tai	0
 初始房子	chu shi fang zi	0
+储存电路	chu cun dian lu	0
 垂滴叶	chui di ye	0
 垂钓者陶片	chui diao zhe tao pian	0
 垂钓纹样陶片	chui diao wen yang tao pian	0
@@ -5709,6 +5796,7 @@
 创造标签页	chuang zao biao qian ye	0
 创造模式	chuang zao mo shi	0
 创造分类	chuang zao fen lei	0
+创作者工具	chuang zuo zhe gong ju	0
 沙漠	sha mo	0
 沙漠庇护所	sha mo bi hu suo	0
 沙漠皮匠屋	sha mo pi jiang wu	0
@@ -5938,6 +6026,7 @@
 升级装备	sheng ji zhuang bei	0
 生鸡肉	sheng ji rou	0
 生鳕鱼	sheng xue yu	0
+生长	sheng zhang	0
 生长之杖	sheng zhang zhi zhang	0
 生猪排	sheng zhu pai	0
 生产	sheng chan	0
@@ -6030,6 +6119,7 @@
 石斧	shi fu	0
 史蒂夫	shi di fu	0
 史蒂夫公司供应箱	shi di fu gong si gong ying xiang	0
+史蒂夫企业补给箱	shi di fu qi ye bu ji xiang	0
 湿地类生物群系	shi di lei sheng wu qun xi	0
 石台阶	shi tai jie	0
 石滩	shi tan	0
@@ -6084,8 +6174,8 @@
 试炼室	shi lian shi	0
 试炼刷怪笼	shi lian shua guai long	0
 试炼刷怪笼配置定义格式	shi lian shua guai long pei zhi ding yi ge shi	0
-试炼锁匙	shi lian suo chi	0
 试炼钥匙	shi lian yao shi	0
+矢量珍珠炮	shi liang zhen zhu pao	0
 失落居所	shi luo ju suo	0
 石镐	shi gao	0
 尸傀	shi gui	0
@@ -6104,6 +6194,7 @@
 世界	shi jie	0
 世界边界	shi jie bian jie	0
 世界大小	shi jie da xiao	0
+世界吞噬者	shi jie tun shi zhe	0
 世界难度	shi jie nan du	0
 世界类型	shi jie lei xing	0
 世界高度	shi jie gao du	0
@@ -6434,6 +6525,7 @@
 热带牛	re dai niu	0
 热带高原	re dai gao yuan	0
 热带鸡	re dai ji	0
+热带青蛙	re dai qing wa	0
 热带猪	re dai zhu	0
 热带史莱姆	re dai shi lai mu	0
 热带草原	re dai cao yuan	0
@@ -6707,6 +6799,7 @@
 紫色有色玻璃	zi se you se bo li	0
 紫色荧光棒	zi se ying guang bang	0
 紫色挽具	zi se wan ju	0
+紫色爱心披风	zi se ai xin pi feng	0
 紫颂	zi song	0
 紫颂果	zi song guo	0
 紫颂花	zi song hua	0
@@ -6731,6 +6824,7 @@
 自我放逐	zi wo fang zhu	0
 阻力系数	zu li xi shu	0
 租赁服	zu lin fu	0
+组合	zu he	0
 组合包	zu he bao	0
 组合生物	zu he sheng wu	0
 足迹和故事	zu ji he gu shi	0
@@ -6811,6 +6905,7 @@
 彩色火把	cai se huo ba	0
 彩色字体	cai se zi ti	0
 残骸	can hai	0
+残骸裹身	can hai guo shen	0
 参数	can shu	0
 参数类型	can shu lei xing	0
 苍白	cang bai	0
@@ -6953,6 +7048,7 @@
 存档基础数据存储格式	cun dang ji chu shu ju cun chu ge shi	0
 村庄	cun zhuang	0
 村庄地图	cun zhuang di tu	0
+村庄堆叠	cun zhuang dui die	0
 村庄链	cun zhuang lian	0
 村庄和掠夺	cun zhuang he lve duo	0
 村庄机制	cun zhuang ji zhi	0
@@ -6984,6 +7080,7 @@
 森林探险者地图	sen lin tan xian zhe di tu	0
 森林狼	sen lin lang	0
 森林类生物群系	sen lin lei sheng wu qun xi	0
+松饼披风	song bing pi feng	0
 悚伏寒冬	song fu han dong	0
 松树	song shu	0
 撕裂者	si lie zhe	0
@@ -7054,7 +7151,6 @@
 锁链甲	suo lian jia	0
 锁链胸甲	suo lian xiong jia	0
 锁链靴子	suo lian xue zi	0
-锁匙	suo chi	0
 锁存器	suo cun qi	0
 碎片	sui pian	0
 随机斑块	sui ji ban kuai	0
@@ -7152,6 +7248,7 @@
 氧化的铜傀儡雕像	yang hua de tong kui lei diao xiang	0
 氧化的铜傀儡像	yang hua de tong kui lei xiang	0
 氧化的铜活板门	yang hua de tong huo ban men	0
+氧化的铜陷阱	yang hua de tong xian jing	0
 氧化的铜箱子	yang hua de tong xiang zi	0
 氧化的铜质箱子	yang hua de tong zhi xiang zi	0
 氧化的涂蜡铜宝箱	yang hua de tu la tong bao xiang	0
@@ -7242,10 +7339,12 @@
 勇气之袋	yong qi zhi dai	0
 涌泉	yong quan	0
 勇往直下	yong wang zhi xia	0
+游牧世界	you mu shi jie	0
 右方括号	you fang kuo hao	0
 右大括弧	you da kuo hu	0
 游荡模式	you dang mo shi	0
 有毒马铃薯	you du ma ling shu	0
+有毒气体	you du qi ti	0
 幼体弩	you ti nu	0
 幽匿	you ni	0
 幽匿斑块	you ni ban kuai	0
@@ -7487,6 +7586,7 @@
 窳兽	yu shou	0
 愚人节	yu ren jie	0
 愚人节版	yu ren jie ban	0
+愚人节版本可再生资源	yu ren jie ban ben ke zai sheng zi yuan	0
 愚人节快照	yu ren jie kuai zhao	0
 愚人节彩蛋	yu ren jie cai dan	0
 愚人节玩笑	yu ren jie wan xiao	0
@@ -7657,6 +7757,7 @@
 网络性能图表	wang luo xing neng tu biao	0
 亡魂之弓	wang hun zhi gong	0
 网站	wang zhan	0
+网页版	wang ye ban	0
 网易	wang yi	0
 网易版	wang yi ban	0
 网易版版本记录	wang yi ban ban ben ji lu	0
@@ -7720,6 +7821,7 @@
 文本组件	wen ben zu jian	0
 温带牛	wen dai niu	0
 温带鸡	wen dai ji	0
+温带青蛙	wen dai qing wa	0
 温带猪	wen dai zhu	0
 文档披风	wen dang pi feng	0
 温度	wen du	0
