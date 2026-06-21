@@ -24,5 +24,4 @@ LIPiston 修改的 rime-ice
 - Weasel: `%APPDATA%\Rime`
 - Squirrel: `~/Library/Rime`
 - iBus: `~/.config/ibus/rime`
-*** End Patch
 - Fcitx5: `~/.local/share/fcitx5/rime/`
