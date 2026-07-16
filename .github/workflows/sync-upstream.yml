@@ -1,0 +1,177 @@
+name: Sync upstream rime-ice
+
+on:
+  schedule:
+    # 每周三 01:30 UTC 检查上游更新。
+    - cron: '30 1 * * 3'
+  workflow_dispatch:
+    inputs:
+      target_branch:
+        description: '要同步到的本仓库分支'
+        required: true
+        default: 'main'
+      upstream_repository:
+        description: '上游仓库 owner/repo'
+        required: true
+        default: 'iDvel/rime-ice'
+      upstream_branch:
+        description: '上游分支'
+        required: true
+        default: 'main'
+      push_directly:
+        description: '直接推送到目标分支，而不是创建 PR'
+        required: true
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: sync-upstream-${{ github.event.inputs.target_branch || 'main' }}
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    name: Sync upstream
+    runs-on: ubuntu-latest
+    if: github.repository == 'LIPiston/rime-ice'
+
+    env:
+      TARGET_BRANCH: ${{ github.event.inputs.target_branch || 'main' }}
+      UPSTREAM_REPOSITORY: ${{ github.event.inputs.upstream_repository || 'iDvel/rime-ice' }}
+      UPSTREAM_BRANCH: ${{ github.event.inputs.upstream_branch || 'main' }}
+      PUSH_DIRECTLY: ${{ github.event.inputs.push_directly || 'false' }}
+      SYNC_BRANCH: chore/sync-upstream-rime-ice
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - name: Checkout target branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ env.TARGET_BRANCH }}
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Fetch upstream
+        run: |
+          git remote add upstream "https://github.com/${UPSTREAM_REPOSITORY}.git" 2>/dev/null || \
+            git remote set-url upstream "https://github.com/${UPSTREAM_REPOSITORY}.git"
+          git fetch upstream "${UPSTREAM_BRANCH}" --tags
+          git fetch origin "${TARGET_BRANCH}"
+
+      - name: Check whether sync is needed
+        id: check
+        run: |
+          if git merge-base --is-ancestor "upstream/${UPSTREAM_BRANCH}" "HEAD"; then
+            echo "needed=false" >> "$GITHUB_OUTPUT"
+            echo "当前 ${TARGET_BRANCH} 已包含 upstream/${UPSTREAM_BRANCH}。"
+          else
+            echo "needed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Prepare sync branch
+        if: steps.check.outputs.needed == 'true' && env.PUSH_DIRECTLY != 'true'
+        run: |
+          git checkout -B "${SYNC_BRANCH}"
+
+      - name: Merge upstream
+        if: steps.check.outputs.needed == 'true'
+        run: |
+          base_head=$(git rev-parse HEAD)
+
+          set +e
+          git merge --no-ff --no-commit "upstream/${UPSTREAM_BRANCH}"
+          merge_status=$?
+          set -e
+
+          # 本仓库的 GitHub Actions 配置只按本地维护，不同步上游变更。
+          if [ -d .github/workflows ]; then
+            git checkout "${base_head}" -- .github/workflows
+            git add .github/workflows
+          fi
+
+          # README.md 若发生冲突，保留本地版本。
+          if git diff --name-only --diff-filter=U | grep -qx 'README.md'; then
+            git checkout --ours README.md
+            git add README.md
+          fi
+
+          conflicts=$(git diff --name-only --diff-filter=U)
+          if [ -n "${conflicts}" ]; then
+            echo "同步上游时仍存在冲突，需要手动解决："
+            echo "${conflicts}"
+            exit 1
+          fi
+
+          if [ "${merge_status}" -ne 0 ]; then
+            echo "已自动处理 README.md / .github/workflows 的策略性冲突。"
+          fi
+
+          echo "上游合并已准备完成，等待构建生成文件后统一提交。"
+
+      - name: Set up Go
+        if: steps.check.outputs.needed == 'true'
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: others/script/go.mod
+          cache-dependency-path: others/script/go.sum
+
+      - name: Build generated dictionaries
+        if: steps.check.outputs.needed == 'true'
+        run: make -C others/script/ build
+
+      - name: Commit upstream sync
+        if: steps.check.outputs.needed == 'true'
+        run: |
+          if ! git diff --quiet || ! git diff --cached --quiet; then
+            git add -A
+            git commit -m "同步上游-$(TZ=Asia/Shanghai date +'%Y-%m-%d')"
+          fi
+
+      - name: Push target branch directly
+        if: steps.check.outputs.needed == 'true' && env.PUSH_DIRECTLY == 'true'
+        run: git push origin "HEAD:${TARGET_BRANCH}"
+
+      - name: Push sync branch
+        if: steps.check.outputs.needed == 'true' && env.PUSH_DIRECTLY != 'true'
+        run: git push --force-with-lease origin "${SYNC_BRANCH}"
+
+      - name: Open or update pull request
+        if: steps.check.outputs.needed == 'true' && env.PUSH_DIRECTLY != 'true'
+        run: |
+          title="chore: 同步上游 rime-ice"
+          body=$(cat <<EOF
+          自动同步上游 ${UPSTREAM_REPOSITORY}@${UPSTREAM_BRANCH} 到 ${TARGET_BRANCH}。
+
+          - 上游分支：${UPSTREAM_REPOSITORY}:${UPSTREAM_BRANCH}
+          - 目标分支：${TARGET_BRANCH}
+          - 已运行：\`make -C others/script/ build\`
+
+          如果本次同步存在冲突，Action 会失败，需要手动解决后重新运行。
+          EOF
+          )
+
+          existing_pr=$(gh pr list \
+            --head "${SYNC_BRANCH}" \
+            --base "${TARGET_BRANCH}" \
+            --state open \
+            --json number \
+            --jq '.[0].number // empty')
+
+          if [ -n "${existing_pr}" ]; then
+            gh pr edit "${existing_pr}" --title "${title}" --body "${body}"
+            echo "已更新 PR #${existing_pr}"
+          else
+            gh pr create \
+              --base "${TARGET_BRANCH}" \
+              --head "${SYNC_BRANCH}" \
+              --title "${title}" \
+              --body "${body}"
+          fi
