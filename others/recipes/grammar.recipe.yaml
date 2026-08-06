@@ -34,3 +34,4 @@ patch_files:
           rear_penalty: -20
         translator/contextual_suggestions: false
         translator/max_homophones: 8
+        translator/max_homographs: 8

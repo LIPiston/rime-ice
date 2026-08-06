@@ -25,3 +25,75 @@ LIPiston 修改的 rime-ice
 - Squirrel: `~/Library/Rime`
 - iBus: `~/.config/ibus/rime`
 - Fcitx5: `~/.local/share/fcitx5/rime/`
+
+### 语言模型 / 语法模型
+
+语法模型可以让长句候选更自然。默认推荐使用[万象语法模型](https://github.com/amzxyz/RIME-LMDG/releases/tag/LTS)，也可以选择[现代汉语常用语库 / 华宇语言模型](https://github.com/boomker/rime-fast-xhup/releases/tag/v1.0.0)。
+
+#### plum / 东风破安装
+
+如果你已经在使用 plum，可以直接安装 recipe：
+
+```bash
+bash rime-install LIPiston/rime-ice:others/recipes/grammar
+```
+
+给双拼方案安装时传入 `schema` 参数，例如小鹤双拼：
+
+```bash
+bash rime-install LIPiston/rime-ice:others/recipes/grammar schema=double_pinyin_flypy
+```
+
+支持的方案名包括：
+
+- `rime_ice`：雾凇拼音、全拼
+- `double_pinyin`：自然码双拼
+- `double_pinyin_flypy`：小鹤双拼
+- `double_pinyin_mspy`：微软双拼
+- `double_pinyin_sogou`：搜狗双拼
+- `double_pinyin_abc`：智能 ABC 双拼
+- `double_pinyin_jiajia`：拼音加加双拼
+- `double_pinyin_ziguang`：紫光双拼
+
+#### 快速脚本安装
+
+在 Rime 用户文件夹运行脚本，下载 `.gram` 并生成对应的 `<方案名>.custom.yaml`，然后重新部署 Rime。
+
+Unix-like / Git Bash：
+
+```bash
+curl -sL https://raw.githubusercontent.com/LIPiston/rime-ice/main/others/get-grammar-bash.sh | bash
+```
+
+Windows PowerShell：
+
+```powershell
+irm https://raw.githubusercontent.com/LIPiston/rime-ice/main/others/get-grammar-powershell.ps1 | iex
+```
+
+默认会配置 `rime_ice.custom.yaml`。如果要给双拼方案配置，可以传入方案名：
+
+```bash
+bash others/get-grammar-bash.sh double_pinyin_flypy
+```
+
+```powershell
+powershell -ExecutionPolicy Bypass -File others/get-grammar-powershell.ps1 double_pinyin_flypy
+```
+
+脚本生成的配置会覆盖对应的 `<方案名>.custom.yaml`，并先创建 `.bak.时间戳` 备份。生成的配置默认使用更稳的模型参数：
+
+```yaml
+patch:
+  grammar:
+    language: wanxiang-lts-zh-hans
+    collocation_max_length: 6
+    collocation_min_length: 3
+    collocation_penalty: -14
+    non_collocation_penalty: -6
+    weak_collocation_penalty: -100
+    rear_penalty: -20
+  translator/contextual_suggestions: false
+  translator/max_homophones: 8
+  translator/max_homographs: 8
+```
