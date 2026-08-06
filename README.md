@@ -30,33 +30,6 @@ LIPiston 修改的 rime-ice
 
 语法模型可以让长句候选更自然。默认推荐使用[万象语法模型](https://github.com/amzxyz/RIME-LMDG/releases/tag/LTS)，也可以选择[现代汉语常用语库 / 华宇语言模型](https://github.com/boomker/rime-fast-xhup/releases/tag/v1.0.0)。
 
-#### plum / 东风破安装
-
-如果你已经在使用 plum，可以直接安装 recipe：
-
-```bash
-bash rime-install LIPiston/rime-ice:others/recipes/grammar
-```
-
-给双拼方案安装时传入 `schema` 参数，例如小鹤双拼：
-
-```bash
-bash rime-install LIPiston/rime-ice:others/recipes/grammar schema=double_pinyin_flypy
-```
-
-支持的方案名包括：
-
-- `rime_ice`：雾凇拼音、全拼
-- `double_pinyin`：自然码双拼
-- `double_pinyin_flypy`：小鹤双拼
-- `double_pinyin_mspy`：微软双拼
-- `double_pinyin_sogou`：搜狗双拼
-- `double_pinyin_abc`：智能 ABC 双拼
-- `double_pinyin_jiajia`：拼音加加双拼
-- `double_pinyin_ziguang`：紫光双拼
-
-#### 快速脚本安装
-
 在 Rime 用户文件夹运行脚本，下载 `.gram` 并生成对应的 `<方案名>.custom.yaml`，然后重新部署 Rime。
 
 Unix-like / Git Bash：
