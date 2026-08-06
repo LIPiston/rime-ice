@@ -54,11 +54,13 @@ bash others/get-grammar-bash.sh double_pinyin_flypy
 powershell -ExecutionPolicy Bypass -File others/get-grammar-powershell.ps1 double_pinyin_flypy
 ```
 
-脚本生成的配置会覆盖对应的 `<方案名>.custom.yaml`，并先创建 `.bak.时间戳` 备份。生成的配置默认使用更稳的模型参数：
+脚本会询问是否启用拼音纠错（如 `ign` → `ing`）。Fcitx5-Android 用户建议选择开启；其他平台可按需开启，不会默认强制开启。
+
+脚本生成的配置会覆盖对应的 `<方案名>.custom.yaml`，并先创建 `.bak.时间戳` 备份。生成的配置默认使用更稳的模型参数。开启拼音纠错后会额外写入 `"translator/enable_correction": true`：
 
 ```yaml
 patch:
-  # 启用拼音纠错（如 ign → ing），Fcitx5-Android 用户建议保持 true
+  # 启用拼音纠错（如 ign → ing），Fcitx5-Android 用户建议开启
   "translator/enable_correction": true
   grammar:
     language: wanxiang-lts-zh-hans

@@ -56,6 +56,19 @@ function Get-ModelChoice {
     }
 }
 
+function Get-CorrectionChoice {
+    $choice = Read-Host "是否启用拼音纠错（如 ign → ing，Fcitx5-Android 用户建议开启）？[y/N]"
+    if ([string]::IsNullOrWhiteSpace($choice)) {
+        $choice = "N"
+    }
+
+    switch ($choice) {
+        { $_ -in @("y", "Y", "yes", "YES", "Yes") } { return $true }
+        { $_ -in @("n", "N", "no", "NO", "No") } { return $false }
+        default { throw "无效输入，脚本退出" }
+    }
+}
+
 function Backup-IfExists {
     param([string]$Path)
 
@@ -67,6 +80,7 @@ function Backup-IfExists {
 }
 
 $model = Get-ModelChoice
+$enableCorrection = Get-CorrectionChoice
 $tmpFile = "$($model.Filename).download"
 Remove-Item -LiteralPath $tmpFile -ErrorAction SilentlyContinue
 
@@ -86,14 +100,17 @@ catch {
 $language = [System.IO.Path]::GetFileNameWithoutExtension($model.Filename)
 Backup-IfExists -Path $CustomFile
 
+$correctionYaml = ""
+if ($enableCorrection) {
+    $correctionYaml = "  # 启用拼音纠错（如 ign → ing），Fcitx5-Android 用户建议保持 true`n  `"translator/enable_correction`": true`n"
+}
+
 $yaml = @"
 # encoding: utf-8
 # 由 others/get-grammar-powershell.ps1 生成。
 # 重新运行脚本会先备份旧文件，再覆盖此文件。
 patch:
-  # 启用拼音纠错（如 ign → ing），Fcitx5-Android 用户建议保持 true
-  "translator/enable_correction": true
-  grammar:
+$correctionYaml  grammar:
     language: $language
     collocation_max_length: 6
     collocation_min_length: 3

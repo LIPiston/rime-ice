@@ -7,6 +7,7 @@ CUSTOM_FILE="${SCHEMA}.custom.yaml"
 MODEL_NAME=""
 URL=""
 FILENAME=""
+ENABLE_CORRECTION="false"
 
 print_menu() {
   cat <<'MENU'
@@ -51,6 +52,22 @@ choose_model() {
   esac
 }
 
+choose_correction() {
+  read -r -p "是否启用拼音纠错（如 ign → ing，Fcitx5-Android 用户建议开启）？[y/N]: " enable_correction
+  case "${enable_correction:-N}" in
+    y|Y|yes|YES|Yes)
+      ENABLE_CORRECTION="true"
+      ;;
+    n|N|no|NO|No)
+      ENABLE_CORRECTION="false"
+      ;;
+    *)
+      echo "无效输入，脚本退出" >&2
+      exit 1
+      ;;
+  esac
+}
+
 backup_if_exists() {
   local file="$1"
   if [[ -f "$file" ]]; then
@@ -83,8 +100,16 @@ write_custom_yaml() {
 # 由 others/get-grammar-bash.sh 生成。
 # 重新运行脚本会先备份旧文件，再覆盖此文件。
 patch:
+EOF
+
+  if [[ "$ENABLE_CORRECTION" == "true" ]]; then
+    cat >> "$CUSTOM_FILE" <<EOF
   # 启用拼音纠错（如 ign → ing），Fcitx5-Android 用户建议保持 true
   "translator/enable_correction": true
+EOF
+  fi
+
+  cat >> "$CUSTOM_FILE" <<EOF
   grammar:
     language: $language
     collocation_max_length: 6
@@ -102,6 +127,7 @@ EOF
 }
 
 choose_model
+choose_correction
 download_model
 write_custom_yaml
 
