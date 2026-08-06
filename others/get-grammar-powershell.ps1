@@ -91,6 +91,8 @@ $yaml = @"
 # 由 others/get-grammar-powershell.ps1 生成。
 # 重新运行脚本会先备份旧文件，再覆盖此文件。
 patch:
+  # 启用拼音纠错（如 ign → ing），Fcitx5-Android 用户建议保持 true
+  "translator/enable_correction": true
   grammar:
     language: $language
     collocation_max_length: 6

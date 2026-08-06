@@ -58,6 +58,8 @@ powershell -ExecutionPolicy Bypass -File others/get-grammar-powershell.ps1 doubl
 
 ```yaml
 patch:
+  # 启用拼音纠错（如 ign → ing），Fcitx5-Android 用户建议保持 true
+  "translator/enable_correction": true
   grammar:
     language: wanxiang-lts-zh-hans
     collocation_max_length: 6
@@ -69,4 +71,12 @@ patch:
   translator/contextual_suggestions: false
   translator/max_homophones: 8
   translator/max_homographs: 8
+```
+
+Fcitx5-Android 用户如果没有运行脚本，也可以把下面这段补丁加到对应方案的 `<方案名>.custom.yaml`：
+
+```yaml
+patch:
+  # 启用拼音纠错（如 ign → ing），建议保持 true
+  "translator/enable_correction": true
 ```
