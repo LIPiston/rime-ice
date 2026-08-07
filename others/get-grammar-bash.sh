@@ -21,7 +21,10 @@ MENU
 
 choose_model() {
   print_menu
-  read -r -p "请输入数字 (1-4，默认 1): " choice
+  if ! read -r -p "请输入数字 (1-4，默认 1): " choice </dev/tty; then
+    echo "无法读取终端输入。请在交互式终端中运行脚本。" >&2
+    exit 1
+  fi
   choice="${choice:-1}"
 
   case "$choice" in
@@ -53,7 +56,10 @@ choose_model() {
 }
 
 choose_correction() {
-  read -r -p "是否启用拼音纠错（如 ign → ing，Fcitx5-Android 用户建议开启）？[y/N]: " enable_correction
+  if ! read -r -p "是否启用拼音纠错（如 ign → ing，Fcitx5-Android 用户建议开启）？[y/N]: " enable_correction </dev/tty; then
+    echo "无法读取终端输入。请在交互式终端中运行脚本。" >&2
+    exit 1
+  fi
   case "${enable_correction:-N}" in
     y|Y|yes|YES|Yes)
       ENABLE_CORRECTION="true"

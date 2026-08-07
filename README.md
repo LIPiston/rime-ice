@@ -38,6 +38,8 @@ Unix-like / Git Bash：
 curl -sL https://raw.githubusercontent.com/LIPiston/rime-ice/main/others/get-grammar-bash.sh | bash
 ```
 
+脚本会从当前终端读取选项，因此可直接使用上面的命令；不要将额外输入再管道给 `bash`。
+
 Windows PowerShell：
 
 ```powershell
