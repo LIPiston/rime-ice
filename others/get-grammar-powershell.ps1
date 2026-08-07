@@ -39,14 +39,14 @@ function Get-ModelChoice {
         "3" {
             return [pscustomobject]@{
                 Name = "万象通用版（镜像）"
-                Url = "https://github.moeyy.xyz/https://github.com/amzxyz/RIME-LMDG/releases/download/LTS/wanxiang-lts-zh-hans.gram"
+                Url = "https://gh-proxy.org/https://github.com/amzxyz/RIME-LMDG/releases/download/LTS/wanxiang-lts-zh-hans.gram"
                 Filename = "wanxiang-lts-zh-hans.gram"
             }
         }
         "4" {
             return [pscustomobject]@{
                 Name = "现代汉语常用语库 / 华宇（镜像）"
-                Url = "https://github.moeyy.xyz/https://github.com/boomker/rime-fast-xhup/releases/download/v1.0.0/zh-hans-t-huayu-v7-bgw.gram"
+                Url = "https://gh-proxy.org/https://github.com/boomker/rime-fast-xhup/releases/download/v1.0.0/zh-hans-t-huayu-v7-bgw.gram"
                 Filename = "zh-hans-t-huayu-v7-bgw.gram"
             }
         }

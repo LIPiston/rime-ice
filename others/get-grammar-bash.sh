@@ -40,12 +40,12 @@ choose_model() {
       ;;
     3)
       MODEL_NAME="万象通用版（镜像）"
-      URL="https://github.moeyy.xyz/https://github.com/amzxyz/RIME-LMDG/releases/download/LTS/wanxiang-lts-zh-hans.gram"
+      URL="https://gh-proxy.org/https://github.com/amzxyz/RIME-LMDG/releases/download/LTS/wanxiang-lts-zh-hans.gram"
       FILENAME="wanxiang-lts-zh-hans.gram"
       ;;
     4)
       MODEL_NAME="现代汉语常用语库 / 华宇（镜像）"
-      URL="https://github.moeyy.xyz/https://github.com/boomker/rime-fast-xhup/releases/download/v1.0.0/zh-hans-t-huayu-v7-bgw.gram"
+      URL="https://gh-proxy.org/https://github.com/boomker/rime-fast-xhup/releases/download/v1.0.0/zh-hans-t-huayu-v7-bgw.gram"
       FILENAME="zh-hans-t-huayu-v7-bgw.gram"
       ;;
     *)
