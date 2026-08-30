@@ -20,3 +20,5 @@ rime_deployer
 rime_patch
 *.gram
 .env
+
+.zcode/
