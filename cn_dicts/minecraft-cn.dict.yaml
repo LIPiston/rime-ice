@@ -6,7 +6,7 @@
 
 ---
 name: minecraft-cn
-version: "2026-11-01"
+version: "2026-11-04"
 sort: by_weight
 ...
 
@@ -33,6 +33,7 @@ sort: by_weight
 白桦木展示架	bai hua mu zhan shi jia	100
 白桦木船	bai hua mu chuan	100
 白桦木栅栏	bai hua mu shan lan	100
+白桦木双层台阶	bai hua mu shuang ceng tai jie	100
 白桦木压板	bai hua mu ya ban	100
 白桦木压力板	bai hua mu ya li ban	100
 白桦木运输船	bai hua mu yun shu chuan	100
@@ -46,6 +47,7 @@ sort: by_weight
 白雪	bai xue	100
 白雪村庄地图	bai xue cun zhuang di tu	100
 白床	bai chuang	100
+摆设	bai she	100
 白色带带釉陶瓦土	bai se dai dai you tao wa tu	100
 白色带釉陶瓦	bai se dai you tao wa	100
 白色地毯	bai se di tan	100
@@ -53,6 +55,7 @@ sort: by_weight
 白色陶瓦	bai se tao wa	100
 白色蜡烛	bai se la zhu	100
 白色混凝土	bai se hun ning tu	100
+白色僵尸	bai se jiang shi	100
 白色气球	bai se qi qiu	100
 白色旗帜	bai se qi zhi	100
 白色潜影贝盒	bai se qian ying bei he	100
@@ -63,12 +66,21 @@ sort: by_weight
 白色收纳袋	bai se shou na dai	100
 白色染料	bai se ran liao	100
 白色染色玻璃	bai se ran se bo li	100
+白色坐垫	bai se zuo dian	100
 白色彩绘玻璃	bai se cai hui bo li	100
 白色羊毛	bai se yang mao	100
 白色有色玻璃	bai se you se bo li	100
 白色荧光棒	bai se ying guang bang	100
 白色郁金香	bai se yu jin xiang	100
 白色挽具	bai se wan ju	100
+白杨	bai yang	100
+白杨木	bai yang mu	100
+白杨木板	bai yang mu ban	100
+白杨树	bai yang shu	100
+白杨树叶	bai yang shu ye	100
+白杨树原木	bai yang shu yuan mu	100
+白杨原木	bai yang yuan mu	100
+白蚁	bai yi	100
 版本	ban ben	100
 版本类型	ban ben lei xing	100
 版本历史	ban ben li shi	100
@@ -105,6 +117,7 @@ sort: by_weight
 斑驳的切制铜台阶	ban bo de qie zhi tong tai jie	100
 斑驳的切制铜楼梯	ban bo de qie zhi tong lou ti	100
 斑驳的切制铜块	ban bo de qie zhi tong kuai	100
+斑驳的切制铜双层台阶	ban bo de qie zhi tong shuang ceng tai jie	100
 斑驳嘅雕纹铜块	ban bo kai diao wen tong kuai	100
 斑驳嘅铜门	ban bo kai tong men	100
 斑驳嘅铜灯	ban bo kai tong deng	100
@@ -115,6 +128,9 @@ sort: by_weight
 斑驳嘅切制铜楼梯	ban bo kai qie zhi tong lou ti	100
 斑驳嘅切制铜块	ban bo kai qie zhi tong kuai	100
 斑驳切制铜台阶	ban bo qie zhi tong tai jie	100
+斑驳森林	ban bo sen lin	100
+斑驳森林废弃营地地图	ban bo sen lin fei qi ying di di tu	100
+斑驳森林营地地图	ban bo sen lin ying di di tu	100
 斑点狼	ban dian lang	100
 斑点猪	ban dian zhu	100
 斑点羊	ban dian yang	100
@@ -131,6 +147,7 @@ sort: by_weight
 绊线传输	ban xian chuan shu	100
 半砖	ban zhuan	100
 半自动熔炉	ban zi dong rong lu	100
+伴随生成	ban sui sheng cheng	100
 绑定的诅咒	bang ding de zu zhou	100
 绑定诅咒	bang ding zu zhou	100
 宝宝当家	bao bao dang jia	100
@@ -143,6 +160,7 @@ sort: by_weight
 堡垒	bao lei	100
 堡垒遗迹	bao lei yi ji	100
 爆裂共鸣果	bao lie gong ming guo	100
+爆裂弓弦	bao lie gong xian	100
 爆裂紫颂果	bao lie zi song guo	100
 爆裂紫影果	bao lie zi ying guo	100
 保留物品栏	bao liu wu pin lan	100
@@ -154,6 +172,7 @@ sort: by_weight
 暴击	bao ji	100
 暴击箭	bao ji jian	100
 薄煎饼披风	bao jian bing pi feng	100
+宝经磨炼	bao jing mo lian	100
 保险库	bao xian ku	100
 宝箱	bao xiang	100
 宝箱猪	bao xiang zhu	100
@@ -161,6 +180,7 @@ sort: by_weight
 爆炸保护	bao zha bao hu	100
 爆炸弩	bao zha nu	100
 爆炸抗性	bao zha kang xing	100
+爆炸控制	bao zha kong zhi	100
 爆炸击退	bao zha ji tui	100
 爆炸击退抗性	bao zha ji tui kang xing	100
 爆炸伤害	bao zha shang hai	100
@@ -176,6 +196,7 @@ sort: by_weight
 孢子	bao zi	100
 孢子块	bao zi kuai	100
 孢子花	bao zi hua	100
+暴雨披风	bao yu pi feng	100
 背包	bei bao	100
 备份	bei fen	100
 备份工具	bei fen gong ju	100
@@ -202,9 +223,14 @@ sort: by_weight
 被虫蚀的石砖	bei chong shi de shi zhuan	100
 被虫蚀的錾制石砖	bei chong shi de zan zhi shi zhuan	100
 被虫蚀的圆石	bei chong shi de yuan shi	100
+北欧神话原声带	bei ou shen hua yuan sheng dai	100
+奔赴荒野	ben fu huang ye	100
 本地酿造厂	ben di niang zao chang	100
 本地化键名	ben di hua jian ming	100
 本地局域网联机	ben di ju yu wang lian ji	100
+笨重的药水	ben zhong de yao shui	100
+笨拙的药水	ben zhuo de yao shui	100
+揼到七彩	beng dao qi cai	100
 崩溃	beng kui	100
 崩溃报告文件	beng kui bao gao wen jian	100
 崩溃吐槽	beng kui tu cao	100
@@ -214,6 +240,7 @@ sort: by_weight
 玻璃瓶	bo li ping	100
 玻璃柱	bo li zhu	100
 玻璃窗格	bo li chuang ge	100
+播种往事	bo zhong wang shi	100
 波斯猫	bo si mao	100
 波纹边旗帜图案	bo wen bian qi zhi tu an	100
 波纹边旗帜样式	bo wen bian qi zhi yang shi	100
@@ -247,6 +274,7 @@ sort: by_weight
 扁平化	bian ping hua	100
 扁平化前	bian ping hua qian	100
 编码格式	bian ma ge shi	100
+编码全物品	bian ma quan wu pin	100
 蝙蝠	bian fu	100
 蝙蝠和陶罐	bian fu he tao guan	100
 蝙蝠刷怪蛋	bian fu shua guai dan	100
@@ -262,6 +290,7 @@ sort: by_weight
 边界存储格式	bian jie cun chu ge shi	100
 边境	bian jing	100
 边境之地	bian jing zhi di	100
+编全	bian quan	100
 编写启动器	bian xie qi dong qi	100
 变小	bian xiao	100
 变小之箭	bian xiao zhi jian	100
@@ -277,22 +306,36 @@ sort: by_weight
 缤纷更新	bin fen geng xin	100
 滨菊	bin ju	100
 滨菊盆栽	bin ju pen zai	100
+冰封洞穴	bing feng dong xue	100
 冰封山峰	bing feng shan feng	100
 冰弹	bing dan	100
 冰冻	bing dong	100
+冰洞	bing dong	100
 冰冻顶层	bing dong ding ceng	100
+冰冻僵尸	bing dong jiang shi	100
+冰洞穴	bing dong xue	100
+冰冻之箭	bing dong zhi jian	100
+冰冻状态效果	bing dong zhuang tai xiao guo	100
 冰冻伤害	bing dong shang hai	100
 冰冻深海	bing dong shen hai	100
+冰冻药水	bing dong yao shui	100
 冰堆	bing dui	100
 冰桶挑战	bing tong tiao zhan	100
 饼图	bing tu	100
+冰裂隙	bing lie xi	100
 饼干	bing gan	100
 饼干奶牛	bing gan nai niu	100
 饼干牛	bing gan niu	100
 冰块	bing kuai	100
+冰晶	bing jing	100
+冰球	bing qiu	100
 冰雪之弓	bing xue zhi gong	100
+冰锥	bing zhui	100
+冰锥簇	bing zhui cu	100
 冰山	bing shan	100
+冰术士	bing shu shi	100
 冰术师	bing shu shi	100
+冰术师披风	bing shu shi pi feng	100
 冰霜	bing shuang	100
 冰霜盔甲	bing shuang kui jia	100
 冰霜峡湾	bing shuang xia wan	100
@@ -314,6 +357,7 @@ sort: by_weight
 不共存魔咒	bu gong cun mo zhou	100
 不可破坏	bu ke po huai	100
 不可破坏的末地水晶	bu ke po huai de mo di shui jing	100
+不可堆叠分类器	bu ke dui die fen lei qi	100
 不可替代方块	bu ke ti dai fang kuai	100
 不可合成的喷溅型药水	bu ke he cheng de pen jian xing yao shui	100
 不可合成的滞留型药水	bu ke he cheng de zhi liu xing yao shui	100
@@ -330,8 +374,10 @@ sort: by_weight
 不兼容附魔	bu jian rong fu mo	100
 不祥	bu xiang	100
 不祥宝库	bu xiang bao ku	100
+不祥披风	bu xiang pi feng	100
 不祥瓶子	bu xiang ping zi	100
 不祥旗帜	bu xiang qi zhi	100
+不祥征兆	bu xiang zheng zhao	100
 不祥之瓶	bu xiang zhi ping	100
 不祥之兆	bu xiang zhi zhao	100
 不祥之物生成器	bu xiang zhi wu sheng cheng qi	100
@@ -371,6 +417,7 @@ sort: by_weight
 配方解锁	pei fang jie suo	100
 配方书	pei fang shu	100
 培根披风	pei gen pi feng	100
+配置	pei zhi	100
 喷发状	pen fa zhuang	100
 喷溅	pen jian	100
 喷溅海龟大师药水	pen jian hai gui da shi yao shui	100
@@ -379,13 +426,16 @@ sort: by_weight
 喷溅型变大药水	pen jian xing bian da yao shui	100
 喷溅型变小药水	pen jian xing bian xiao yao shui	100
 喷溅型编织药水	pen jian xing bian zhi yao shui	100
+喷溅型冰冻药水	pen jian xing bing dong yao shui	100
 喷溅型不可合成嘅药水	pen jian xing bu ke he cheng kai yao shui	100
 喷溅型盘丝药水	pen jian xing pan si yao shui	100
 喷溅型飘浮药水	pen jian xing piao fu yao shui	100
 喷溅型平凡的药水	pen jian xing ping fan de yao shui	100
 喷溅型平凡药水	pen jian xing ping fan yao shui	100
+喷溅型马铃薯油	pen jian xing ma ling shu you	100
 喷溅型慢速掉落药水	pen jian xing man su diao luo yao shui	100
 喷溅型风能充能药水	pen jian xing feng neng chong neng yao shui	100
+喷溅型毒马铃薯油	pen jian xing du ma ling shu you	100
 喷溅型跳跃药水	pen jian xing tiao yue yao shui	100
 喷溅型浓稠的药水	pen jian xing nong chou de yao shui	100
 喷溅型浓稠药水	pen jian xing nong chou yao shui	100
@@ -450,9 +500,11 @@ sort: by_weight
 披风	pi feng	100
 皮肤	pi fu	100
 皮肤包	pi fu bao	100
+皮肤包披风	pi fu bao pi feng	100
 皮肤与材质制作器	pi fu yu cai zhi zhi zuo qi	100
 皮肤与纹理制作器	pi fu yu wen li zhi zuo qi	100
 劈裂	pi lie	100
+毗邻	pi lin	100
 皮革	pi ge	100
 皮革马铠	pi ge ma kai	100
 皮革帽子	pi ge mao zi	100
@@ -481,6 +533,7 @@ sort: by_weight
 飘浮药水	piao fu yao shui	100
 偏航角	pian hang jiao	100
 偏转	pian zhuan	100
+拼图	pin tu	100
 拼图方块	pin tu fang kuai	100
 拼图池	pin tu chi	100
 品红地毯	pin hong di tan	100
@@ -503,6 +556,7 @@ sort: by_weight
 品红色收纳袋	pin hong se shou na dai	100
 品红色染料	pin hong se ran liao	100
 品红色染色玻璃	pin hong se ran se bo li	100
+品红色坐垫	pin hong se zuo dian	100
 品红色彩绘玻璃	pin hong se cai hui bo li	100
 品红色羊毛	pin hong se yang mao	100
 品红色有色玻璃	pin hong se you se bo li	100
@@ -522,9 +576,11 @@ sort: by_weight
 平坦的世界	ping tan de shi jie	100
 苹果	ping guo	100
 平滑	ping hua	100
+平滑的药水	ping hua de yao shui	100
 平滑光照	ping hua guang zhao	100
 平滑红沙岩	ping hua hong sha yan	100
 平滑红砂岩	ping hua hong sha yan	100
+平滑红砂岩双层台阶	ping hua hong sha yan shuang ceng tai jie	100
 平滑花岗岩	ping hua hua gang yan	100
 平滑玄武岩	ping hua xuan wu yan	100
 平滑沙石	ping hua sha shi	100
@@ -580,6 +636,7 @@ sort: by_weight
 蒲公英	pu gong ying	100
 蒲公英盆栽	pu gong ying pen zai	100
 蒲公英黄	pu gong ying huang	100
+朴实的药水	pu shi de yao shui	100
 马匹	ma pi	100
 马匹更新	ma pi geng xin	100
 马铃铜矿石	ma ling tong kuang shi	100
@@ -608,6 +665,7 @@ sort: by_weight
 马铃薯木压力板	ma ling shu mu ya li ban	100
 马铃薯木按钮	ma ling shu mu an niu	100
 马铃薯废弃矿井	ma ling shu fei qi kuang jing	100
+马铃薯地牢	ma ling shu di lao	100
 马铃薯电池	ma ling shu dian chi	100
 马铃薯铜矿石	ma ling shu tong kuang shi	100
 马铃薯铁矿石	ma ling shu tie kuang shi	100
@@ -632,11 +690,13 @@ sort: by_weight
 马铃薯生物	ma ling shu sheng wu	100
 马铃薯石	ma ling shu shi	100
 马铃薯树	ma ling shu shu	100
+马铃薯刷怪房	ma ling shu shua guai fang	100
 马铃薯钻石矿石	ma ling shu zuan shi kuang shi	100
 马铃薯村庄	ma ling shu cun zhuang	100
 马铃薯芽	ma ling shu ya	100
 马铃薯油	ma ling shu you	100
 马铃薯圆石	ma ling shu yuan shi	100
+马铃薯云	ma ling shu yun	100
 马铃薯维度	ma ling shu wei du	100
 马铃钻石矿石	ma ling zuan shi kuang shi	100
 马铃耶什	ma ling ye shen	100
@@ -648,6 +708,7 @@ sort: by_weight
 蚂蚁	ma yi	100
 蚂蚁方块	ma yi fang kuai	100
 马鞍	ma an	100
+麦秆床	mai gan chuang	100
 麦块	mai kuai	100
 麦块电影	mai kuai dian ying	100
 麦捆纹样陶片	mai kun wen yang tao pian	100
@@ -656,7 +717,11 @@ sort: by_weight
 脉冲型命令方块	mai chong xing ming ling fang kuai	100
 脉冲元件	mai chong yuan jian	100
 脉冲稳定器	mai chong wen ding qi	100
+麦泽	mai ze	100
 埋藏的宝藏	mai cang de bao zang	100
+埋藏的废弃矿井地图	mai cang de fei qi kuang jing di tu	100
+埋藏的试炼密室地图	mai cang de shi lian mi shi di tu	100
+埋藏的远古城市地图	mai cang de yuan gu cheng shi di tu	100
 蛮兵	man bing	100
 曼哈顿	man ha dun	100
 曼哈顿距离	man ha dun ju li	100
@@ -664,10 +729,13 @@ sort: by_weight
 满月	man yue	100
 猫变种	mao bian zhong	100
 猫变种定义格式	mao bian zhong ding yi ge shi	100
+猫变种定义文件	mao bian zhong ding yi wen jian	100
+锚没有九条命	mao mei you jiu tiao ming	100
 茂密干草	mao mi gan cao	100
 茂密青草	mao mi qing cao	100
 猫咪刷怪蛋	mao mi shua guai dan	100
 毛茛	mao gen	100
+毛骨悚然的声响	mao gu song ran de sheng xiang	100
 冒险	mao xian	100
 冒险宝箱	mao xian bao xiang	100
 冒险模式	mao xian mo shi	100
@@ -723,6 +791,7 @@ sort: by_weight
 末地荒地	mo di huang di	100
 末地荒野	mo di huang ye	100
 末地祭坛	mo di ji tan	100
+末地奖座	mo di jiang zuo	100
 末地晶体	mo di jing ti	100
 末地小型岛屿	mo di xiao xing dao yu	100
 末地箱子	mo di xiang zi	100
@@ -732,6 +801,7 @@ sort: by_weight
 末地烛	mo di zhu	100
 末地主岛	mo di zhu dao	100
 末地城	mo di cheng	100
+末地池	mo di chi	100
 末地船	mo di chuan	100
 末地传送门	mo di chuan song men	100
 末地闪光	mo di shan guang	100
@@ -749,6 +819,7 @@ sort: by_weight
 模拟电路	mo ni dian lu	100
 模拟减法传输线	mo ni jian fa chuan shu xian	100
 模拟距离	mo ni ju li	100
+魔女审判	mo nv shen pan	100
 末路之地	mo lu zhi di	100
 蘑菇	mo gu	100
 蘑菇煲	mo gu bao	100
@@ -778,22 +849,32 @@ sort: by_weight
 磨制	mo zhi	100
 磨制凝灰岩	mo zhi ning hui yan	100
 磨制凝灰岩阶梯	mo zhi ning hui yan jie ti	100
+磨制凝灰岩双层台阶	mo zhi ning hui yan shuang ceng tai jie	100
 磨制硫黄	mo zhi liu huang	100
 磨制硫黄台阶	mo zhi liu huang tai jie	100
 磨制硫黄楼梯	mo zhi liu huang lou ti	100
 磨制硫黄墙	mo zhi liu huang qiang	100
+磨制硫黄双层台阶	mo zhi liu huang shuang ceng tai jie	100
 磨制黑石	mo zhi hei shi	100
+磨制黑石砖双层台阶	mo zhi hei shi zhuan shuang ceng tai jie	100
+磨制黑石双层台阶	mo zhi hei shi shuang ceng tai jie	100
 磨制花岗岩	mo zhi hua gang yan	100
+磨制花岗岩双层台阶	mo zhi hua gang yan shuang ceng tai jie	100
 磨制玄武岩	mo zhi xuan wu yan	100
 磨制朱砂	mo zhi zhu sha	100
 磨制朱砂楼梯	mo zhi zhu sha lou ti	100
 磨制朱砂墙	mo zhi zhu sha qiang	100
+磨制朱砂双层台阶	mo zhi zhu sha shuang ceng tai jie	100
 磨制闪长岩	mo zhi shan zhang yan	100
+磨制闪长岩双层台阶	mo zhi shan zhang yan shuang ceng tai jie	100
 磨制深板岩	mo zhi shen ban yan	100
+磨制深板岩双层台阶	mo zhi shen ban yan shuang ceng tai jie	100
 磨制安山岩	mo zhi an shan yan	100
+磨制安山岩双层台阶	mo zhi an shan yan shuang ceng tai jie	100
 模式	mo shi	100
 磨石	mo shi	100
 墨水羊	mo shui yang	100
+默认皮肤包	mo ren pi fu bao	100
 默认资源包	mo ren zi yuan bao	100
 末日弩	mo ri nu	100
 魔赞工作室	mo zan gong zuo shi	100
@@ -829,6 +910,7 @@ sort: by_weight
 蜜脾	mi pi	100
 蜜脾块	mi pi kuai	100
 密码锁	mi ma suo	100
+弥漫的药水	mi man de yao shui	100
 秘密模式	mi mi mo shi	100
 秘密更新	mi mi geng xin	100
 秘密周六更新	mi mi zhou liu geng xin	100
@@ -839,15 +921,20 @@ sort: by_weight
 密度	mi du	100
 密度函数	mi du han shu	100
 迷途骷髅	mi tu ku lou	100
+蜜蜡	mi la	100
 迷乱之弩	mi luan zhi nu	100
 蜜块	mi kuai	100
 迷情挂坠	mi qing gua zhui	100
 迷情垂饰	mi qing chui shi	100
 谜之炖菜	mi zhi dun cai	100
 迷之炖菜	mi zhi dun cai	100
+迷人的药水	mi ren de yao shui	100
 迷雾	mi wu	100
 秒表时间存储格式	miao biao shi jian cun chu ge shi	100
 秒表存储格式	miao biao cun chu ge shi	100
+秒表存储文件	miao biao cun chu wen jian	100
+瞄准目标	miao zhun mu biao	100
+瞄准辅助	miao zhun fu zhu	100
 面包	mian bao	100
 面条洞穴	mian tiao dong xue	100
 绵羊	mian yang	100
@@ -950,7 +1037,10 @@ sort: by_weight
 反馈站点	fan kui zhan dian	100
 反馈网站	fan kui wang zhan	100
 繁花森林	fan hua sen lin	100
+繁花森林废弃营地地图	fan hua sen lin fei qi ying di di tu	100
+繁花森林营地地图	fan hua sen lin ying di di tu	100
 返回传送门	fan hui chuan song men	100
+反混淆表	fan hun xiao biao	100
 返校更新	fan xiao geng xin	100
 反相下降沿感应器	fan xiang xia jiang yan gan ying qi	100
 反相上升沿感应器	fan xiang shang sheng yan gan ying qi	100
@@ -959,10 +1049,15 @@ sort: by_weight
 反向阳光传感器	fan xiang yang guang chuan gan qi	100
 繁殖	fan zhi	100
 繁殖村民	fan zhi cun min	100
+翻转	fan zhuan	100
+翻转船首	fan zhuan chuan shou	100
+翻转船尾	fan zhuan chuan wei	100
+翻转完整	fan zhuan wan zheng	100
 翻译	fan yi	100
 翻译者披风	fan yi zhe pi feng	100
 反胃	fan wei	100
 防爆	fang bao	100
+防爆命令	fang bao ming ling	100
 放牧心得	fang mu xin de	100
 放大化	fang da hua	100
 防弹	fang dan	100
@@ -970,6 +1065,7 @@ sort: by_weight
 防砍	fang kan	100
 方块	fang kuai	100
 方块标签	fang kuai biao qian	100
+方块变换效果	fang kuai bian huan xiao guo	100
 方块破坏速度	fang kuai po huai su du	100
 方块模型	fang kuai mo xing	100
 方块掉落	fang kuai diao luo	100
@@ -987,12 +1083,17 @@ sort: by_weight
 方块支撑形状	fang kuai zhi cheng xing zhuang	100
 方块状态	fang kuai zhuang tai	100
 方块实体	fang kuai shi ti	100
+方块实体替换	fang kuai shi ti ti huan	100
 方块实体格式	fang kuai shi ti ge shi	100
 方块实体值	fang kuai shi ti zhi	100
 方块实体数据格式	fang kuai shi ti shu ju ge shi	100
+方块数据	fang kuai shu ju	100
 方块属性	fang kuai shu xing	100
+方块燃烧相关属性	fang kuai ran shao xiang guan shu xing	100
 方块颜色	fang kuai yan se	100
 方块移动上升沿感应器	fang kuai yi dong shang sheng yan gan ying qi	100
+方块音效集	fang kuai yin xiao ji	100
+方块音效集定义格式	fang kuai yin xiao ji ding yi ge shi	100
 方块硬度	fang kuai ying du	100
 方块鱼	fang kuai yu	100
 方块与困难之地	fang kuai yu kun nan zhi di	100
@@ -1000,6 +1101,7 @@ sort: by_weight
 方块物品	fang kuai wu pin	100
 防火	fang huo	100
 方解石	fang jie shi	100
+防具	fang ju	100
 方向	fang xiang	100
 放置	fang zhi	100
 放置方块	fang zhi fang kuai	100
@@ -1007,6 +1109,7 @@ sort: by_weight
 防止恶意破坏	fang zhi e yi po huai	100
 防御	fang yu	100
 防卫僵尸围城	fang wei jiang shi wei cheng	100
+房屋	fang wu	100
 房屋类型	fang wu lei xing	100
 非门	fei men	100
 废土	fei tu	100
@@ -1024,6 +1127,7 @@ sort: by_weight
 绯红木栅栏	fei hong mu zha lan	100
 绯红木栅栏门	fei hong mu zha lan men	100
 绯红木展示架	fei hong mu zhan shi jia	100
+绯红木双层台阶	fei hong mu shuang ceng tai jie	100
 绯红木压力板	fei hong mu ya li ban	100
 绯红木按钮	fei hong mu an niu	100
 绯红和扭曲	fei hong he niu qu	100
@@ -1041,11 +1145,17 @@ sort: by_weight
 绯红森林	fei hong sen lin	100
 绯红疣块	fei hong you kuai	100
 绯红按钮	fei hong an niu	100
+废弃	fei qi	100
 废弃马铃薯传送门	fei qi ma ling shu chuan song men	100
+废弃废弃矿井	fei qi fei qi kuang jing	100
 废弃矿道	fei qi kuang dao	100
 废弃矿洞	fei qi kuang dong	100
 废弃矿井	fei qi kuang jing	100
+废弃矿井地图	fei qi kuang jing di tu	100
 废弃传送门	fei qi chuan song men	100
+废弃村庄	fei qi cun zhuang	100
+废弃营地	fei qi ying di	100
+废弃营地地图	fei qi ying di di tu	100
 飞行	fei xing	100
 飞行技术	fei xing ji shu	100
 飞行器	fei xing qi	100
@@ -1064,6 +1174,7 @@ sort: by_weight
 粉蹄猪	fen ti zhu	100
 愤怒幽灵	fen nu you ling	100
 愤怒恶魂	fen nu e hun	100
+分类打包机	fen lei da bao ji	100
 分类机	fen lei ji	100
 分类器	fen lei qi	100
 分裂箭	fen lie jian	100
@@ -1081,6 +1192,9 @@ sort: by_weight
 粉红色花瓣	fen hong se hua ban	100
 粉红色花簇	fen hong se hua cu	100
 粉红色混凝土	fen hong se hun ning tu	100
+粉红色混凝土台阶	fen hong se hun ning tu tai jie	100
+粉红色混凝土楼梯	fen hong se hun ning tu lou ti	100
+粉红色混凝土双层台阶	fen hong se hun ning tu shuang ceng tai jie	100
 粉红色气球	fen hong se qi qiu	100
 粉红色旗帜	fen hong se qi zhi	100
 粉红色潜影贝盒	fen hong se qian ying bei he	100
@@ -1091,8 +1205,12 @@ sort: by_weight
 粉红色染料	fen hong se ran liao	100
 粉红色染色玻璃	fen hong se ran se bo li	100
 粉红色染色玻璃窗格	fen hong se ran se bo li chuang ge	100
+粉红色坐垫	fen hong se zuo dian	100
 粉红色彩绘玻璃	fen hong se cai hui bo li	100
 粉红色羊毛	fen hong se yang mao	100
+粉红色羊毛台阶	fen hong se yang mao tai jie	100
+粉红色羊毛楼梯	fen hong se yang mao lou ti	100
+粉红色羊毛双层台阶	fen hong se yang mao shuang ceng tai jie	100
 粉红色有色玻璃	fen hong se you se bo li	100
 粉红色荧光棒	fen hong se ying guang bang	100
 粉红色郁金香	fen hong se yu jin xiang	100
@@ -1102,6 +1220,8 @@ sort: by_weight
 分节符	fen jie fu	100
 粉床	fen chuang	100
 分数	fen shu	100
+粉色混凝土台阶	fen se hun ning tu tai jie	100
+粉色混凝土楼梯	fen se hun ning tu lou ti	100
 粉色史莱姆	fen se shi lai mu	100
 粉色染料	fen se ran liao	100
 氛围	fen wei	100
@@ -1117,6 +1237,7 @@ sort: by_weight
 封冻深海	feng dong shen hai	100
 风能充能之箭	feng neng chong neng zhi jian	100
 风能充能药水	feng neng chong neng yao shui	100
+蜂蜡	feng la	100
 蜂蜡块	feng la kuai	100
 锋利	feng li	100
 风力充能	feng li chong neng	100
@@ -1139,6 +1260,8 @@ sort: by_weight
 风袭沙砾丘陵	feng xi sha li qiu ling	100
 风袭热带草原	feng xi re dai cao yuan	100
 风袭森林	feng xi sen lin	100
+风袭森林废弃营地地图	feng xi sen lin fei qi ying di di tu	100
+风袭森林营地地图	feng xi sen lin ying di di tu	100
 蜂箱	feng xiang	100
 蜂箱护甲	feng xiang hu jia	100
 风之号角	feng zhi hao jiao	100
@@ -1147,6 +1270,7 @@ sort: by_weight
 蜂巢护甲	feng chao hu jia	100
 风锤	feng chui	100
 风蚀恶地	feng shi e di	100
+风水	feng shui	100
 丰饶陶片	feng rao tao pian	100
 腐败马铃薯皮	fu bai ma ling shu pi	100
 腐败的马铃薯皮	fu bai de ma ling shu pi	100
@@ -1154,6 +1278,12 @@ sort: by_weight
 腐败区	fu bai qu	100
 浮标	fu biao	100
 浮冰	fu bing	100
+浮冰斑块	fu bing ban kuai	100
+浮冰砖	fu bing zhuan	100
+浮冰砖台阶	fu bing zhuan tai jie	100
+浮冰砖楼梯	fu bing zhuan lou ti	100
+浮冰砖墙	fu bing zhuan qiang	100
+浮冰砖双层台阶	fu bing zhuan shuang ceng tai jie	100
 浮漂	fu piao	100
 附魔	fu mo	100
 附魔瓶	fu mo ping	100
@@ -1183,9 +1313,11 @@ sort: by_weight
 附魔原理	fu mo yuan li	100
 赋命名空间标识符	fu ming ming kong jian biao shi fu	100
 浮岛	fu dao	100
+浮岛世界类型	fu dao shi jie lei xing	100
 府邸	fu di	100
 覆地苔藓	fu di tai xian	100
 浮点数界限范围	fu dian shu jie xian fan wei	100
+浮点数数值提供器	fu dian shu shu zhi ti gong qi	100
 覆藤橡树	fu teng xiang shu	100
 覆藤深色橡树	fu teng shen se xiang shu	100
 覆藤丛林树	fu teng cong lin shu	100
@@ -1254,8 +1386,11 @@ sort: by_weight
 服务器创建	fu wu qi chuang jian	100
 服务器商店	fu wu qi shang dian	100
 服务器维护	fu wu qi wei hu	100
+服务器文件目录	fu wu qi wen jian mu lu	100
 打败末影龙	da bai mo ying long	100
 打败凋灵	da bai diao ling	100
+打包	da bao	100
+打包机	da bao ji	100
 大房间	da fang jian	100
 大电影	da dian ying	100
 大都市	da du shi	100
@@ -1276,6 +1411,7 @@ sort: by_weight
 大箱子	da xiang zi	100
 大象牙膏	da xiang ya gao	100
 大型	da xing	100
+大型冰锥	da xing bing zhui	100
 大型房屋	da xing fang wu	100
 大型滴水石	da xing di shui shi	100
 大型滴水石锥	da xing di shui shi zhui	100
@@ -1296,6 +1432,7 @@ sort: by_weight
 大型紫晶芽	da xing zi jing ya	100
 大型丛林树	da xing cong lin shu	100
 大型松树	da xing song shu	100
+大型疣猪兽棚	da xing you zhu shou peng	100
 大型云杉	da xing yun shan	100
 大熊猫	da xiong mao	100
 打折	da zhe	100
@@ -1314,6 +1451,7 @@ sort: by_weight
 代码	dai ma	100
 代码连接	dai ma lian jie	100
 代码构建器	dai ma gou jian qi	100
+代码学习更新	dai ma xue xi geng xin	100
 带粉红色蜡烛的蛋糕	dai fen hong se la zhu de dan gao	100
 带淡蓝色蜡烛的蛋糕	dai dan lan se la zhu de dan gao	100
 带淡灰色蜡烛的蛋糕	dai dan hui se la zhu de dan gao	100
@@ -1329,6 +1467,7 @@ sort: by_weight
 带黄色蜡烛的蛋糕	dai huang se la zhu de dan gao	100
 带青色蜡烛的蛋糕	dai qing se la zhu de dan gao	100
 带信标回家	dai xin biao hui jia	100
+带箱子的矿车	dai xiang zi de kuang che	100
 带箱子的红树木船	dai xiang zi de hong shu mu chuan	100
 带箱子的桦木船	dai xiang zi de hua mu chuan	100
 带箱子的金合欢木船	dai xiang zi de jin he huan mu chuan	100
@@ -1345,6 +1484,8 @@ sort: by_weight
 带釉陶瓦	dai you tao wa	100
 带釉陶瓦的图案	dai you tao wa de tu an	100
 带釉陶瓦图案	dai you tao wa tu an	100
+带桅杆	dai wei gan	100
+单调的药水	dan diao de yao shui	100
 丹尼尔罗森费尔德	dan ni er luo sen fei er de	100
 淡蓝地毯	dan lan di tan	100
 淡蓝床	dan lan chuang	100
@@ -1366,6 +1507,7 @@ sort: by_weight
 淡蓝色收纳袋	dan lan se shou na dai	100
 淡蓝色染料	dan lan se ran liao	100
 淡蓝色染色玻璃	dan lan se ran se bo li	100
+淡蓝色坐垫	dan lan se zuo dian	100
 淡蓝色彩绘玻璃	dan lan se cai hui bo li	100
 淡蓝色羊毛	dan lan se yang mao	100
 淡蓝色有色玻璃	dan lan se you se bo li	100
@@ -1409,6 +1551,7 @@ sort: by_weight
 淡灰色收纳袋	dan hui se shou na dai	100
 淡灰色染料	dan hui se ran liao	100
 淡灰色染色玻璃	dan hui se ran se bo li	100
+淡灰色坐垫	dan hui se zuo dian	100
 淡灰色彩绘玻璃	dan hui se cai hui bo li	100
 淡灰色羊毛	dan hui se yang mao	100
 淡灰色有色玻璃	dan hui se you se bo li	100
@@ -1426,6 +1569,7 @@ sort: by_weight
 淡黄绿色挽具	dan huang lv se wan ju	100
 单精度浮点型标签	dan jing du fu dian xing biao qian	100
 胆怯	dan qie	100
+单产物打包机	dan chan wu da bao ji	100
 弹窗	dan chuang	100
 单人模式	dan ren mo shi	100
 单人游戏	dan ren you xi	100
@@ -1434,6 +1578,7 @@ sort: by_weight
 档案	dang an	100
 到达边境之地	dao da bian jing zhi di	100
 捣蛋弓	dao dan gong	100
+道路	dao lu	100
 导管	dao guan	100
 导管能量	dao guan neng liang	100
 导管力量	dao guan li liang	100
@@ -1442,11 +1587,14 @@ sort: by_weight
 倒下的白桦	dao xia de bai hua	100
 倒下的高白桦	dao xia de gao bai hua	100
 倒下的橡树	dao xia de xiang shu	100
-倒下的树木	dao xia de shu mu	100
+倒下的树	dao xia de shu	100
 倒下的丛林树	dao xia de cong lin shu	100
+倒下的杨树	dao xia de yang shu	100
 倒下的云杉	dao xia de yun shan	100
 刀翅蜂鸟	dao chi feng niao	100
 导入存档	dao ru cun dang	100
+稻草床	dao cao chuang	100
+稻草床铺	dao cao chuang pu	100
 岛屿生存	dao yu sheng cun	100
 得分	de fen	100
 灯塔	deng ta	100
@@ -1454,6 +1602,7 @@ sort: by_weight
 等级	deng ji	100
 等级依赖函数	deng ji yi lai han shu	100
 等轴截图	deng zhou jie tu	100
+登山镐	deng shan gao	100
 登山者	deng shan zhe	100
 动态纹理	dong tai wen li	100
 冬天模式	dong tian mo shi	100
@@ -1479,39 +1628,52 @@ sort: by_weight
 洞穴及悬崖	dong xue ji xuan ya	100
 洞穴蜘蛛	dong xue zhi zhu	100
 洞穴蜘蛛陷阱	dong xue zhi zhu xian jing	100
+洞穴世界类型	dong xue shi jie lei xing	100
 洞穴游戏	dong xue you xi	100
 洞穴音效	dong xue yin xiao	100
 洞穴与峭壁	dong xue yu qiao bi	100
 洞穴与悬崖	dong xue yu xuan ya	100
 洞穴与山崖	dong xue yu shan ya	100
 洞穴与山崖预览数据包	dong xue yu shan ya yu lan shu ju bao	100
+洞穴与山崖原声带	dong xue yu shan ya yuan sheng dai	100
+冻尸	dong shi	100
+冻尸刷怪蛋	dong shi shua guai dan	100
 动作栏	dong zuo lan	100
 冻洋	dong yang	100
 冻原	dong yuan	100
 动物	dong wu	100
 动物狂欢	dong wu kuang huan	100
 动物生成	dong wu sheng cheng	100
+抖包袱	dou bao fu	100
 斗篷	dou peng	100
+蚪到桶里来	dou dao tong li lai	100
 抖沙机	dou sha ji	100
 低保真旋律	di bao zhen xuan lv	100
 地卜师	di bo shi	100
 地表规则	di biao gui ze	100
+底部	di bu	100
+底部居住区	di bu ju zhu qu	100
+底部中央	di bu zhong yang	100
+底部侧面	di bu ce mian	100
 地洞山崖	di dong shan ya	100
 地底之家	di di zhi jia	100
 地点	di dian	100
 敌对生物	di dui sheng wu	100
 地毯	di tan	100
 地毯复制	di tan fu zhi	100
+地毯机	di tan ji	100
 地图	di tu	100
 地图保存格式	di tu bao cun ge shi	100
 地图房	di tu fang	100
 地图类型	di tu lei xing	100
 地图工具	di tu gong ju	100
 地图画	di tu hua	100
+地图计数存储文件	di tu ji shu cun chu wen jian	100
 地图基色	di tu ji se	100
 地图下载	di tu xia zai	100
 地图形状	di tu xing zhuang	100
 地图种子	di tu zhong zi	100
+地图数据存储文件	di tu shu ju cun chu wen jian	100
 地图存储格式	di tu cun chu ge shi	100
 地图物品格式	di tu wu pin ge shi	100
 地牢	di lao	100
@@ -1533,11 +1695,14 @@ sort: by_weight
 滴水石锥簇	di shui shi zhui cu	100
 滴水石锥岩浆装置	di shui shi zhui yan jiang zhuang zhi	100
 滴水石簇	di shui shi cu	100
+底层虚空	di ceng xu kong	100
 第三天	di san tian	100
 第三人称视角	di san ren cheng shi jiao	100
+低速拆包机	di su chai bao ji	100
 地衣	di yi	100
 第一天	di yi tian	100
 第一阶段	di yi jie duan	100
+第一次测试	di yi ci ce shi	100
 地狱	di yu	100
 地狱堡垒	di yu bao lei	100
 地狱门	di yu men	100
@@ -1558,6 +1723,8 @@ sort: by_weight
 地狱疣块	di yu you kuai	100
 地狱疣种植	di yu you zhong zhi	100
 地物	di wu	100
+地物定义格式	di wu ding yi ge shi	100
+地物类型	di wu lei xing	100
 地物数据格式	di wu shu ju ge shi	100
 第二天	di er tian	100
 第二阶段	di er jie duan	100
@@ -1583,8 +1750,10 @@ sort: by_weight
 凋灵盔甲	diao ling kui jia	100
 凋灵骑士	diao ling qi shi	100
 凋灵之首	diao ling zhi shou	100
+凋零山庄	diao ling shan zhuang	100
 凋灵刷怪蛋	diao ling shua guai dan	100
 凋零刷怪蛋	diao ling shua guai dan	100
+凋零药水	diao ling yao shui	100
 掉落	diao luo	100
 掉落的物品	diao luo de wu pin	100
 掉落缓冲	diao luo huan chong	100
@@ -1604,6 +1773,7 @@ sort: by_weight
 钓鱼机	diao yu ji	100
 雕纹	diao wen	100
 雕纹磨制黑石	diao wen mo zhi hei shi	100
+雕纹浮冰	diao wen fu bing	100
 雕纹铜块	diao wen tong kuai	100
 雕纹凝灰岩	diao wen ning hui yan	100
 雕纹硫黄	diao wen liu huang	100
@@ -1630,6 +1800,7 @@ sort: by_weight
 电路	dian lu	100
 碘化钾	dian hua jia	100
 电击	dian ji	100
+点击事件	dian ji shi jian	100
 垫脚跳	dian jiao tiao	100
 典型	dian xing	100
 点唱机	dian chang ji	100
@@ -1644,6 +1815,7 @@ sort: by_weight
 丁香	ding xiang	100
 定制服务器	ding zhi fu wu qi	100
 顶层房间	ding ceng fang jian	100
+顶层虚空	ding ceng xu kong	100
 顶层雪	ding ceng xue	100
 定义	ding yi	100
 定位条	ding wei tiao	100
@@ -1704,13 +1876,17 @@ sort: by_weight
 多彩兔	duo cai tu	100
 多彩世界更新	duo cai shi jie geng xin	100
 多叶黏土层	duo ye nian tu ceng	100
+多物品	duo wu pin	100
 堆肥	dui fei	100
 堆肥桶	dui fei tong	100
+堆分打包机	dui fen da bao ji	100
 堆叠组件	dui die zu jian	100
 对话框	dui hua kuang	100
 对话框标签	dui hua kuang biao qian	100
 对话框定义格式	dui hua kuang ding yi ge shi	100
+对话框定义文件	dui hua kuang ding yi wen jian	100
 队伍	dui wu	100
+队伍存储格式	dui wu cun chu ge shi	100
 短弓	duan gong	100
 短整型标签	duan zheng xing biao qian	100
 锻造	duan zao	100
@@ -1727,7 +1903,9 @@ sort: by_weight
 盾徽	dun hui	100
 蹲下	dun xia	100
 炖菜	dun cai	100
+踏板	ta ban	100
 它蔓延了	ta man yan le	100
+塔楼	ta lou	100
 台地高原	tai di gao yuan	100
 泰坦钢盔	tai tan gang kui	100
 抬头显示器	tai tou xian shi qi	100
@@ -1747,8 +1925,11 @@ sort: by_weight
 苔石砖怪物蛋	tai shi zhuan guai wu dan	100
 苔石砖块板	tai shi zhuan kuai ban	100
 苔石砖墙	tai shi zhuan qiang	100
+苔石砖双层台阶	tai shi zhuan shuang ceng tai jie	100
+苔石双层台阶	tai shi shuang ceng tai jie	100
 太阳	tai yang	100
 苔圆石楼梯	tai yuan shi lou ti	100
+探古寻源	tan gu xun yuan	100
 探矿者	tan kuang zhe	100
 探险地图	tan xian di tu	100
 探险更新	tan xian geng xin	100
@@ -1768,6 +1949,7 @@ sort: by_weight
 探索更新	tan suo geng xin	100
 探索者	tan suo zhe	100
 探索深暗之域和远古城市	tan suo shen an zhi yu he yuan gu cheng shi	100
+汤勺	tang shao	100
 烫手洋芋	tang shou yang yu	100
 陶片	tao pian	100
 陶罐	tao guan	100
@@ -1777,6 +1959,7 @@ sort: by_weight
 陶瓦山	tao wa shan	100
 特性	te xing	100
 特殊矿境	te shu kuang jing	100
+特色服务器	te se fu wu qi	100
 特务刷怪蛋	te wu shua guai dan	100
 藤壶	teng hu	100
 腾跃之叶	teng yue zhi ye	100
@@ -1811,6 +1994,7 @@ sort: by_weight
 通告管理员命令	tong gao guan li yuan ming ling	100
 铜格栅	tong ge zha	100
 通过三角计算寻找要塞	tong guo san jiao ji suan xun zhao yao sai	100
+铜光焕发	tong guang huan fa	100
 铜块	tong kuai	100
 铜傀儡	tong kui lei	100
 铜傀儡雕像	tong kui lei diao xiang	100
@@ -1854,6 +2038,7 @@ sort: by_weight
 铜水槽	tong shui cao	100
 桶子	tong zi	100
 铜锁链	tong suo lian	100
+通用	tong yong	100
 通用标签	tong yong biao qian	100
 通用唯一识别码	tong yong wei yi shi bie ma	100
 通用物品分类器	tong yong wu pin fen lei qi	100
@@ -1862,6 +2047,8 @@ sort: by_weight
 铜鹦鹉螺护甲	tong ying wu luo hu jia	100
 通往神秘国度的传送门	tong wang shen mi guo du de chuan song men	100
 同位素	tong wei su	100
+头皮屑峡谷	tou pi xie xia gu	100
+头皮屑三角洲	tou pi xie san jiao zhou	100
 投票	tou piao	100
 投票更新	tou piao geng xin	100
 投票规则	tou piao gui ze	100
@@ -1883,6 +2070,7 @@ sort: by_weight
 提示框	ti shi kuang	100
 提示与技巧	ti shi yu ji qiao	100
 梯子	ti zi	100
+体验	ti yan	100
 梯恩梯	ti en ti	100
 铁皮护身符	tie pi hu shen fu	100
 铁马铠	tie ma kai	100
@@ -1938,7 +2126,9 @@ sort: by_weight
 跳劈	tiao pi	100
 条带	tiao dai	100
 跳叠	tiao die	100
+跳略器	tiao lve qi	100
 条件	tiao jian	100
+条件敌对	tiao jian di dui	100
 挑衅	tiao xin	100
 条形木头	tiao xing mu tou	100
 挑战	tiao zhan	100
@@ -1948,6 +2138,7 @@ sort: by_weight
 调试棒	tiao shi bang	100
 调试屏幕	tiao shi ping mu	100
 调试模式	tiao shi mo shi	100
+调试档案	tiao shi dang an	100
 调试功能	tiao shi gong neng	100
 调试工具	tiao shi gong ju	100
 调试界面	tiao shi jie mian	100
@@ -1969,10 +2160,12 @@ sort: by_weight
 条纹之地	tiao wen zhi di	100
 条纹之海	tiao wen zhi hai	100
 甜美之酿	tian mei zhi niang	100
+甜蜜的梦	tian mi de meng	100
 天空	tian kong	100
 天空光照	tian kong guang zhao	100
 天空盒	tian kong he	100
 天空即为极限	tian kong ji wei ji xian	100
+天花板	tian hua ban	100
 甜浆果	tian jiang guo	100
 甜浆果灌木丛	tian jiang guo guan mu cong	100
 甜浆果种植	tian jiang guo zhong zhi	100
@@ -1980,6 +2173,7 @@ sort: by_weight
 天气	tian qi	100
 天气命令	tian qi ming ling	100
 天气更替	tian qi geng ti	100
+天启之境终与始	tian qi zhi jing zhong yu shi	100
 天气数据存储格式	tian qi shu ju cun chu ge shi	100
 填充命令	tian chong ming ling	100
 填充泥浆	tian chong ni jiang	100
@@ -1991,6 +2185,7 @@ sort: by_weight
 甜菜种子	tian cai zhong zi	100
 甜菜植株	tian cai zhi zhu	100
 天赐良击	tian ci liang ji	100
+天涯共此石	tian ya gong ci shi	100
 田野	tian ye	100
 天域	tian yu	100
 图标	tu biao	100
@@ -2022,6 +2217,7 @@ sort: by_weight
 涂蜡的斑驳切制铜台阶	tu la de ban bo qie zhi tong tai jie	100
 涂蜡的斑驳切制铜楼梯	tu la de ban bo qie zhi tong lou ti	100
 涂蜡的斑驳切制铜块	tu la de ban bo qie zhi tong kuai	100
+涂蜡的斑驳切制铜双层台阶	tu la de ban bo qie zhi tong shuang ceng tai jie	100
 涂蜡的避雷针	tu la de bi lei zhen	100
 涂蜡的雕纹铜块	tu la de diao wen tong kuai	100
 涂蜡的铜宝箱	tu la de tong bao xiang	100
@@ -2043,6 +2239,7 @@ sort: by_weight
 涂蜡的切制铜台阶	tu la de qie zhi tong tai jie	100
 涂蜡的切制铜楼梯	tu la de qie zhi tong lou ti	100
 涂蜡的切制铜块	tu la de qie zhi tong kuai	100
+涂蜡的切制铜双层台阶	tu la de qie zhi tong shuang ceng tai jie	100
 涂蜡的锈蚀避雷针	tu la de xiu shi bi lei zhen	100
 涂蜡的锈蚀雕纹铜块	tu la de xiu shi diao wen tong kuai	100
 涂蜡的锈蚀铜门	tu la de xiu shi tong men	100
@@ -2060,6 +2257,7 @@ sort: by_weight
 涂蜡的锈蚀切制铜台阶	tu la de xiu shi qie zhi tong tai jie	100
 涂蜡的锈蚀切制铜楼梯	tu la de xiu shi qie zhi tong lou ti	100
 涂蜡的锈蚀切制铜块	tu la de xiu shi qie zhi tong kuai	100
+涂蜡的锈蚀切制铜双层台阶	tu la de xiu shi qie zhi tong shuang ceng tai jie	100
 涂蜡的锈蚀凿刻铜	tu la de xiu shi zao ke tong	100
 涂蜡的凿刻铜块	tu la de zao ke tong kuai	100
 涂蜡的氧化避雷针	tu la de yang hua bi lei zhen	100
@@ -2079,6 +2277,7 @@ sort: by_weight
 涂蜡的氧化切制铜台阶	tu la de yang hua qie zhi tong tai jie	100
 涂蜡的氧化切制铜楼梯	tu la de yang hua qie zhi tong lou ti	100
 涂蜡的氧化切制铜块	tu la de yang hua qie zhi tong kuai	100
+涂蜡的氧化切制铜双层台阶	tu la de yang hua qie zhi tong shuang ceng tai jie	100
 涂蜡的氧化凿刻铜	tu la de yang hua zao ke tong	100
 涂蜡的外露避雷针	tu la de wai lu bi lei zhen	100
 涂蜡的外露铜门	tu la de wai lu tong men	100
@@ -2176,6 +2375,7 @@ sort: by_weight
 图案	tu an	100
 唾沫	tuo mo	100
 驼队	tuo dui	100
+鸵鸟	tuo niao	100
 脱蜡	tuo la	100
 拓殖	tuo zhi	100
 脱水	tuo shui	100
@@ -2220,8 +2420,10 @@ sort: by_weight
 能量之弓	neng liang zhi gong	100
 能见度	neng jian du	100
 农民	nong min	100
+农夫	nong fu	100
 农地	nong di	100
 农田	nong tian	100
+浓硫黄	nong liu huang	100
 农场	nong chang	100
 浓稠的药水	nong chou de yao shui	100
 浓稠之酿	nong chou zhi niang	100
@@ -2233,6 +2435,7 @@ sort: by_weight
 泥巴猪	ni ba zhu	100
 泥胚	ni pei	100
 泥坯	ni pi	100
+逆风翻盘	ni feng fan pan	100
 泥潭怪物	ni tan guai wu	100
 泥桶	ni tong	100
 泥土	ni tu	100
@@ -2244,6 +2447,7 @@ sort: by_weight
 泥脚兔子	ni jiao tu zi	100
 泥浆	ni jiang	100
 拟雀鲷	ni que diao	100
+你需要来点薄荷糖	ni xu yao lai dian bo he tang	100
 泥猪	ni zhu	100
 泥砖	ni zhuan	100
 泥砖板	ni zhuan ban	100
@@ -2251,30 +2455,38 @@ sort: by_weight
 泥砖楼梯	ni zhuan lou ti	100
 泥砖墙	ni zhuan qiang	100
 泥砖双板	ni zhuan shuang ban	100
+泥砖双层台阶	ni zhuan shuang ceng tai jie	100
 溺尸	ni shi	100
+你失败了	ni shi bai le	100
 溺尸骑士	ni shi qi shi	100
 溺尸陷阱	ni shi xian jing	100
 溺尸刷怪蛋	ni shi shua guai dan	100
 溺水	ni shui	100
 溺水伤害	ni shui shang hai	100
 拟刺尾鲷	ni ci wei diao	100
+你死了	ni si le	100
 牛变种定义格式	niu bian zhong ding yi ge shi	100
 牛排	niu pai	100
 牛奶	niu nai	100
 牛奶桶	niu nai tong	100
 扭曲	niu qu	100
+扭曲披风	niu qu pi feng	100
 扭曲门	niu qu men	100
 扭曲架子	niu qu jia zi	100
+扭曲监守者	niu qu jian shou zhe	100
 扭曲巨型菌	niu qu ju xing jun	100
 扭曲展示架	niu qu zhan shi jia	100
 扭曲真菌钓竿	niu qu zhen jun diao gan	100
 扭曲按钮	niu qu an niu	100
+牛战士	niu zhan shi	100
 牛刷怪蛋	niu shua guai dan	100
 牛肉	niu rou	100
+牛爷爷	niu ye ye	100
 牛音效变种定义格式	niu yin xiao bian zhong ding yi ge shi	100
 粘土	nian tu	100
 黏土	nian tu	100
 黏土方块	nian tu fang kuai	100
+黏土团簇	nian tu tuan cu	100
 粘土块	nian tu kuai	100
 黏土块	nian tu kuai	100
 粘土球	nian tu qiu	100
@@ -2282,6 +2494,7 @@ sort: by_weight
 粘土山	nian tu shan	100
 黏土山	nian tu shan	100
 黏土鱼	nian tu yu	100
+黏土圆盘	nian tu yuan pan	100
 黏合剂	nian he ji	100
 黏糊阴沟	nian hu yin gou	100
 黏性活塞	nian xing huo sai	100
@@ -2291,6 +2504,8 @@ sort: by_weight
 黏液块	nian ye kuai	100
 粘液球	nian ye qiu	100
 黏液球	nian ye qiu	100
+您失败了	nin shi bai le	100
+您死亡了	nin si wang le	100
 酿酒师陶片	niang jiu shi tao pian	100
 酿金西瓜片	niang jin xi gua pian	100
 酿制台	niang zhi tai	100
@@ -2309,9 +2524,12 @@ sort: by_weight
 凝灰岩墙	ning hui yan qiang	100
 凝灰岩墙壁	ning hui yan qiang bi	100
 凝灰岩砖	ning hui yan zhuan	100
+凝灰岩双层台阶	ning hui yan shuang ceng tai jie	100
 怒目怪	nu mu guai	100
 暖海	nuan hai	100
+暖水海底废墟地图	nuan shui hai di fei xu di tu	100
 暖水海洋	nuan shui hai yang	100
+暖水海洋废墟地图	nuan shui hai yang fei xu di tu	100
 暖水深海	nuan shui shen hai	100
 女巫	nv wu	100
 女巫塔	nv wu ta	100
@@ -2353,6 +2571,7 @@ sort: by_weight
 蓝色收纳袋	lan se shou na dai	100
 蓝色染料	lan se ran liao	100
 蓝色染色玻璃	lan se ran se bo li	100
+蓝色坐垫	lan se zuo dian	100
 蓝色彩绘玻璃	lan se cai hui bo li	100
 蓝色烟花	lan se yan hua	100
 蓝色羊毛	lan se yang mao	100
@@ -2383,6 +2602,7 @@ sort: by_weight
 累积惩罚	lei ji cheng fa	100
 雷雨	lei yu	100
 冷酷战甲	leng ku zhan jia	100
+棱镜披风	leng jing pi feng	100
 冷却	leng que	100
 冷针叶林	leng zhen ye lin	100
 冷水海洋	leng shui hai yang	100
@@ -2392,8 +2612,10 @@ sort: by_weight
 龙头	long tou	100
 龙息	long xi	100
 龙息攻击	long xi gong ji	100
+龙池	long chi	100
 龙首	long shou	100
 龙首颅	long shou lu	100
+龙与地下城原声带	long yu di xia cheng yuan sheng dai	100
 漏洞	lou dong	100
 漏洞追踪器	lou dong zhui zong qi	100
 漏斗	lou dou	100
@@ -2402,6 +2624,7 @@ sort: by_weight
 漏斗时钟	lou dou shi zhong	100
 楼梯	lou ti	100
 礼包商	li bao shang	100
+礼品包装纸	li pin bao zhuang zhi	100
 礼品码	li pin ma	100
 立方体贴图	li fang ti tie tu	100
 莉娜雷恩	li na lei en	100
@@ -2419,6 +2642,7 @@ sort: by_weight
 历史现象	li shi xian xiang	100
 利刃纹样陶片	li ren wen yang tao pian	100
 粒子	li zi	100
+粒子特效	li zi te xiao	100
 粒子格式	li zi ge shi	100
 粒子效果	li zi xiao guo	100
 粒子数据格式	li zi shu ju ge shi	100
@@ -2466,8 +2690,13 @@ sort: by_weight
 聊天栏	liao tian lan	100
 聊天类型	liao tian lei xing	100
 聊天框	liao tian kuang	100
+聊天气泡	liao tian qi pao	100
+聊天信息交换	liao tian xin xi jiao huan	100
 聊天组件	liao tian zu jian	100
 瞭望台	liao wang tai	100
+六面干草捆	liu mian gan cao kun	100
+六面活塞	liu mian huo sai	100
+六面紫珀块	liu mian zi po kuai	100
 硫方怪	liu fang guai	100
 硫方怪桶	liu fang guai tong	100
 硫方怪刷怪蛋	liu fang guai shua guai dan	100
@@ -2477,6 +2706,7 @@ sort: by_weight
 流动熔岩	liu dong rong yan	100
 流动纹样陶片	liu dong wen yang tao pian	100
 流体	liu ti	100
+流体标签	liu ti biao qian	100
 流体状态	liu ti zhuang tai	100
 流浪猫	liu lang mao	100
 流浪者	liu lang zhe	100
@@ -2486,19 +2716,21 @@ sort: by_weight
 六氯化钨	liu lv hua wu	100
 硫化亚铁	liu hua ya tie	100
 硫黄	liu huang	100
+硫黄方块	liu huang fang kuai	100
 硫黄洞穴	liu huang dong xue	100
 硫黄台阶	liu huang tai jie	100
 硫黄楼梯	liu huang lou ti	100
 硫黄立方怪	liu huang li fang guai	100
 硫黄怪	liu huang guai	100
 硫黄尖锥	liu huang jian zhui	100
-硫黄荆棘	liu huang jing ji	100
 硫黄墙	liu huang qiang	100
 硫黄砖	liu huang zhuan	100
 硫黄砖台阶	liu huang zhuan tai jie	100
 硫黄砖楼梯	liu huang zhuan lou ti	100
 硫黄砖墙	liu huang zhuan qiang	100
+硫黄砖双层台阶	liu huang zhuan shuang ceng tai jie	100
 硫黄池	liu huang chi	100
+硫黄双层台阶	liu huang shuang ceng tai jie	100
 硫黄涌泉	liu huang yong quan	100
 流水	liu shui	100
 硫酸钡	liu suan bei	100
@@ -2513,6 +2745,7 @@ sort: by_weight
 链甲护腿	lian jia hu tui	100
 链甲胸甲	lian jia xiong jia	100
 链甲靴子	lian jia xue zi	100
+连接	lian jie	100
 连接的南瓜碇	lian jie de nan gua ding	100
 连接的西瓜碇	lian jie de xi gua ding	100
 连接嘅南瓜碇	lian jie kai nan gua ding	100
@@ -2530,7 +2763,10 @@ sort: by_weight
 凛冬之触	lin dong zhi chu	100
 林地	lin di	100
 林地府邸	lin di fu di	100
+林地府邸地图	lin di fu di di tu	100
+林地府邸探险家地图	lin di fu di tan xian jia di tu	100
 林地探险家地图	lin di tan xian jia di tu	100
+林地监狱	lin di jian yu	100
 林地宅邸	lin di zhai di	100
 凛冽战栗	lin lie zhan li	100
 鳞甲	lin jia	100
@@ -2623,6 +2859,9 @@ sort: by_weight
 绿色蜡烛	lv se la zhu	100
 绿色火把	lv se huo ba	100
 绿色混凝土	lv se hun ning tu	100
+绿色混凝土台阶	lv se hun ning tu tai jie	100
+绿色混凝土楼梯	lv se hun ning tu lou ti	100
+绿色混凝土双层台阶	lv se hun ning tu shuang ceng tai jie	100
 绿色气球	lv se qi qiu	100
 绿色旗帜	lv se qi zhi	100
 绿色潜影贝盒	lv se qian ying bei he	100
@@ -2633,9 +2872,13 @@ sort: by_weight
 绿色收纳袋	lv se shou na dai	100
 绿色染料	lv se ran liao	100
 绿色染色玻璃	lv se ran se bo li	100
+绿色坐垫	lv se zuo dian	100
 绿色彩绘玻璃	lv se cai hui bo li	100
 绿色烟花	lv se yan hua	100
 绿色羊毛	lv se yang mao	100
+绿色羊毛台阶	lv se yang mao tai jie	100
+绿色羊毛楼梯	lv se yang mao lou ti	100
+绿色羊毛双层台阶	lv se yang mao shuang ceng tai jie	100
 绿色有色玻璃	lv se you se bo li	100
 绿色荧光棒	lv se ying guang bang	100
 绿色挽具	lv se wan ju	100
@@ -2655,7 +2898,10 @@ sort: by_weight
 嘎枝刷怪蛋	ga zhi shua guai dan	100
 嘎枝苍白橡树	ga zhi cang bai xiang shu	100
 改变世界的更新	gai bian shi jie de geng xin	100
+概念图	gai nian tu	100
 概念艺术	gai nian yi shu	100
+概要	gai yao	100
+坩埚	gan guo	100
 干枯	gan ku	100
 干骷	gan ku	100
 干枯的下界幽魂	gan ku de xia jie you hun	100
@@ -2687,6 +2933,8 @@ sort: by_weight
 镐方块	gao fang kuai	100
 高大桦木丘陵	gao da hua mu qiu ling	100
 高大桦木森林	gao da hua mu sen lin	100
+高地护甲	gao di hu jia	100
+高地之斧	gao di zhi fu	100
 高度	gao du	100
 高度图	gao du tu	100
 高度限制	gao du xian zhi	100
@@ -2709,10 +2957,9 @@ sort: by_weight
 镐子	gao zi	100
 高草	gao cao	100
 高草丛	gao cao cong	100
+高速拆包机	gao su chai bao ji	100
 高压爬行者	gao ya pa xing zhe	100
 高压爬行者陷阱	gao ya pa xing zhe xian jing	100
-高原护甲	gao yuan hu jia	100
-高原之斧	gao yuan zhi fu	100
 疙瘩	ge da	100
 疙瘩块	ge da kuai	100
 格挡	ge dang	100
@@ -2721,6 +2968,7 @@ sort: by_weight
 咯菇	ge gu	100
 隔墙有眼	ge qiang you yan	100
 咯笑扫帚	ge xiao sao zhou	100
+格式版本	ge shi ban ben	100
 格式码	ge shi ma	100
 格式化	ge shi hua	100
 格式化代码	ge shi hua dai ma	100
@@ -2729,11 +2977,15 @@ sort: by_weight
 个人出生点	ge ren chu sheng dian	100
 个人资料	ge ren zi liao	100
 葛斯特纹样陶片	ge si te wen yang tao pian	100
+给力的药水	gei li de yao shui	100
 给工程添加美感	gei gong cheng tian jia mei gan	100
 跟随	gen sui	100
 耕地	geng di	100
 更新	geng xin	100
+更新版本	geng xin ban ben	100
+更新跳略	geng xin tiao lve	100
 更新类型	geng xin lei xing	100
+更新链	geng xin lian	100
 更新水域世界	geng xin shui yu shi jie	100
 更新日志	geng xin ri zhi	100
 更新抑制	geng xin yi zhi	100
@@ -2742,6 +2994,7 @@ sort: by_weight
 更衣室	geng yi shi	100
 共鸣果	gong ming guo	100
 共鸣花	gong ming hua	100
+供能	gong neng	100
 攻略	gong lve	100
 攻击	gong ji	100
 攻击冷却	gong ji leng que	100
@@ -2755,11 +3008,13 @@ sort: by_weight
 弓箭	gong jian	100
 弓箭手护甲	gong jian shou hu jia	100
 弓箭纹样陶片	gong jian wen yang tao pian	100
+工匠披风	gong jiang pi feng	100
 工具	gong ju	100
 工具配方	gong ju pei fang	100
 工具提示	gong ju ti shi	100
 工具耐久	gong ju nai jiu	100
 工具匠	gong ju jiang	100
+工具商	gong ju shang	100
 工具材料	gong ju cai liao	100
 工具与实用物品	gong ju yu shi yong wu pin	100
 共振	gong zhen	100
@@ -2787,6 +3042,7 @@ sort: by_weight
 谷冈久美	gu gang jiu mei	100
 谷歌彩蛋	gu ge cai dan	100
 骨弓	gu gong	100
+呱呱队出动	gu gu dui chu dong	100
 骨块	gu kuai	100
 古迹	gu ji	100
 古迹废墟	gu ji fei xu	100
@@ -2804,13 +3060,16 @@ sort: by_weight
 刮削纹样陶片	gua xiao wen yang tao pian	100
 刮擦纹样陶片	gua ca wen yang tao pian	100
 锅釜怪	guo fu guai	100
+过道	guo dao	100
 国际化	guo ji hua	100
 过期的烤马铃薯砖	guo qi de kao ma ling shu zhuan	100
 过期软件	guo qi ruan jian	100
 过氧化氢	guo yang hua qing	100
 过于昂贵	guo yu ang gui	100
+拐角	guai jiao	100
 怪人村民	guai ren cun min	100
 怪异的噪声	guai yi de zao sheng	100
+怪味蛋	guai wei dan	100
 怪物	guai wu	100
 怪物磨床	guai wu mo chuang	100
 怪物蛋	guai wu dan	100
@@ -2833,6 +3092,7 @@ sort: by_weight
 诡异木活板门	gui yi mu huo ban men	100
 诡异木展示架	gui yi mu zhan shi jia	100
 诡异木栅栏	gui yi mu shan lan	100
+诡异木双层台阶	gui yi mu shuang ceng tai jie	100
 诡异木压力板	gui yi mu ya li ban	100
 诡异木按钮	gui yi mu an niu	100
 诡异楼梯	gui yi lou ti	100
@@ -2867,6 +3127,8 @@ sort: by_weight
 管理员用品	guan li yuan yong pin	100
 关键艺术	guan jian yi shu	100
 冠军之甲	guan jun zhi jia	100
+官启	guan qi	100
+关卡	guan qia	100
 管状珊瑚	guan zhuang shan hu	100
 观察者	guan cha zhe	100
 管珊瑚	guan shan hu	100
@@ -2886,12 +3148,15 @@ sort: by_weight
 光线追踪	guang xian zhui zong	100
 光照	guang zhao	100
 光照等级	guang zhao deng ji	100
-光照透明方块	guang zhao tou ming fang kuai	100
+光照透明	guang zhao tou ming	100
+光照更新抑制	guang zhao geng xin yi zhi	100
+光照抑制	guang zhao yi zhi	100
 光柱	guang zhu	100
 光速船	guang su chuan	100
 光影	guang ying	100
 光源	guang yuan	100
 光源方块	guang yuan fang kuai	100
+咖啡豆	ka fei dou	100
 开发	kai fa	100
 开发版	kai fa ban	100
 开发版本	kai fa ban ben	100
@@ -2902,6 +3167,7 @@ sort: by_weight
 开发资源	kai fa zi yuan	100
 开放水域	kai fang shui yu	100
 开裂的铁砧	kai lie de tie zhen	100
+开垦荒地	kai ken huang di	100
 开阔水域	kai kuo shui yu	100
 开花的杜鹃树叶	kai hua de du juan shu ye	100
 开花嘅杜鹃花丛	kai hua kai du juan hua cong	100
@@ -2950,6 +3216,7 @@ sort: by_weight
 客户端选项文件格式	ke hu duan xuan xiang wen jian ge shi	100
 可解锁项目	ke jie suo xiang mu	100
 可抢夺物品表	ke qiang duo wu pin biao	100
+可下载内容	ke xia zai nei rong	100
 可修复物品	ke xiu fu wu pin	100
 可燃方块	ke ran fang kuai	100
 可再生	ke zai sheng	100
@@ -2972,6 +3239,7 @@ sort: by_weight
 可疑砂砾	ke yi sha li	100
 可疑沙子	ke yi sha zi	100
 渴望披风	ke wang pi feng	100
+恐怖怪声	kong bu guai sheng	100
 恐怖之杖	kong bu zhi zhang	100
 空房间	kong fang jian	100
 空岛	kong dao	100
@@ -2992,9 +3260,12 @@ sort: by_weight
 空气值	kong qi zhi	100
 空气阻力修正系数	kong qi zu li xiu zheng xi shu	100
 空箱子房间	kong xiang zi fang jian	100
+空中旋转砍砸机	kong zhong xuan zhuan kan za ji	100
 控制	kong zhi	100
 空置域	kong zhi yu	100
 口袋	kou dai	100
+扣下悬刀	kou xia xuan dao	100
+枯木	ku mu	100
 苦痛箭袋	ku tong jian dai	100
 骷髅	ku lou	100
 骷髅马	ku lou ma	100
@@ -3040,6 +3311,7 @@ sort: by_weight
 快乐的羊驼	kuai le de yang tuo	100
 快乐药水	kuai le yao shui	100
 快乐恶魂	kuai le e hun	100
+快活的药水	kuai huo de yao shui	100
 快捷栏	kuai jie lan	100
 快捷栏存储格式	kuai jie lan cun chu ge shi	100
 快捷聊天盘	kuai jie liao tian pan	100
@@ -3055,6 +3327,7 @@ sort: by_weight
 傀儡用具	kui lei yong ju	100
 盔甲	kui jia	100
 盔甲配方	kui jia pei fang	100
+盔甲模板	kui jia mu ban	100
 盔甲附魔	kui jia fu mo	100
 盔甲耐久	kui jia nai jiu	100
 盔甲掠夺者	kui jia lve duo zhe	100
@@ -3063,7 +3336,6 @@ sort: by_weight
 盔甲架	kui jia jia	100
 盔甲匠	kui jia jiang	100
 盔甲僵尸	kui jia jiang shi	100
-盔甲值	kui jia zhi	100
 盔甲商	kui jia shang	100
 盔甲韧性	kui jia ren xing	100
 盔甲材料	kui jia cai liao	100
@@ -3081,7 +3353,6 @@ sort: by_weight
 矿团	kuang tuan	100
 狂怒	kuang nu	100
 狂乱的鸡尾酒	kuang luan de ji wei jiu	100
-矿井	kuang jing	100
 矿境	kuang jing	100
 矿境合成台	kuang jing he cheng tai	100
 矿境回访器	kuang jing hui fang qi	100
@@ -3091,6 +3362,7 @@ sort: by_weight
 矿境原料	kuang jing yuan liao	100
 矿境物品	kuang jing wu pin	100
 矿车	kuang che	100
+矿车多物品	kuang che duo wu pin	100
 矿车改进	kuang che gai jin	100
 矿车储存	kuang che chu cun	100
 矿石	kuang shi	100
@@ -3101,6 +3373,7 @@ sort: by_weight
 矿物块	kuang wu kuai	100
 矿物砖	kuang wu zhuan	100
 矿物生成	kuang wu sheng cheng	100
+矿物原材料	kuang wu yuan cai liao	100
 海拔高度	hai ba gao du	100
 海报	hai bao	100
 海泡菜	hai pao cai	100
@@ -3116,6 +3389,8 @@ sort: by_weight
 海底废墟	hai di fei xu	100
 海底神庙	hai di shen miao	100
 海底神殿	hai di shen dian	100
+海底神殿地图	hai di shen dian di tu	100
+海底神殿探险家地图	hai di shen dian tan xian jia di tu	100
 海底遗迹	hai di yi ji	100
 海滩	hai tan	100
 海豚	hai tun	100
@@ -3148,8 +3423,10 @@ sort: by_weight
 海晶石砖板	hai jing shi zhuan ban	100
 海晶石砖块板	hai jing shi zhuan kuai ban	100
 海晶石砖块梯	hai jing shi zhuan kuai ti	100
+海晶石双层台阶	hai jing shi shuang ceng tai jie	100
 海晶碎片	hai jing sui pian	100
 海之眷顾	hai zhi juan gu	100
+还掷其身	hai zhi qi shen	100
 骇人更新	hai ren geng xin	100
 海草	hai cao	100
 海洋	hai yang	100
@@ -3181,9 +3458,11 @@ sort: by_weight
 含水层	han shui ceng	100
 寒霜獠牙	han shuang liao ya	100
 嚎风山巅	hao feng shan dian	100
+豪华版	hao hua ban	100
 号角	hao jiao	100
 耗尽的下界反应核	hao jin de xia jie fan ying he	100
 耗损嘅铁砧	hao sun kai tie zhen	100
+好友	hao you	100
 好友陶片	hao you tao pian	100
 和平	he ping	100
 和平模式	he ping mo shi	100
@@ -3225,10 +3504,12 @@ sort: by_weight
 黑石台阶	hei shi tai jie	100
 黑石楼梯	hei shi lou ti	100
 黑石墙	hei shi qiang	100
+黑石双层台阶	hei shi shuang ceng tai jie	100
 黑色马铃薯皮	hei se ma ling shu pi	100
 黑色带带釉陶瓦土	hei se dai dai you tao wa tu	100
 黑色带釉陶瓦	hei se dai you tao wa	100
 黑色地毯	hei se di tan	100
+黑色凋灵之首	hei se diao ling zhi shou	100
 黑色盾牌	hei se dun pai	100
 黑色陶瓦	hei se tao wa	100
 黑色蜡烛	hei se la zhu	100
@@ -3243,6 +3524,7 @@ sort: by_weight
 黑色收纳袋	hei se shou na dai	100
 黑色染料	hei se ran liao	100
 黑色染色玻璃	hei se ran se bo li	100
+黑色坐垫	hei se zuo dian	100
 黑色彩绘玻璃	hei se cai hui bo li	100
 黑色羊毛	hei se yang mao	100
 黑色有色玻璃	hei se you se bo li	100
@@ -3259,6 +3541,7 @@ sort: by_weight
 黑曜石生产器	hei yao shi sheng chan qi	100
 黑暗	hei an	100
 横幅	heng fu	100
+亨利	heng li	100
 横扫	heng sao	100
 横扫攻击	heng sao gong ji	100
 横扫之刃	heng sao zhi ren	100
@@ -3266,13 +3549,17 @@ sort: by_weight
 红宝石	hong bao shi	100
 红宝石矿石	hong bao shi kuang shi	100
 烘焙模型	hong bei mo xing	100
+红标	hong biao	100
 红苹果	hong ping guo	100
 红蘑菇	hong mo gu	100
 红蘑菇方块	hong mo gu fang kuai	100
+红木	hong mu	100
 红木悬挂式告示牌	hong mu xuan gua shi gao shi pai	100
 红木森林	hong mu sen lin	100
 红土大陆	hong tu da lu	100
 红龙	hong long	100
+红灌木	hong guan mu	100
+红灌木丛	hong guan mu cong	100
 宏函数	hong han shu	100
 红虎斑猫	hong hu ban mao	100
 红砖	hong zhuan	100
@@ -3282,6 +3569,7 @@ sort: by_weight
 红砖块金字塔	hong zhuan kuai jin zi ta	100
 红砖金字塔	hong zhuan jin zi ta	100
 红砖墙	hong zhuan qiang	100
+红砖双层台阶	hong zhuan shuang ceng tai jie	100
 红唇鳚鱼	hong chun wei yu	100
 红床	hong chuang	100
 红沙	hong sha	100
@@ -3293,9 +3581,11 @@ sort: by_weight
 红砂岩楼梯	hong sha yan lou ti	100
 红沙岩墙	hong sha yan qiang	100
 红砂岩墙	hong sha yan qiang	100
+红砂岩双层台阶	hong sha yan shuang ceng tai jie	100
 红蛇	hong she	100
 红石	hong shi	100
 红石比较器	hong shi bi jiao qi	100
+红石飞行器	hong shi fei xing qi	100
 红石粉	hong shi fen	100
 红石粉断路上升沿感应器	hong shi fen duan lu shang sheng yan gan ying qi	100
 红石粉断路双边沿感应器	hong shi fen duan lu shuang bian yan gan ying qi	100
@@ -3303,6 +3593,7 @@ sort: by_weight
 红石导体	hong shi dao ti	100
 红石灯	hong shi deng	100
 红石电路	hong shi dian lu	100
+红石铁轨	hong shi tie gui	100
 红石图例	hong shi tu li	100
 红石高频	hong shi gao pin	100
 红石更新	hong shi geng xin	100
@@ -3330,9 +3621,11 @@ sort: by_weight
 红石时钟	hong shi shi zhong	100
 红石时钟电报机	hong shi shi zhong dian bao ji	100
 红石实验性内容	hong shi shi yan xing nei rong	100
+红石术语	hong shi shu yu	100
 红石音乐	hong shi yin yue	100
 红石元件	hong shi yuan jian	100
 红树	hong shu	100
+红树苗	hong shu miao	100
 红树木	hong shu mu	100
 红树木板	hong shu mu ban	100
 红树木门	hong shu mu men	100
@@ -3352,6 +3645,7 @@ sort: by_weight
 红树木栅栏门	hong shu mu shan lan men	100
 红树木栅栏大门	hong shu mu shan lan da men	100
 红树木树叶	hong shu mu shu ye	100
+红树木双层台阶	hong shu mu shuang ceng tai jie	100
 红树木压力板	hong shu mu ya li ban	100
 红树木原木	hong shu mu yuan mu	100
 红树木运输船	hong shu mu yun shu chuan	100
@@ -3391,8 +3685,12 @@ sort: by_weight
 红色盾牌	hong se dun pai	100
 红色陶瓦	hong se tao wa	100
 红色蜡烛	hong se la zhu	100
+红色灌木	hong se guan mu	100
 红色火把	hong se huo ba	100
 红色混凝土	hong se hun ning tu	100
+红色混凝土台阶	hong se hun ning tu tai jie	100
+红色混凝土楼梯	hong se hun ning tu lou ti	100
+红色混凝土双层台阶	hong se hun ning tu shuang ceng tai jie	100
 红色气球	hong se qi qiu	100
 红色旗帜	hong se qi zhi	100
 红色潜影贝盒	hong se qian ying bei he	100
@@ -3411,15 +3709,23 @@ sort: by_weight
 红色收纳袋	hong se shou na dai	100
 红色染料	hong se ran liao	100
 红色染色玻璃	hong se ran se bo li	100
+红色坐垫	hong se zuo dian	100
 红色彩绘玻璃	hong se cai hui bo li	100
 红色烟花	hong se yan hua	100
 红色羊毛	hong se yang mao	100
+红色羊毛台阶	hong se yang mao tai jie	100
+红色羊毛楼梯	hong se yang mao lou ti	100
+红色羊毛双层台阶	hong se yang mao shuang ceng tai jie	100
+红色杨树树叶	hong se yang shu shu ye	100
 红色钥匙	hong se yao shi	100
 红色有色玻璃	hong se you se bo li	100
 红色荧光棒	hong se ying guang bang	100
 红色郁金香	hong se yu jin xiang	100
 红色挽具	hong se wan ju	100
+猴面包树	hou mian bao shu	100
 后期创造	hou qi chuang zao	100
+后处理管线	hou chu li guan xian	100
+后处理效果	hou chu li xiao guo	100
 虎斑猫	hu ban mao	100
 湖泊	hu po	100
 琥珀宝石	hu po bao shi	100
@@ -3427,7 +3733,9 @@ sort: by_weight
 琥珀块	hu po kuai	100
 琥珀鸡	hu po ji	100
 琥珀砖	hu po zhuan	100
+狐獴	hu meng	100
 互动箱	hu dong xiang	100
+互动式地图	hu dong shi di tu	100
 蝴蝶弩	hu die nu	100
 护盾	hu dun	100
 护盾图腾	hu dun tu teng	100
@@ -3459,6 +3767,9 @@ sort: by_weight
 花猫	hua mao	100
 桦木	hua mu	100
 桦木森林	hua mu sen lin	100
+桦木森林废弃营地地图	hua mu sen lin fei qi ying di di tu	100
+桦木森林丘陵	hua mu sen lin qiu ling	100
+桦木森林营地地图	hua mu sen lin ying di di tu	100
 花朵盾徽	hua duo dun hui	100
 花朵盾徽旗帜图案	hua duo dun hui qi zhi tu an	100
 花朵图案旗帜图案	hua duo tu an qi zhi tu an	100
@@ -3468,16 +3779,20 @@ sort: by_weight
 华丽的羽毛	hua li de yu mao	100
 华丽鸡	hua li ji	100
 华丽长袍	hua li chang pao	100
+华丽一剪	hua li yi jian	100
 华丽羽毛	hua li yu mao	100
 花岗岩	hua gang yan	100
 花岗岩板	hua gang yan ban	100
 花岗岩台阶	hua gang yan tai jie	100
 花岗岩楼梯	hua gang yan lou ti	100
 花岗岩墙	hua gang yan qiang	100
+花岗岩双层台阶	hua gang yan shuang ceng tai jie	100
 化合物	hua he wu	100
 化合物建立器	hua he wu jian li qi	100
 化合物创建器	hua he wu chuang jian qi	100
+花俏的药水	hua qiao de yao shui	100
 滑翔	hua xiang	100
+滑翔小游戏原声带	hua xiang xiao you xi yuan sheng dai	100
 滑翔翅	hua xiang chi	100
 化学	hua xue	100
 化学方块	hua xue fang kuai	100
@@ -3502,6 +3817,7 @@ sort: by_weight
 火把花植株	huo ba hua zhi zhu	100
 活板门	huo ban men	100
 活板门利用	huo ban men li yong	100
+活泼的药水	huo po de yao shui	100
 或非门下降沿感应器	huo fei men xia jiang yan gan ying qi	100
 火弹	huo dan	100
 获得经验	huo de jing yan	100
@@ -3524,6 +3840,7 @@ sort: by_weight
 火矢	huo shi	100
 活塞	huo sai	100
 活塞臂	huo sai bi	100
+活塞门	huo sai men	100
 活塞非门	huo sai fei men	100
 活塞复位置位锁存器	huo sai fu wei zhi wei suo cun qi	100
 活塞吊桥	huo sai diao qiao	100
@@ -3546,6 +3863,8 @@ sort: by_weight
 火焰弹	huo yan dan	100
 火焰伤害	huo yan shang hai	100
 火药	huo yao	100
+火药塔	huo yao ta	100
+坏了	huai le	100
 坏预兆	huai yu zhao	100
 灰白牛	hui bai niu	100
 汇报漏洞	hui bao lou dong	100
@@ -3563,9 +3882,11 @@ sort: by_weight
 回击	hui ji	100
 灰烬长袍	hui jin chang pao	100
 会心一击	hui xin yi ji	100
+回响	hui xiang	100
 回响碎片	hui xiang sui pian	100
 回血	hui xue	100
 灰床	hui chuang	100
+回声	hui sheng	100
 回收	hui shou	100
 灰色马铃薯皮	hui se ma ling shu pi	100
 灰色带带釉陶瓦土	hui se dai dai you tao wa tu	100
@@ -3585,6 +3906,7 @@ sort: by_weight
 灰色收纳袋	hui se shou na dai	100
 灰色染料	hui se ran liao	100
 灰色染色玻璃	hui se ran se bo li	100
+灰色坐垫	hui se zuo dian	100
 灰色彩绘玻璃	hui se cai hui bo li	100
 灰色羊毛	hui se yang mao	100
 灰色有色玻璃	hui se you se bo li	100
@@ -3611,6 +3933,7 @@ sort: by_weight
 环境音效	huan jing yin xiao	100
 幻术师	huan shu shi	100
 幻翼	huan yi	100
+幻翼披风	huan yi pi feng	100
 幻翼膜	huan yi mo	100
 幻翼防护	huan yi fang hu	100
 幻翼护甲	huan yi hu jia	100
@@ -3623,12 +3946,18 @@ sort: by_weight
 混搭包	hun da bao	100
 混沌方块	hun dun fang kuai	100
 混沌立方	hun dun li fang	100
+混沌立方原声带	hun dun li fang yuan sheng dai	100
 混凝土	hun ning tu	100
 混凝土粉末	hun ning tu fen mo	100
+混凝土台阶	hun ning tu tai jie	100
+混凝土楼梯	hun ning tu lou ti	100
+混凝土双层台阶	hun ning tu shuang ceng tai jie	100
 混乱坐骑	hun luan zuo qi	100
 混淆映射表	hun xiao ying she biao	100
 浑浊的药水	hun zhuo de yao shui	100
+混杂打包机	hun za da bao ji	100
 昏暗丛林	hun an cong lin	100
+黄标	huang biao	100
 荒地	huang di	100
 黄绿床	huang lv chuang	100
 黄绿色马铃薯皮	huang lv se ma ling shu pi	100
@@ -3638,6 +3967,9 @@ sort: by_weight
 黄绿色陶瓦	huang lv se tao wa	100
 黄绿色蜡烛	huang lv se la zhu	100
 黄绿色混凝土	huang lv se hun ning tu	100
+黄绿色混凝土台阶	huang lv se hun ning tu tai jie	100
+黄绿色混凝土楼梯	huang lv se hun ning tu lou ti	100
+黄绿色混凝土双层台阶	huang lv se hun ning tu shuang ceng tai jie	100
 黄绿色气球	huang lv se qi qiu	100
 黄绿色旗帜	huang lv se qi zhi	100
 黄绿色潜影盒	huang lv se qian ying he	100
@@ -3646,15 +3978,21 @@ sort: by_weight
 黄绿色收纳袋	huang lv se shou na dai	100
 黄绿色染料	huang lv se ran liao	100
 黄绿色染色玻璃	huang lv se ran se bo li	100
+黄绿色坐垫	huang lv se zuo dian	100
 黄绿色色带带釉陶瓦土	huang lv se se dai dai you tao wa tu	100
 黄绿色色带釉陶瓦	huang lv se se dai you tao wa	100
 黄绿色羊毛	huang lv se yang mao	100
+黄绿色羊毛台阶	huang lv se yang mao tai jie	100
+黄绿色羊毛楼梯	huang lv se yang mao lou ti	100
+黄绿色羊毛双层台阶	huang lv se yang mao shuang ceng tai jie	100
 黄绿色有色玻璃	huang lv se you se bo li	100
 黄绿色荧光棒	huang lv se ying guang bang	100
 黄绿色挽具	huang lv se wan ju	100
 黄花	huang hua	100
+皇家披风	huang jia pi feng	100
 皇家守卫	huang jia shou wei	100
 黄金	huang jin	100
+黄金蒲公英	huang jin pu gong ying	100
 黄金马铠	huang jin ma kai	100
 黄金斧	huang jin fu	100
 黄金锭	huang jin ding	100
@@ -3674,6 +4012,9 @@ sort: by_weight
 黄色陶瓦	huang se tao wa	100
 黄色蜡烛	huang se la zhu	100
 黄色混凝土	huang se hun ning tu	100
+黄色混凝土台阶	huang se hun ning tu tai jie	100
+黄色混凝土楼梯	huang se hun ning tu lou ti	100
+黄色混凝土双层台阶	huang se hun ning tu shuang ceng tai jie	100
 黄色气球	huang se qi qiu	100
 黄色旗帜	huang se qi zhi	100
 黄色潜影贝盒	huang se qian ying bei he	100
@@ -3684,13 +4025,19 @@ sort: by_weight
 黄色收纳袋	huang se shou na dai	100
 黄色染料	huang se ran liao	100
 黄色染色玻璃	huang se ran se bo li	100
+黄色坐垫	huang se zuo dian	100
 黄色彩绘玻璃	huang se cai hui bo li	100
 黄色羊毛	huang se yang mao	100
+黄色羊毛台阶	huang se yang mao tai jie	100
+黄色羊毛楼梯	huang se yang mao lou ti	100
+黄色羊毛双层台阶	huang se yang mao shuang ceng tai jie	100
+黄色杨树树叶	huang se yang shu shu ye	100
 黄色钥匙	huang se yao shi	100
 黄色有色玻璃	huang se you se bo li	100
 黄色荧光棒	huang se ying guang bang	100
 黄色挽具	huang se wan ju	100
 荒野更新	huang ye geng xin	100
+荒野更新原声带	huang ye geng xin yuan sheng dai	100
 荒野盔甲纹饰	huang ye kui jia wen shi	100
 荒野纹饰盔甲	huang ye wen shi kui jia	100
 黄尾鹦嘴鱼	huang wei ying zui yu	100
@@ -3715,6 +4062,7 @@ sort: by_weight
 记分板存储格式	ji fen ban cun chu ge shi	100
 击打	ji da	100
 鸡蛋	ji dan	100
+极端特殊值的方块	ji duan te shu zhi de fang kuai	100
 击退	ji tui	100
 击退攻击	ji tui gong ji	100
 击退抗性	ji tui kang xing	100
@@ -3722,19 +4070,25 @@ sort: by_weight
 计量单位	ji liang dan wei	100
 记录命令方块输出	ji lu ming ling fang kuai shu chu	100
 激光	ji guang	100
+极光披风	ji guang pi feng	100
 脊寒矛	ji han mao	100
+极寒之噬	ji han zhi shi	100
 集合谓词	ji he wei ci	100
 计划版本	ji hua ban ben	100
 计划刻	ji hua ke	100
 计划刻格式	ji hua ke ge shi	100
 计划事件存储格式	ji hua shi jian cun chu ge shi	100
+激活	ji huo	100
 激活的下界反应核	ji huo de xia jie fan ying he	100
 激活铁轨	ji huo tie gui	100
 激活器铁轨	ji huo qi tie gui	100
+激活参数	ji huo can shu	100
+集会	ji hui	100
 集结号令	ji jie hao ling	100
 季节性森林	ji jie xing sen lin	100
 鸡骑士	ji qi shi	100
 棘巧试炼	ji qiao shi lian	100
+棘巧试炼原声带	ji qiao shi lian yuan sheng dai	100
 技巧与陷阱	ji qiao yu xian jing	100
 集群生成	ji qun sheng cheng	100
 机械	ji xie	100
@@ -3760,6 +4114,7 @@ sort: by_weight
 积雪山坡	ji xue shan po	100
 积雪生物群系	ji xue sheng wu qun xi	100
 机制	ji zhi	100
+集成服务端	ji cheng fu wu duan	100
 集成显卡	ji cheng xian ka	100
 计程车距离	ji cheng che ju li	100
 基础近战攻击力	ji chu jin zhan gong ji li	100
@@ -3773,6 +4128,7 @@ sort: by_weight
 鸡刷怪蛋	ji shua guai dan	100
 鸡肉	ji rou	100
 鸡肉农场	ji rou nong chang	100
+疾走	ji zou	100
 棘刺	ji ci	100
 急速	ji su	100
 计算器	ji suan qi	100
@@ -3834,6 +4190,7 @@ sort: by_weight
 基岩农场	ji yan nong chang	100
 基岩下方	ji yan xia fang	100
 基岩层	ji yan ceng	100
+基岩引擎	ji yan yin qing	100
 记忆电路	ji yi dian lu	100
 鸡音效变种定义格式	ji yin xiao bian zhong ding yi ge shi	100
 饥饿	ji e	100
@@ -3844,6 +4201,7 @@ sort: by_weight
 饥饿值	ji e zhi	100
 家庭披风	jia ting pi feng	100
 佳酿纹样陶片	jia niang wen yang tao pian	100
+架构格式	jia gou ge shi	100
 家具	jia ju	100
 假区块	jia qu kuai	100
 家畜	jia chu	100
@@ -3856,11 +4214,14 @@ sort: by_weight
 假日更新	jia ri geng xin	100
 假日创造者	jia ri chuang zao zhe	100
 加载	jia zai	100
+加载等级	jia zai deng ji	100
 加载提示	jia zai ti shi	100
 加载界面	jia zai jie mian	100
+加载器	jia zai qi	100
 加载区块	jia zai qu kuai	100
 加载资源包	jia zai zi yuan bao	100
 架子	jia zi	100
+架子蘑菇	jia zi mo gu	100
 加速	jia su	100
 加速度	jia su du	100
 家园披风	jia yuan pi feng	100
@@ -3879,6 +4240,8 @@ sort: by_weight
 劫掠兽	jie lve shou	100
 劫掠兽刷怪蛋	jie lve shou shua guai dan	100
 结构	jie gou	100
+结构标签	jie gou biao qian	100
+结构变更历史	jie gou bian geng li shi	100
 结构片段	jie gou pian duan	100
 结构片段保存格式	jie gou pian duan bao cun ge shi	100
 结构模板	jie gou mu ban	100
@@ -3941,8 +4304,10 @@ sort: by_weight
 交易平衡	jiao yi ping heng	100
 交易集	jiao yi ji	100
 交易集定义格式	jiao yi ji ding yi ge shi	100
+交易集定义文件	jiao yi ji ding yi wen jian	100
 交易所	jiao yi suo	100
 脚印	jiao yin	100
+教育	jiao yu	100
 教育版	jiao yu ban	100
 教育版版本记录	jiao yu ban ban ben ji lu	100
 教育版编程一小时	jiao yu ban bian cheng yi xiao shi	100
@@ -3956,6 +4321,7 @@ sort: by_weight
 旧版自定义	jiu ban zi ding yi	100
 旧版村民	jiu ban cun min	100
 旧版村庄	jiu ban cun zhuang	100
+旧貌锻新颜	jiu mao duan xin yan	100
 旧的	jiu de	100
 旧的切石机	jiu de qie shi ji	100
 旧矿物图表	jiu kuang wu tu biao	100
@@ -3992,6 +4358,7 @@ sort: by_weight
 建筑方块	jian zhu fang kuai	100
 建筑方块配方	jian zhu fang kuai pei fang	100
 建筑高度	jian zhu gao du	100
+建筑者角	jian zhu zhe jiao	100
 建筑术语	jian zhu shu yu	100
 监守	jian shou	100
 监守盔甲纹饰	jian shou kui jia wen shi	100
@@ -4009,6 +4376,7 @@ sort: by_weight
 建造居住地	jian zao ju zhu di	100
 建造信息	jian zao xin xi	100
 建造者	jian zao zhe	100
+建造者披风	jian zao zhe pi feng	100
 建造水建筑	jian zao shui jian zhu	100
 建造游轮	jian zao you lun	100
 建造微型庇护所	jian zao wei xing bi hu suo	100
@@ -4059,6 +4427,7 @@ sort: by_weight
 金合欢木展示架	jin he huan mu zhan shi jia	100
 金合欢木船	jin he huan mu chuan	100
 金合欢木栅栏	jin he huan mu shan lan	100
+金合欢木双层台阶	jin he huan mu shuang ceng tai jie	100
 金合欢木压板	jin he huan mu ya ban	100
 金合欢木压力板	jin he huan mu ya li ban	100
 金合欢木运输船	jin he huan mu yun shu chuan	100
@@ -4071,6 +4440,7 @@ sort: by_weight
 金合欢原木	jin he huan yuan mu	100
 金护腿	jin hu tui	100
 金胡萝卜	jin hu luo bo	100
+金黄蒲公英	jin huang pu gong ying	100
 金剑	jin jian	100
 金奖杯	jin jiang bei	100
 金锹	jin qiao	100
@@ -4118,6 +4488,7 @@ sort: by_weight
 僵尸	jiang shi	100
 僵尸马	jiang shi ma	100
 僵尸马披风	jiang shi ma pi feng	100
+僵尸马骑士	jiang shi ma qi shi	100
 僵尸马刷怪蛋	jiang shi ma shua guai dan	100
 僵尸的头	jiang shi de tou	100
 僵尸头	jiang shi tou	100
@@ -4149,11 +4520,14 @@ sort: by_weight
 荆棘方块	jing ji fang kuai	100
 惊喜礼物	jing xi li wu	100
 经修	jing xiu	100
-镜像站	jing xiang zhan	100
+精修细补	jing xiu xi bu	100
+镜像楼梯	jing xiang lou ti	100
 精选服务器	jing xuan fu wu qi	100
+精致的药水	jing zhi de yao shui	100
 精制台	jing zhi tai	100
 精准采集	jing zhun cai ji	100
 精神焕发	jing shen huan fa	100
+惊悚恐怖骷髅头	jing song kong bu ku lou tou	100
 竞速破关	jing su po guan	100
 经验	jing yan	100
 经验瓶	jing yan ping	100
@@ -4196,10 +4570,12 @@ sort: by_weight
 巨型云杉针叶林	ju xing yun shan zhen ye lin	100
 拒之门外	ju zhi men wai	100
 居住区	ju zhu qu	100
+居住区和屋顶	ju zhu qu he wu ding	100
 举巢搬迁	ju chao ban qian	100
 举手陶片	ju shou tao pian	100
 巨人	ju ren	100
 聚乙烯	ju yi xi	100
+局域网	ju yu wang	100
 局域网联机	ju yu wang lian ji	100
 局域网连接	ju yu wang lian jie	100
 菌柄	jun bing	100
@@ -4225,6 +4601,7 @@ sort: by_weight
 气泡柱	qi pao zhu	100
 气泡珊瑚	qi pao shan hu	100
 气泡珊瑚扇	qi pao shan hu shan	100
+七到八层走廊	qi dao ba ceng zou lang	100
 启动器	qi dong qi	100
 启动器版本记录	qi dong qi ban ben ji lu	100
 启动器配置文件格式	qi dong qi pei zhi wen jian ge shi	100
@@ -4247,11 +4624,13 @@ sort: by_weight
 起床战争	qi chuang zhan zheng	100
 骑手	qi shou	100
 骑士	qi shi	100
+起始楼梯	qi shi lou ti	100
 旗子	qi zi	100
 弃用的铁砧	qi yong de tie zhen	100
 企鹅	qi e	100
 奇厄教主	qi e jiao zhu	100
 切比雪夫	qie bi xue fu	100
+切门	qie men	100
 切毒马铃薯机	qie du ma ling shu ji	100
 切割红沙岩	qie ge hong sha yan	100
 切割沙岩	qie ge sha yan	100
@@ -4260,6 +4639,7 @@ sort: by_weight
 切制铜台阶	qie zhi tong tai jie	100
 切制铜楼梯	qie zhi tong lou ti	100
 切制铜块	qie zhi tong kuai	100
+切制铜双层台阶	qie zhi tong shuang ceng tai jie	100
 切制涂蜡铜楼梯	qie zhi tu la tong lou ti	100
 切制涂蜡铜块	qie zhi tu la tong kuai	100
 切制红沙岩	qie zhi hong sha yan	100
@@ -4270,17 +4650,20 @@ sort: by_weight
 切石机	qie shi ji	100
 窃贼之甲	qie zei zhi jia	100
 峭壁	qiao bi	100
+桥梁	qiao liang	100
 桥间楼梯	qiao jian lou ti	100
 翘曲悬挂告示牌	qiao qu xuan gua gao shi pai	100
 鞘翅	qiao chi	100
 球体旗帜样式	qiu ti qi zhi yang shi	100
 丘陵	qiu ling	100
+秋季小更新	qiu ji xiao geng xin	100
 犰甲狼兵	qiu jia lang bing	100
 求真者	qiu zhen zhe	100
 犰狳	qiu yu	100
 犰狳鳞甲	qiu yu lin jia	100
 犰狳号	qiu yu hao	100
 犰狳刷怪蛋	qiu yu shua guai dan	100
+求爱模式	qiu ai mo shi	100
 潜匿之贝	qian ni zhi bei	100
 浅蓝色盾牌	qian lan se dun pai	100
 浅灰色盾牌	qian hui se dun pai	100
@@ -4297,6 +4680,7 @@ sort: by_weight
 潜声催化剂	qian sheng cui hua ji	100
 茜草花	qian cao hua	100
 茜草花盆栽	qian cao hua pen zai	100
+前三层走廊	qian san ceng zou lang	100
 浅色	qian se	100
 浅色苔藓块	qian se tai xian kuai	100
 浅色橡木门	qian se xiang mu men	100
@@ -4332,10 +4716,12 @@ sort: by_weight
 潜影盒	qian ying he	100
 潜影盒储存	qian ying he chu cun	100
 潜影箱	qian ying xiang	100
+侵蚀变种	qin shi bian zhong	100
 墙壁	qiang bi	100
 墙壁和桥墩	qiang bi he qiao dun	100
 抢夺	qiang duo	100
 强力马铃薯	qiang li ma ling shu	100
+强力硫黄	qiang li liu huang	100
 强力摇动者	qiang li yao dong zhe	100
 强化白色染色玻璃	qiang hua bai se ran se bo li	100
 强化玻璃	qiang hua bo li	100
@@ -4418,6 +4804,7 @@ sort: by_weight
 墙上的悬挂式深色橡木告示牌	qiang shang de xuan gua shi shen se xiang mu gao shi pai	100
 墙上的悬挂式苍白橡木告示牌	qiang shang de xuan gua shi cang bai xiang mu gao shi pai	100
 墙上的悬挂式丛林木告示牌	qiang shang de xuan gua shi cong lin mu gao shi pai	100
+墙上的悬挂式杨木告示牌	qiang shang de xuan gua shi yang mu gao shi pai	100
 墙上的悬挂式樱花木告示牌	qiang shang de xuan gua shi ying hua mu gao shi pai	100
 墙上的悬挂式云杉木告示牌	qiang shang de xuan gua shi yun sha mu gao shi pai	100
 墙上的猪灵的头	qiang shang de zhu ling de tou	100
@@ -4445,6 +4832,7 @@ sort: by_weight
 墙上的死亡管珊瑚扇	qiang shang de si wang guan shan hu shan	100
 墙上的死亡火珊瑚扇	qiang shang de si wang huo shan hu shan	100
 墙上的死亡气泡珊瑚扇	qiang shang de si wang qi pao shan hu shan	100
+墙上的杨木告示牌	qiang shang de yang mu gao shi pai	100
 墙上的樱花木告示牌	qiang shang de ying hua mu gao shi pai	100
 墙上的云杉木告示牌	qiang shang de yun sha mu gao shi pai	100
 墙上的玩家的头	qiang shang de wan jia de tou	100
@@ -4509,6 +4897,7 @@ sort: by_weight
 青绿色染色玻璃	qing lv se ran se bo li	100
 青绿色彩绘玻璃	qing lv se cai hui bo li	100
 青绿色羊毛	qing lv se yang mao	100
+轻功雪上飘	qing gong xue shang piao	100
 青花	qing hua	100
 氢化钠	qing hua na	100
 氢化锂	qing hua li	100
@@ -4520,6 +4909,7 @@ sort: by_weight
 轻型	qing xing	100
 轻型测重压板	qing xing ce zhong ya ban	100
 轻质测重压力板	qing zhi ce zhong ya li ban	100
+清澈的药水	qing che de yao shui	100
 清除	qing chu	100
 青床	qing chuang	100
 轻身落	qing shen luo	100
@@ -4542,6 +4932,7 @@ sort: by_weight
 青色收纳袋	qing se shou na dai	100
 青色染料	qing se ran liao	100
 青色染色玻璃	qing se ran se bo li	100
+青色坐垫	qing se zuo dian	100
 青色羊毛	qing se yang mao	100
 青色有色玻璃	qing se you se bo li	100
 青色荧光棒	qing se ying guang bang	100
@@ -4557,6 +4948,9 @@ sort: by_weight
 去皮	qu pi	100
 去皮白桦木	qu pi bai hua mu	100
 去皮白桦原木	qu pi bai hua yuan mu	100
+去皮白杨木	qu pi bai yang mu	100
+去皮白杨树原木	qu pi bai yang shu yuan mu	100
+去皮白杨原木	qu pi bai yang yuan mu	100
 去皮木	qu pi mu	100
 去皮木头	qu pi mu tou	100
 去皮绯红菌柄	qu pi fei hong jun bing	100
@@ -4599,6 +4993,8 @@ sort: by_weight
 去皮苍白橡树原木	qu pi cang bai xiang shu yuan mu	100
 去皮丛林木	qu pi cong lin mu	100
 去皮丛林原木	qu pi cong lin yuan mu	100
+去皮杨木	qu pi yang mu	100
+去皮杨木原木	qu pi yang mu yuan mu	100
 去皮樱花木	qu pi ying hua mu	100
 去皮樱花树木头	qu pi ying hua shu mu tou	100
 去皮樱花树原木	qu pi ying hua shu yuan mu	100
@@ -4611,6 +5007,7 @@ sort: by_weight
 趋同事项	qu tong shi xiang	100
 区块	qu kuai	100
 区块标签存储格式	qu kuai biao qian cun chu ge shi	100
+区块同步	qu kuai tong bu	100
 区块格式	qu kuai ge shi	100
 区块刻	qu kuai ke	100
 区块加载	qu kuai jia zai	100
@@ -4635,14 +5032,19 @@ sort: by_weight
 全球资源套件	quan qiu zi yuan tao jian	100
 权限	quan xian	100
 权限等级	quan xian deng ji	100
+全维度平坦	quan wei du ping tan	100
 全物品	quan wu pin	100
 群狼聚首	qun lang ju shou	100
 群骑纷争	qun qi fen zheng	100
 群系	qun xi	100
 雀斑兔子	que ban tu zi	100
 缺口	que kou	100
+稀薄的药水	xi bo de yao shui	100
+汐浮	xi fu	100
+隙浮	xi fu	100
 西服猫	xi fu mao	100
 西南规则	xi nan gui ze	100
+希腊神话原声带	xi la shen hua yuan sheng dai	100
 西瓜	xi gua	100
 西瓜片	xi gua pian	100
 西瓜碇	xi gua ding	100
@@ -4660,8 +5062,10 @@ sort: by_weight
 袭击塔	xi ji ta	100
 袭击农场	xi ji nong chang	100
 袭击小队	xi ji xiao dui	100
+袭击者	xi ji zhe	100
 袭击之兆	xi ji zhi zhao	100
 袭击存储格式	xi ji cun chu ge shi	100
+袭击存储文件	xi ji cun chu wen jian	100
 吸血	xi xue	100
 细雪	xi xue	100
 细雪桶	xi xue tong	100
@@ -4679,6 +5083,7 @@ sort: by_weight
 下落的方块	xia luo de fang kuai	100
 下落高度	xia luo gao du	100
 峡谷	xia gu	100
+夏季小更新	xia ji xiao geng xin	100
 下界	xia jie	100
 下界堡垒	xia jie bao lei	100
 下界门	xia jie men	100
@@ -4689,6 +5094,7 @@ sort: by_weight
 下界反应器	xia jie fan ying qi	100
 下界塔	xia jie ta	100
 下界更新	xia jie geng xin	100
+下界更新原声带	xia jie geng xin yuan sheng dai	100
 下界可获取资源	xia jie ke huo qu zi yuan	100
 下界快速旅行	xia jie kuai su lv xing	100
 下界合金	xia jie he jin	100
@@ -4713,6 +5119,7 @@ sort: by_weight
 下界砖块块	xia jie zhuan kuai kuai	100
 下界砖墙	xia jie zhuan qiang	100
 下界砖栅栏	xia jie zhuan zha lan	100
+下界砖双层台阶	xia jie zhuan shuang ceng tai jie	100
 下界传送门	xia jie chuan song men	100
 下界生存	xia jie sheng cun	100
 下界石英	xia jie shi ying	100
@@ -4730,10 +5137,12 @@ sort: by_weight
 下雪	xia xue	100
 下载	xia zai	100
 下载缓存目录	xia zai huan cun mu lu	100
+下一世代	xia yi shi dai	100
 下雨	xia yu	100
 携带版	xie dai ban	100
 携带版版本历史	xie dai ban ban ben li shi	100
 携带版版本记录	xie dai ban ban ben ji lu	100
+携带版服务器协议	xie dai ban fu wu qi xie yi	100
 携带版服务器软件	xie dai ban fu wu qi ruan jian	100
 携带版独有特性	xie dai ban du you te xing	100
 携带版提及特性	xie dai ban ti ji te xing	100
@@ -4756,6 +5165,7 @@ sort: by_weight
 小麦种植	xiao mai zhong zhi	100
 小麦种子	xiao mai zhong zi	100
 小麦植株	xiao mai zhi zhu	100
+小麦床	xiao mai chuang	100
 小猫	xiao mao	100
 小房间	xiao fang jian	100
 笑到最后	xiao dao zui hou	100
@@ -4779,6 +5189,7 @@ sort: by_weight
 小径废墟	xiao jing fei xu	100
 消歧义	xiao qi yi	100
 小窍门	xiao qiao men	100
+小小嗅探兽	xiao xiao xiu tan shou	100
 小型	xiao xing	100
 小型房屋	xiao xing fang wu	100
 小型盔甲架	xiao xing kui jia jia	100
@@ -4787,6 +5198,7 @@ sort: by_weight
 小型珍异橡树	xiao xing zhen yi xiang shu	100
 小型垂滴叶	xiao xing chui di ye	100
 小型紫晶芽	xiao xing zi jing ya	100
+小型疣猪兽棚	xiao xing you zhu shou peng	100
 小丑鱼	xiao chou yu	100
 小垂滴叶	xiao chui di ye	100
 小船	xiao chuan	100
@@ -4847,6 +5259,7 @@ sort: by_weight
 锈蚀的切制铜台阶	xiu shi de qie zhi tong tai jie	100
 锈蚀的切制铜楼梯	xiu shi de qie zhi tong lou ti	100
 锈蚀的切制铜块	xiu shi de qie zhi tong kuai	100
+锈蚀的切制铜双层台阶	xiu shi de qie zhi tong shuang ceng tai jie	100
 锈蚀的凿刻铜块	xiu shi de zao ke tong kuai	100
 锈蚀铜门	xiu shi tong men	100
 锈蚀铜灯泡	xiu shi tong deng pao	100
@@ -4863,6 +5276,7 @@ sort: by_weight
 锈蚀嘅切制铜块	xiu shi kai qie zhi tong kuai	100
 锈蚀凿刻铜	xiu shi zao ke tong	100
 鲜奶	xian nai	100
+仙乐飘飘处处闻	xian le piao piao chu chu wen	100
 暹罗猫	xian luo mao	100
 陷阱	xian jing	100
 陷阱门	xian jing men	100
@@ -4879,6 +5293,7 @@ sort: by_weight
 仙人掌峡谷	xian ren zhang xia gu	100
 仙人掌种植	xian ren zhang zhong zhi	100
 陷入胶着	xian ru jiao zhuo	100
+娴雅的药水	xian ya de yao shui	100
 险恶披风	xian e pi feng	100
 信标	xin biao	100
 信标工程师	xin biao gong cheng shi	100
@@ -4887,6 +5302,7 @@ sort: by_weight
 信标颜色	xin biao yan se	100
 新年披风	xin nian pi feng	100
 新年更新	xin nian geng xin	100
+辛辣的药水	xin la de yao shui	100
 新可翻译字符串	xin ke fan yi zi fu chuan	100
 信号强度	xin hao qiang du	100
 新生苍白橡树	xin sheng cang bai xiang shu	100
@@ -4912,6 +5328,7 @@ sort: by_weight
 橡木之酿	xiang mu zhi niang	100
 橡木船	xiang mu chuan	100
 橡木栅栏	xiang mu shan lan	100
+橡木双层台阶	xiang mu shuang ceng tai jie	100
 橡木压板	xiang mu ya ban	100
 橡木压力板	xiang mu ya li ban	100
 橡木原木	xiang mu yuan mu	100
@@ -4965,6 +5382,7 @@ sort: by_weight
 幸运长矛	xing yun chang mao	100
 幸运药水	xing yun yao shui	100
 行为包	xing wei bao	100
+腥味十足的生意	xing wei shi zu de sheng yi	100
 凶瓶	xiong ping	100
 熊猫	xiong mao	100
 熊猫高原	xiong mao gao yuan	100
@@ -5002,7 +5420,9 @@ sort: by_weight
 旋风人刷怪蛋	xuan feng ren shua guai dan	100
 旋风纹样陶片	xuan feng wen yang tao pian	100
 悬浮马铃薯	xuan fu ma ling shu	100
+悬停事件	xuan ting shi jian	100
 绚丽视觉	xuan li shi jue	100
+悬挂的红树胎生苗	xuan gua de hong shu tai sheng miao	100
 悬挂告示牌	xuan gua gao shi pai	100
 悬挂式白桦木告示牌	xuan gua shi bai hua mu gao shi pai	100
 悬挂式马铃薯木告示牌	xuan gua shi ma ling shu mu gao shi pai	100
@@ -5016,12 +5436,14 @@ sort: by_weight
 悬挂式深色橡木告示牌	xuan gua shi shen se xiang mu gao shi pai	100
 悬挂式苍白橡木告示牌	xuan gua shi cang bai xiang mu gao shi pai	100
 悬挂式丛林木告示牌	xuan gua shi cong lin mu gao shi pai	100
+悬挂式杨木告示牌	xuan gua shi yang mu gao shi pai	100
 悬挂式樱花木告示牌	xuan gua shi ying hua mu gao shi pai	100
 悬挂式云杉木告示牌	xuan gua shi yun sha mu gao shi pai	100
 选取方块	xuan qu fang kuai	100
 选项	xuan xiang	100
 旋转楼梯	xuan zhuan lou ti	100
 旋转角	xuan zhuan jiao	100
+宣传片	xuan chuan pian	100
 渲染	xuan ran	100
 渲染图	xuan ran tu	100
 渲染龙	xuan ran long	100
@@ -5045,6 +5467,7 @@ sort: by_weight
 寻路机制	xun lu ji zhi	100
 寻路陷阱	xun lu xian jing	100
 巡逻队	xun luo dui	100
+循环电路	xun huan dian lu	100
 循环型命令方块	xun huan xing ming ling fang kuai	100
 循环音效	xun huan yin xiao	100
 迅捷	xun jie	100
@@ -5075,8 +5498,15 @@ sort: by_weight
 雪狐	xue hu	100
 雪球	xue qiu	100
 雪球菜单	xue qiu cai dan	100
+学习有方更新	xue xi you fang geng xin	100
+雪线	xue xian	100
 雪雪傀儡刷怪蛋	xue xue kui lei shua guai dan	100
 雪之盔甲	xue zhi kui jia	100
+雪砖	xue zhuan	100
+雪砖台阶	xue zhuan tai jie	100
+雪砖楼梯	xue zhuan lou ti	100
+雪砖墙	xue zhuan qiang	100
+雪砖双层台阶	xue zhuan shuang ceng tai jie	100
 雪山	xue shan	100
 血神	xue shen	100
 学识	xue shi	100
@@ -5097,6 +5527,8 @@ sort: by_weight
 雪原村庄	xue yuan cun zhuang	100
 雪原渔夫小屋	xue yuan yu fu xiao wu	100
 雪屋	xue wu	100
+扎包机	zha bao ji	100
+炸包机	zha bao ji	100
 炸毒马铃薯片	zha du ma ling shu pian	100
 炸毒马铃薯条	zha du ma ling shu tiao	100
 炸毒薯片	zha du shu pian	100
@@ -5127,12 +5559,16 @@ sort: by_weight
 战利品祭坛	zhan li pin ji tan	100
 战利品箱	zhan li pin xiang	100
 战利品上下文	zhan li pin shang xia wen	100
+战利品存放中心	zhan li pin cun fang zhong xin	100
 粘性活塞	zhan xing huo sai	100
+战猪	zhan zhu	100
 展示	zhan shi	100
 展示框	zhan shi kuang	100
 展示架	zhan shi jia	100
+展示架蘑菇	zhan shi jia mo gu	100
 战士之缚	zhan shi zhi fu	100
 展示实体	zhan shi shi ti	100
+战术性钓鱼	zhan shu xing diao yu	100
 占位符方块	zhan wei fu fang kuai	100
 长鼻羊	zhang bi yang	100
 长柄刀	zhang bing dao	100
@@ -5146,6 +5582,8 @@ sort: by_weight
 照片	zhao pian	100
 照明	zhao ming	100
 照明方块	zhao ming fang kuai	100
+招募援兵	zhao mu yuan bing	100
+找到一个好朋友	zhao dao yi ge hao peng you	100
 召雷	zhao lei	100
 沼骸	zhao hai	100
 沼骸刷怪蛋	zhao hai shua guai dan	100
@@ -5154,6 +5592,7 @@ sort: by_weight
 召唤	zhao huan	100
 照相机	zhao xiang ji	100
 沼泽	zhao ze	100
+沼泽废弃营地地图	zhao ze fei qi ying di di tu	100
 沼泽探险家地图	zhao ze tan xian jia di tu	100
 沼泽探险者地图	zhao ze tan xian zhe di tu	100
 沼泽丘陵	zhao ze qiu ling	100
@@ -5161,11 +5600,13 @@ sort: by_weight
 沼泽橡树	zhao ze xiang shu	100
 沼泽山丘	zhao ze shan qiu	100
 沼泽村民	zhao ze cun min	100
+沼泽营地地图	zhao ze ying di di tu	100
 这不是铁镐么	zhe bu shi tie gao me	100
 遮挡形状	zhe dang xing zhuang	100
 遮光玻璃	zhe guang bo li	100
 赭红狼	zhe hong lang	100
 赭黄蛙明灯	zhe huang wa ming deng	100
+这上面的风景不错	zhe shang mian de feng jing bu cuo	100
 赭色青蛙灯	zhe se qing wa deng	100
 赭色蛙灯	zhe se wa deng	100
 折跃门	zhe yue men	100
@@ -5176,7 +5617,9 @@ sort: by_weight
 珍珠	zhen zhu	100
 珍珠炮	zhen zhu pao	100
 珍珠加载器	zhen zhu jia zai qi	100
+真善美	zhen shan mei	100
 帧生成时间图表	zhen sheng cheng shi jian tu biao	100
+珍藏密敛	zhen cang mi lian	100
 侦测	zhen ce	100
 侦测器	zhen ce qi	100
 侦测器轨道	zhen ce qi gui dao	100
@@ -5217,10 +5660,16 @@ sort: by_weight
 征服神殿和神庙	zheng fu shen dian he shen miao	100
 征服试炼密室	zheng fu shi lian mi shi	100
 整理物品	zheng li wu pin	100
+整流全物品	zheng liu quan wu pin	100
 整合包	zheng he bao	100
+拯救村民大行动	zheng jiu cun min da xing dong	100
 整型标签	zheng xing biao qian	100
 正中靶心	zheng zhong ba xin	100
 整装上阵	zheng zhuang shang zhen	100
+正常朝向	zheng chang chao xiang	100
+正常船首	zheng chang chuan shou	100
+正常船尾	zheng chang chuan wei	100
+正常完整	zheng chang wan zheng	100
 掟出的末影珍珠	zheng chu de mo ying zhen zhu	100
 掟出的鸡蛋	zheng chu de ji dan	100
 掟出嘅末影珍珠	zheng chu kai mo ying zhen zhu	100
@@ -5228,9 +5677,11 @@ sort: by_weight
 掟出嘅鸡蛋	zheng chu kai ji dan	100
 正式版	zheng shi ban	100
 整数界限范围	zheng shu jie xian fan wei	100
+整数数值提供器	zheng shu shu zhi ti gong qi	100
 正在治愈	zheng zai zhi yu	100
 正文	zheng wen	100
 钟表	zhong biao	100
+终末之地	zhong mo zhi di	100
 终末之池	zhong mo zhi chi	100
 终末之诗	zhong mo zhi shi	100
 重命名	zhong ming ming	100
@@ -5249,9 +5700,12 @@ sort: by_weight
 中国版独有特性	zhong guo ban du you te xing	100
 中国版端游版	zhong guo ban duan you ban	100
 中国版开发者启动器	zhong guo ban kai fa zhe qi dong qi	100
+中国版基岩互通版	zhong guo ban ji yan hu tong ban	100
 中国版手游版	zhong guo ban shou you ban	100
 中国版网站	zhong guo ban wang zhan	100
+中国神话原声带	zhong guo shen hua yuan sheng dai	100
 终极奉献	zhong ji feng xian	100
+终级奉献	zhong ji feng xian	100
 终极斧	zhong ji fu	100
 终极内容更新	zhong ji nei rong geng xin	100
 中继器	zhong ji qi	100
@@ -5269,6 +5723,7 @@ sort: by_weight
 忠诚	zhong cheng	100
 忠诚之甲	zhong cheng zhi jia	100
 重锤	zhong chui	100
+重锤核心	zhong chui he xin	100
 重锤伤害	zhong chui shang hai	100
 钟乳石	zhong ru shi	100
 种子	zhong zi	100
@@ -5280,6 +5735,7 @@ sort: by_weight
 种子采摘机	zhong zi cai zhai ji	100
 种子采摘器	zhong zi cai zhai qi	100
 种子散列值	zhong zi san lie zhi	100
+中央庭院	zhong yang ting yuan	100
 终望之地	zhong wang zhi di	100
 终为白日	zhong wei bai ri	100
 中文翻译者披风	zhong wen fan yi zhe pi feng	100
@@ -5316,13 +5772,16 @@ sort: by_weight
 滞留型变大药水	zhi liu xing bian da yao shui	100
 滞留型变小药水	zhi liu xing bian xiao yao shui	100
 滞留型编织药水	zhi liu xing bian zhi yao shui	100
+滞留型冰冻药水	zhi liu xing bing dong yao shui	100
 滞留型不可合成嘅药水	zhi liu xing bu ke he cheng kai yao shui	100
 滞留型盘丝药水	zhi liu xing pan si yao shui	100
 滞留型飘浮药水	zhi liu xing piao fu yao shui	100
 滞留型平凡的药水	zhi liu xing ping fan de yao shui	100
 滞留型平凡药水	zhi liu xing ping fan yao shui	100
+滞留型马铃薯油	zhi liu xing ma ling shu you	100
 滞留型慢速掉落药水	zhi liu xing man su diao luo yao shui	100
 滞留型风能充能药水	zhi liu xing feng neng chong neng yao shui	100
+滞留型毒马铃薯油	zhi liu xing du ma ling shu you	100
 滞留型跳跃药水	zhi liu xing tiao yue yao shui	100
 滞留型浓稠的药水	zhi liu xing nong chou de yao shui	100
 滞留型浓稠药水	zhi liu xing nong chou yao shui	100
@@ -5366,6 +5825,7 @@ sort: by_weight
 执行上下文	zhi xing shang xia wen	100
 纸张	zhi zhang	100
 吱吱作响	zhi zhi zuo xiang	100
+支柱	zhi zhu	100
 蜘蛛	zhi zhu	100
 支柱跳	zhi zhu tiao	100
 支柱跳跃	zhi zhu tiao yue	100
@@ -5376,6 +5836,7 @@ sort: by_weight
 蜘蛛丝	zhi zhu si	100
 蜘蛛眼	zhi zhu yan	100
 蜘蛛网	zhi zhu wang	100
+脂状的药水	zhi zhuang de yao shui	100
 掷出的末影珍珠	zhi chu de mo ying zhen zhu	100
 掷出的附魔之瓶	zhi chu de fu mo zhi ping	100
 掷出的鸡蛋	zhi chu de ji dan	100
@@ -5415,6 +5876,7 @@ sort: by_weight
 主屏幕	zhu ping mu	100
 竹马赛克	zhu ma sai ke	100
 竹马赛克台阶	zhu ma sai ke tai jie	100
+竹马赛克双层台阶	zhu ma sai ke shuang ceng tai jie	100
 竹门	zhu men	100
 竹木展示架	zhu mu zhan shi jia	100
 竹筏	zhu fa	100
@@ -5423,12 +5885,16 @@ sort: by_weight
 主题	zhu ti	100
 竹梯	zhu ti	100
 主题更新	zhu ti geng xin	100
+主体中心	zhu ti zhong xin	100
+主体一侧	zhu ti yi ce	100
 猪笼草	zhu long cao	100
 猪笼草豆荚	zhu long cao dou jia	100
 猪笼草荚果	zhu long cao jia guo	100
 竹楼梯	zhu lou ti	100
 竹林	zhu lin	100
+竹林废弃营地地图	zhu lin fei qi ying di di tu	100
 竹林丘陵	zhu lin qiu ling	100
+竹林营地地图	zhu lin ying di di tu	100
 猪灵	zhu ling	100
 猪灵堡垒	zhu ling bao lei	100
 猪灵蛮兵	zhu ling man bing	100
@@ -5479,6 +5945,8 @@ sort: by_weight
 朱砂砖台阶	zhu sha zhuan tai jie	100
 朱砂砖楼梯	zhu sha zhuan lou ti	100
 朱砂砖墙	zhu sha zhuan qiang	100
+朱砂砖双层台阶	zhu sha zhuan shuang ceng tai jie	100
+朱砂双层台阶	zhu sha shuang ceng tai jie	100
 猪神	zhu shen	100
 主手	zhu shou	100
 助手	zhu shou	100
@@ -5487,9 +5955,12 @@ sort: by_weight
 主世界木板	zhu shi jie mu ban	100
 主世界更新	zhu shi jie geng xin	100
 主世界可获取资源	zhu shi jie ke huo qu zi yuan	100
+主世界守护者	zhu shi jie shou hu zhe	100
 主世界音乐	zhu shi jie yin yue	100
 主视觉	zhu shi jue	100
+主视觉图	zhu shi jue tu	100
 猪刷怪蛋	zhu shua guai dan	100
+竹双层台阶	zhu shuang ceng tai jie	100
 猪人	zhu ren	100
 猪人塔	zhu ren ta	100
 猪肉	zhu rou	100
@@ -5512,6 +5983,7 @@ sort: by_weight
 猪随机器	zhu sui ji qi	100
 竹笋	zhu sun	100
 竹压力板	zhu ya li ban	100
+主要更新	zhu yao geng xin	100
 猪音效变种定义格式	zhu yin xiao bian zhong ding yi ge shi	100
 蛛网	zhu wang	100
 竹按钮	zhu an niu	100
@@ -5519,6 +5991,7 @@ sort: by_weight
 着色器	zhuo se qi	100
 坠落	zhui luo	100
 追逐天空	zhui zhu tian kong	100
+追逐天空原声带	zhui zhu tian kong yuan sheng dai	100
 追逐云端	zhui zhu yun duan	100
 追溯指针	zhui su zhi zhen	100
 追随者披风	zhui sui zhe pi feng	100
@@ -5538,13 +6011,17 @@ sort: by_weight
 砖墙	zhuan qiang	100
 专业工具	zhuan ye gong ju	100
 专用	zhuan yong	100
+专用服务器	zhuan yong fu wu qi	100
 砖纹旗帜图案	zhuan wen qi zhi tu an	100
 砖纹旗帜样式	zhuan wen qi zhi yang shi	100
 准则	zhun ze	100
 装备	zhuang bei	100
 装备模型	zhuang bei mo xing	100
+装备资产	zhuang bei zi chan	100
+装备资源	zhuang bei zi yuan	100
 装备槽位	zhuang bei cao wei	100
 状态	zhuang tai	100
+状态更新	zhuang tai geng xin	100
 状态效果	zhuang tai xiao guo	100
 装细雪嘅炼药锅	zhuang xi xue kai lian yao guo	100
 装置配方	zhuang zhi pei fang	100
@@ -5593,6 +6070,8 @@ sort: by_weight
 插咗橙色蜡烛嘅蛋糕	cha zuo cheng se la zhu kai dan gao	100
 插咗棕色蜡烛嘅蛋糕	cha zuo zong se la zhu kai dan gao	100
 插咗紫色蜡烛嘅蛋糕	cha zuo zi se la zhu kai dan gao	100
+拆包	chai bao	100
+拆包机	chai bao ji	100
 缠根泥土	chan gen ni tu	100
 铲子	chan zi	100
 缠怨藤	chan yuan teng	100
@@ -5620,6 +6099,7 @@ sort: by_weight
 超级马铃薯怪	chao ji ma ling shu guai	100
 超级秘密设置	chao ji mi mi she zhi	100
 超级肥料	chao ji fei liao	100
+超级敌对模式	chao ji di dui mo shi	100
 超级饥渴	chao ji ji ke	100
 超极限模式	chao ji xian mo shi	100
 超级蓄力	chao ji xu li	100
@@ -5635,8 +6115,11 @@ sort: by_weight
 潮涌核心框架	chao yong he xin kuang jia	100
 超越生死	chao yue sheng si	100
 超越自我	chao yue zi wo	100
+沉浸式阅读器	chen jin shi yue du qi	100
 沉重核心	chen zhong he xin	100
 沉船	chen chuan	100
+城垛	cheng duo	100
+城垛墙体	cheng duo qiang ti	100
 成年僵尸	cheng nian jiang shi	100
 成功地打开游戏	cheng gong di da kai you xi	100
 成功地启动游戏	cheng gong di qi dong you xi	100
@@ -5646,6 +6129,7 @@ sort: by_weight
 成就指南	cheng jiu zhi nan	100
 城墙	cheng qiang	100
 成群生成	cheng qun sheng cheng	100
+诚挚的药水	cheng zhi de yao shui	100
 橙床	cheng chuang	100
 城市街区距离	cheng shi jie qu ju li	100
 成书	cheng shu	100
@@ -5669,9 +6153,11 @@ sort: by_weight
 橙色收纳袋	cheng se shou na dai	100
 橙色染料	cheng se ran liao	100
 橙色染色玻璃	cheng se ran se bo li	100
+橙色坐垫	cheng se zuo dian	100
 橙色彩绘玻璃	cheng se cai hui bo li	100
 橙色烟花	cheng se yan hua	100
 橙色羊毛	cheng se yang mao	100
+橙色杨树树叶	cheng se yang shu shu ye	100
 橙色有色玻璃	cheng se you se bo li	100
 橙色荧光棒	cheng se ying guang bang	100
 橙色郁金香	cheng se yu jin xiang	100
@@ -5763,6 +6249,7 @@ sort: by_weight
 初始平台	chu shi ping tai	100
 初始房子	chu shi fang zi	100
 储存电路	chu cun dian lu	100
+戳刺	chuo ci	100
 垂滴叶	chui di ye	100
 垂钓者陶片	chui diao zhe tao pian	100
 垂钓纹样陶片	chui diao wen yang tao pian	100
@@ -5787,9 +6274,11 @@ sort: by_weight
 传送门方块	chuan song men fang kuai	100
 传送门房间	chuan song men fang jian	100
 传送门底座	chuan song men di zuo	100
+传送门遗迹	chuan song men yi ji	100
 传送命令	chuan song ming ling	100
 穿越和破坏基岩	chuan yue he po huai ji yan	100
 春季更新	chun ji geng xin	100
+春季小更新	chun ji xiao geng xin	100
 春意盎然	chun yi ang ran	100
 床铺	chuang pu	100
 创建新的世界	chuang jian xin de shi jie	100
@@ -5832,6 +6321,7 @@ sort: by_weight
 沙砾	sha li	100
 砂砾	sha li	100
 沙砾山地	sha li shan di	100
+沙砾圆盘	sha li yuan pan	100
 杀戮之弩	sha lu zhi nu	100
 砂轮	sha lun	100
 沙丘盔甲纹饰	sha qiu kui jia wen shi	100
@@ -5842,6 +6332,7 @@ sort: by_weight
 傻子	sha zi	100
 沙子	sha zi	100
 傻子村民	sha zi cun min	100
+沙子圆盘	sha zi yuan pan	100
 沙岩	sha yan	100
 砂岩	sha yan	100
 砂岩台阶	sha yan tai jie	100
@@ -5849,6 +6340,8 @@ sort: by_weight
 砂岩楼梯	sha yan lou ti	100
 沙岩墙	sha yan qiang	100
 砂岩墙	sha yan qiang	100
+砂岩双层台阶	sha yan shuang ceng tai jie	100
+筛界	shai jie	100
 山脉	shan mai	100
 山地	shan di	100
 山地边缘	shan di bian yuan	100
@@ -5858,6 +6351,7 @@ sort: by_weight
 闪电苦力怕陷阱	shan dian ku li pa xian jing	100
 闪电束	shan dian shu	100
 善念恶魂	shan nian e hun	100
+闪亮的药水	shan liang de yao shui	100
 闪光之门	shan guang zhi men	100
 闪光钥匙	shan guang yao shi	100
 珊瑚	shan hu	100
@@ -5875,6 +6369,7 @@ sort: by_weight
 闪长岩台阶	shan zhang yan tai jie	100
 闪长岩楼梯	shan zhang yan lou ti	100
 闪长岩墙	shan zhang yan qiang	100
+闪长岩双层台阶	shan zhang yan shuang ceng tai jie	100
 闪石	shan shi	100
 杉树木头	shan shu mu tou	100
 杉树树苗	shan shu shu miao	100
@@ -5889,9 +6384,11 @@ sort: by_weight
 山羊角	shan yang jiao	100
 山羊角乐器	shan yang jiao yue qi	100
 山羊角乐器定义格式	shan yang jiao yue qi ding yi ge shi	100
+山羊角乐器定义文件	shan yang jiao yue qi ding yi wen jian	100
 山羊陷阱	shan yang xian jing	100
 山羊刷怪蛋	shan yang shua guai dan	100
 上半砖	shang ban zhuan	100
+商品	shang pin	100
 商贩羊驼	shang fan yang tuo	100
 商店	shang dian	100
 上天入地	shang tian ru di	100
@@ -5911,10 +6408,13 @@ sort: by_weight
 伤害值	shang hai zhi	100
 伤害之箭	shang hai zhi jian	100
 伤害药水	shang hai yao shui	100
+上下文浮点提供器	shang xia wen fu dian ti gong qi	100
+上下文整数提供器	shang xia wen zheng shu ti gong qi	100
 商城	shang cheng	100
 商人	shang ren	100
 上锁的箱子	shang suo de xiang zi	100
 上衣	shang yi	100
+烧包机	shao bao ji	100
 哨兵盔甲纹饰	shao bing kui jia wen shi	100
 哨兵纹饰盔甲	shao bing wen shi kui jia	100
 哨塔	shao ta	100
@@ -5923,6 +6423,7 @@ sort: by_weight
 烧毁几率	shao hui ji lv	100
 哨站	shao zhan	100
 烧制	shao zhi	100
+烧车	shao che	100
 芍药	shao yao	100
 设德兰矮种马	she de lan ai zhong ma	100
 蛇铃薯	she ling shu	100
@@ -5949,6 +6450,7 @@ sort: by_weight
 深板岩瓦	shen ban yan wa	100
 深板岩瓦台阶楼梯	shen ban yan wa tai jie lou ti	100
 深板岩瓦二台阶	shen ban yan wa er tai jie	100
+神秘披风	shen mi pi feng	100
 神秘框架	shen mi kuang jia	100
 神秘战甲	shen mi zhan jia	100
 神秘商人	shen mi shang ren	100
@@ -6065,6 +6567,7 @@ sort: by_weight
 声音	sheng yin	100
 声音频率	sheng yin pin lv	100
 声音事件	sheng yin shi jian	100
+声音抑制	sheng yin yi zhi	100
 声誉	sheng yu	100
 生鱼	sheng yu	100
 剩余物	sheng yu wu	100
@@ -6097,6 +6600,7 @@ sort: by_weight
 生物族群	sheng wu zu qun	100
 生物引诱范围	sheng wu yin you fan wei	100
 生物鱼	sheng wu yu	100
+手动打包机	shou dong da bao ji	100
 收纳袋	shou na dai	100
 收割者	shou ge zhe	100
 手机版	shou ji ban	100
@@ -6112,6 +6616,7 @@ sort: by_weight
 守卫者之弓	shou wei zhe zhi gong	100
 守卫者刷怪蛋	shou wei zhe shua guai dan	100
 守卫之甲	shou wei zhi jia	100
+失败	shi bai	100
 石板	shi ban	100
 视频	shi pin	100
 视频教程	shi pin jiao cheng	100
@@ -6135,6 +6640,7 @@ sort: by_weight
 石头楼梯	shi tou lou ti	100
 石头怪物蛋	shi tou guai wu dan	100
 石头切割机	shi tou qie ge ji	100
+石头双层台阶	shi tou shuang ceng tai jie	100
 石头压力板	shi tou ya li ban	100
 石头按钮	shi tou an niu	100
 实体	shi ti	100
@@ -6151,6 +6657,7 @@ sort: by_weight
 实体生成器	shi ti sheng cheng qi	100
 实体数据	shi ti shu ju	100
 实体子谓词	shi ti zi wei ci	100
+实体组件	shi ti zu jian	100
 实体运动	shi ti yun dong	100
 实体谓词	shi ti wei ci	100
 世吞	shi tun	100
@@ -6170,16 +6677,18 @@ sort: by_weight
 试炼密室	shi lian mi shi	100
 试炼密室地图	shi lian mi shi di tu	100
 试炼大厅	shi lian da ting	100
+试炼地图	shi lian di tu	100
 试炼探险家地图	shi lian tan xian jia di tu	100
 试炼厅	shi lian ting	100
 试炼战利品	shi lian zhan li pin	100
 试炼之地	shi lian zhi di	100
+试炼之间	shi lian zhi jian	100
 试炼之兆	shi lian zhi zhao	100
 试炼生成笼	shi lian sheng cheng long	100
 试炼生成器	shi lian sheng cheng qi	100
 试炼室	shi lian shi	100
 试炼刷怪笼	shi lian shua guai long	100
-试炼刷怪笼配置定义格式	shi lian shua guai long pei zhi ding yi ge shi	100
+试炼刷怪笼配置	shi lian shua guai long pei zhi	100
 试炼钥匙	shi lian yao shi	100
 矢量珍珠炮	shi liang zhen zhu pao	100
 失落居所	shi luo ju suo	100
@@ -6191,6 +6700,7 @@ sort: by_weight
 尸壳刷怪蛋	shi ke shua guai dan	100
 湿海绵	shi hai mian	100
 石化橡木台阶	shi hua xiang mu tai jie	100
+石化橡木双层台阶	shi hua xiang mu shuang ceng tai jie	100
 失活的脑纹珊瑚	shi huo de nao wen shan hu	100
 失活的鹿角珊瑚	shi huo de lu jiao shan hu	100
 失活的管珊瑚	shi huo de guan shan hu	100
@@ -6199,6 +6709,7 @@ sort: by_weight
 失活的珊瑚	shi huo de shan hu	100
 世界	shi jie	100
 世界边界	shi jie bian jie	100
+世界模板	shi jie mu ban	100
 世界大小	shi jie da xiao	100
 世界吞噬者	shi jie tun shi zhe	100
 世界难度	shi jie nan du	100
@@ -6209,6 +6720,7 @@ sort: by_weight
 世界加载界面	shi jie jia zai jie mian	100
 世界加载荧幕	shi jie jia zai ying mu	100
 世界界限	shi jie jie xian	100
+世界景观	shi jie jing guan	100
 世界效果	shi jie xiao guo	100
 世界形状	shi jie xing zhuang	100
 世界选项	shi jie xuan xiang	100
@@ -6218,6 +6730,7 @@ sort: by_weight
 世界出生点	shi jie chu sheng dian	100
 世界设置数据格式	shi jie she zhi shu ju ge shi	100
 世界生成	shi jie sheng cheng	100
+世界生成格式	shi jie sheng cheng ge shi	100
 世界时钟	shi jie shi zhong	100
 世界坐标	shi jie zuo biao	100
 世界预设	shi jie yu she	100
@@ -6232,9 +6745,11 @@ sort: by_weight
 时间线	shi jian xian	100
 时间线定义格式	shi jian xian ding yi ge shi	100
 石匠	shi jiang	100
+实境探险	shi jing tan xian	100
 实境视觉	shi jing shi jue	100
 实景视野	shi jing shi ye	100
 视距	shi ju	100
+视觉遮挡形状	shi jue zhe dang xing zhuang	100
 石器时代	shi qi shi dai	100
 石锹	shi qiao	100
 石墙	shi qiang	100
@@ -6258,6 +6773,7 @@ sort: by_weight
 石砖块板	shi zhuan kuai ban	100
 石砖块梯	shi zhuan kuai ti	100
 石砖墙	shi zhuan qiang	100
+石砖双层台阶	shi zhuan shuang ceng tai jie	100
 市场	shi chang	100
 石长矛	shi chang mao	100
 矢车菊	shi che ju	100
@@ -6300,12 +6816,14 @@ sort: by_weight
 石英柱	shi ying zhu	100
 石英砖	shi ying zhuan	100
 石英砖块	shi ying zhuan kuai	100
+石英双层台阶	shi ying shuang ceng tai jie	100
 始与末	shi yu mo	100
 时运	shi yun	100
 试玩	shi wan	100
 试玩版	shi wan ban	100
 试玩模式	shi wan mo shi	100
 饰纹陶罐	shi wen tao guan	100
+饰纹陶罐图案	shi wen tao guan tu an	100
 食物	shi wu	100
 食物配方	shi wu pei fang	100
 十五周年	shi wu zhou nian	100
@@ -6331,10 +6849,12 @@ sort: by_weight
 书同羽毛笔	shu tong yu mao bi	100
 熟兔肉	shu tu rou	100
 薯泥	shu ni	100
+熟牛排	shu niu pai	100
 熟牛肉	shu niu rou	100
 树林	shu lin	100
 疏林草原村庄地图	shu lin cao yuan cun zhuang di tu	100
 疏林恶地	shu lin e di	100
+疏林恶地高原	shu lin e di gao yuan	100
 熟鲑鱼	shu gui yu	100
 熟鲑鱼片	shu gui yu pian	100
 书和羽毛	shu he yu mao	100
@@ -6377,6 +6897,7 @@ sort: by_weight
 树脂砖块块双层台阶	shu zhi zhuan kuai kuai shuang ceng tai jie	100
 树脂砖阶梯	shu zhi zhuan jie ti	100
 树脂砖墙	shu zhi zhuan qiang	100
+树脂砖双层台阶	shu zhi zhuan shuang ceng tai jie	100
 熟猪排	shu zhu pai	100
 树场	shu chang	100
 薯石	shu shi	100
@@ -6386,17 +6907,20 @@ sort: by_weight
 熟羊肉	shu yang rou	100
 树叶	shu ye	100
 树荫纹样陶片	shu yin wen yang tao pian	100
+术语	shu yu	100
 熟鱼	shu yu	100
 书与笔	shu yu bi	100
 竖纹紫珀块	shu wen zi po kuai	100
 刷冰	shua bing	100
 刷冰机	shua bing ji	100
 刷蛋	shua dan	100
+刷地毯	shua di tan	100
 刷铁	shua tie	100
 刷铁轨	shua tie gui	100
 刷铁轨机	shua tie gui ji	100
 刷铁机	shua tie ji	100
 刷甘蔗机	shua gan zhe ji	100
+刷钩机	shua gou ji	100
 刷怪	shua guai	100
 刷怪范围	shua guai fan wei	100
 刷怪房	shua guai fang	100
@@ -6419,6 +6943,7 @@ sort: by_weight
 刷雪	shua xue	100
 刷雪机	shua xue ji	100
 刷沙机	shua sha ji	100
+刷石	shua shi	100
 刷石机	shua shi ji	100
 刷肉	shua rou	100
 刷肉机	shua rou ji	100
@@ -6495,6 +7020,7 @@ sort: by_weight
 双持	shuang chi	100
 双持匕首	shuang chi bi shou	100
 双持弩	shuang chi nu	100
+霜噬	shuang shi	100
 双刃斧	shuang ren fu	100
 双子弓	shuang zi gong	100
 双草丛	shuang cao cong	100
@@ -6513,6 +7039,7 @@ sort: by_weight
 燃烧时间	ran shao shi jian	100
 染色	ran se	100
 染色玻璃	ran se bo li	100
+染色马铃薯皮方块	ran se ma ling shu pi fang kuai	100
 染色猫	ran se mao	100
 染色木板	ran se mu ban	100
 染色地毯	ran se di tan	100
@@ -6520,11 +7047,12 @@ sort: by_weight
 染色粘土	ran se nian tu	100
 染色黏土	ran se nian tu	100
 染色蜡烛	ran se la zhu	100
-染色混凝土粉末	ran se hun ning tu fen mo	100
+染色混凝土	ran se hun ning tu	100
 染色潜影盒	ran se qian ying he	100
 染色强化玻璃	ran se qiang hua bo li	100
 染色床	ran se chuang	100
 染色收纳袋	ran se shou na dai	100
+染色坐垫	ran se zuo dian	100
 染色羊毛	ran se yang mao	100
 染色硬化粘土	ran se ying hua nian tu	100
 热门景点	re men jing dian	100
@@ -6545,6 +7073,7 @@ sort: by_weight
 热带草原制图师房屋	re dai cao yuan zhi tu shi fang wu	100
 热带草原制箭师房屋	re dai cao yuan zhi jian shi fang wu	100
 热带草原石匠屋	re dai cao yuan shi jiang wu	100
+热带草原村庄	re dai cao yuan cun zhuang	100
 热带草原渔夫小屋	re dai cao yuan yu fu xiao wu	100
 热带鱼	re dai yu	100
 热带鱼桶	re dai yu tong	100
@@ -6552,17 +7081,21 @@ sort: by_weight
 热带鱼刷怪蛋	re dai yu shua guai dan	100
 热腾腾的	re teng teng de	100
 热键栏	re jian lan	100
+任天堂	ren tian tang	100
 任天堂版	ren tian tang ban	100
 任天堂明星大乱斗	ren tian tang ming xing da luan dou	100
 人类	ren lei	100
 人工矿道	ren gong kuang dao	100
 韧性	ren xing	100
+忍者神龟原声带	ren zhe shen gui yuan sheng dai	100
 绒毛羊	rong mao yang	100
 溶洞	rong dong	100
 熔炉	rong lu	100
 熔炉傀儡	rong lu kui lei	100
 熔炉矿车	rong lu kuang che	100
+熔炉组	rong lu zu	100
 容器	rong qi	100
+容器检测	rong qi jian ce	100
 绒球葱	rong qiu cong	100
 绒球葱盆栽	rong qiu cong pen zai	100
 熔岩	rong yan	100
@@ -6570,12 +7103,15 @@ sort: by_weight
 熔岩桶	rong yan tong	100
 熔岩怪	rong yan guai	100
 熔岩怪刷怪蛋	rong yan guai shua guai dan	100
+熔岩烤鸡附加包	rong yan kao ji fu jia bao	100
 熔岩可燃性	rong yan ke ran xing	100
+熔岩块	rong yan kuai	100
 熔岩海	rong yan hai	100
 熔岩湖	rong yan hu	100
 熔岩井房间	rong yan jing fang jian	100
 熔岩球	rong yan qiu	100
 熔岩泉	rong yan quan	100
+熔岩池	rong yan chi	100
 熔岩史莱姆	rong yan shi lai mu	100
 熔岩源	rong yan yuan	100
 蝾螈	rong yuan	100
@@ -6588,6 +7124,7 @@ sort: by_weight
 日夜交替	ri ye jiao ti	100
 乳牛	ru niu	100
 乳牛刷怪蛋	ru niu shua guai dan	100
+入口面饰	ru kou mian shi	100
 入口房间	ru kou fang jian	100
 如何获取崩溃报告	ru he huo qu beng kui bao gao	100
 如何在一个地区中长期生存下去	ru he zai yi ge di qu zhong chang qi sheng cun xia qu	100
@@ -6615,6 +7152,7 @@ sort: by_weight
 再生箭	zai sheng jian	100
 再生之箭	zai sheng zhi jian	100
 再生药水	zai sheng yao shui	100
+在游戏尽头的城市	zai you xi jin tou de cheng shi	100
 在一个地区中长期生存下去	zai yi ge di qu zhong chang qi sheng cun xia qu	100
 在无限沙漠中生存	zai wu xian sha mo zhong sheng cun	100
 灾厄	zai e	100
@@ -6636,6 +7174,7 @@ sort: by_weight
 錾制花岗岩台阶	zan zhi hua gang yan tai jie	100
 錾制花岗岩楼梯	zan zhi hua gang yan lou ti	100
 錾制下界砖	zan zhi xia jie zhuan	100
+錾制朱砂	zan zhi zhu sha	100
 錾制沙石	zan zhi sha shi	100
 錾制砂岩	zan zhi sha yan	100
 錾制闪长岩台阶	zan zhi shan zhang yan tai jie	100
@@ -6652,8 +7191,10 @@ sort: by_weight
 凿刻铜	zao ke tong	100
 凿刻铜块	zao ke tong kuai	100
 凿刻凝灰岩	zao ke ning hui yan	100
+凿刻硫黄	zao ke liu huang	100
 凿刻红沙岩	zao ke hong sha yan	100
 凿刻下界砖块	zao ke xia jie zhuan kuai	100
+凿刻朱砂块	zao ke zhu sha kuai	100
 凿刻沙岩	zao ke sha yan	100
 凿刻砂岩	zao ke sha yan	100
 凿刻深板岩	zao ke shen ban yan	100
@@ -6668,11 +7209,13 @@ sort: by_weight
 噪声洞穴	zao sheng dong xue	100
 噪声设置	zao sheng she zhi	100
 噪声生成器	zao sheng sheng cheng qi	100
+赠品箱	zeng pin xiang	100
 增强	zeng qiang	100
 增速	zeng su	100
 增援	zeng yuan	100
 憎恶藤	zeng wu teng	100
 棕蘑菇	zong mo gu	100
+棕榈树	zong lv shu	100
 踪迹	zong ji	100
 棕床	zong chuang	100
 总数	zong shu	100
@@ -6687,6 +7230,9 @@ sort: by_weight
 棕色陶瓦	zong se tao wa	100
 棕色蜡烛	zong se la zhu	100
 棕色混凝土	zong se hun ning tu	100
+棕色混凝土台阶	zong se hun ning tu tai jie	100
+棕色混凝土楼梯	zong se hun ning tu lou ti	100
+棕色混凝土双层台阶	zong se hun ning tu shuang ceng tai jie	100
 棕色鸡蛋	zong se ji dan	100
 棕色气球	zong se qi qiu	100
 棕色旗帜	zong se qi zhi	100
@@ -6698,8 +7244,12 @@ sort: by_weight
 棕色收纳袋	zong se shou na dai	100
 棕色染料	zong se ran liao	100
 棕色染色玻璃	zong se ran se bo li	100
+棕色坐垫	zong se zuo dian	100
 棕色彩绘玻璃	zong se cai hui bo li	100
 棕色羊毛	zong se yang mao	100
+棕色羊毛台阶	zong se yang mao tai jie	100
+棕色羊毛楼梯	zong se yang mao lou ti	100
+棕色羊毛双层台阶	zong se yang mao shuang ceng tai jie	100
 棕色有色玻璃	zong se you se bo li	100
 棕色荧光棒	zong se ying guang bang	100
 棕色挽具	zong se wan ju	100
@@ -6718,6 +7268,7 @@ sort: by_weight
 紫珀块楼梯	zi po kuai lou ti	100
 紫珀柱	zi po zhu	100
 紫珀柱子	zi po zhu zi	100
+紫珀双层台阶	zi po shuang ceng tai jie	100
 字幕	zi mu	100
 字符串标签	zi fu chuan biao qian	100
 自动农田	zi dong nong tian	100
@@ -6753,6 +7304,8 @@ sort: by_weight
 字体	zi ti	100
 字体颜色	zi ti yan se	100
 自更新	zi geng xin	100
+子空间泡泡	zi kong jian pao pao	100
+子空间气泡	zi kong jian qi pao	100
 紫黑方块	zi hei fang kuai	100
 字节型标签	zi jie xing biao qian	100
 紫晶	zi jing	100
@@ -6764,9 +7317,11 @@ sort: by_weight
 自选	zi xuan	100
 自选世界类型	zi xuan shi jie lei xing	100
 自制材质包	zi zhi cai zhi bao	100
+资产历史	zi chan li shi	100
 紫床	zi chuang	100
 资深怪物猎人	zi shen guai wu lie ren	100
 紫水晶	zi shui jing	100
+紫水晶披风	zi shui jing pi feng	100
 紫水晶母岩	zi shui jing mu yan	100
 紫水晶方块	zi shui jing fang kuai	100
 紫水晶洞	zi shui jing dong	100
@@ -6799,6 +7354,7 @@ sort: by_weight
 紫色收纳袋	zi se shou na dai	100
 紫色染料	zi se ran liao	100
 紫色染色玻璃	zi se ran se bo li	100
+紫色坐垫	zi se zuo dian	100
 紫色彩绘玻璃	zi se cai hui bo li	100
 紫色烟花	zi se yan hua	100
 紫色羊毛	zi se yang mao	100
@@ -6836,6 +7392,7 @@ sort: by_weight
 足迹和故事	zu ji he gu shi	100
 足迹与故事	zu ji yu gu shi	100
 足迹与故事活动	zu ji yu gu shi huo dong	100
+足迹与故事原声带	zu ji yu gu shi yuan sheng dai	100
 组件	zu jian	100
 组件谓词	zu jian wei ci	100
 诅咒	zu zhou	100
@@ -6846,12 +7403,15 @@ sort: by_weight
 坐标	zuo biao	100
 左方括号	zuo fang kuo hao	100
 左大括弧	zuo da kuo hu	100
+坐垫	zuo dian	100
 左花括号	zuo hua kuo hao	100
 坐骑	zuo qi	100
 左中括弧	zuo zhong kuo hu	100
 左手	zuo shou	100
 作物	zuo wu	100
 作物机制	zuo wu ji zhi	100
+作物生长	zuo wu sheng zhang	100
+最萌捕食者	zui meng bu shi zhe	100
 最大行走高度	zui da xing zou gao du	100
 最大伤害吸收值	zui da shang hai xi shou zhi	100
 最大生命值	zui da sheng ming zhi	100
@@ -6895,7 +7455,9 @@ sort: by_weight
 材料	cai liao	100
 材料配方	cai liao pei fang	100
 材料分解器	cai liao fen jie qi	100
+材料条件	cai liao tiao jian	100
 材料固体	cai liao gu ti	100
+材料规则	cai liao gui ze	100
 采矿	cai kuang	100
 采矿技术	cai kuang ji shu	100
 采矿纹样陶片	cai kuang wen yang tao pian	100
@@ -6931,18 +7493,25 @@ sort: by_weight
 苍白橡木运输船	cang bai xiang mu yun shu chuan	100
 苍白橡树	cang bai xiang shu	100
 苍白之园	cang bai zhi yuan	100
+苍白之园废弃营地地图	cang bai zhi yuan fei qi ying di di tu	100
+苍白之园营地地图	cang bai zhi yuan ying di di tu	100
 苍白猪	cang bai zhu	100
 苍白垂苔	cang bai chui tai	100
 苍白垂藤	cang bai chui teng	100
 苍白垂藓	cang bai chui xian	100
 苍白垂须	cang bai chui xu	100
+苍白森林	cang bai sen lin	100
 藏宝图	cang bao tu	100
+藏宝箱	cang bao xiang	100
+藏宝室	cang bao shi	100
 苍狼	cang lang	100
 苍园觉醒	cang yuan jue xing	100
 草方块	cao fang kuai	100
+草方块圆盘	cao fang kuai yuan pan	100
 草甸	cao dian	100
 草灌木	cao guan mu	100
 草径	cao jing	100
+草床	cao chuang	100
 操作栏	cao zuo lan	100
 操作员	cao zuo yuan	100
 草丛	cao cong	100
@@ -6951,14 +7520,22 @@ sort: by_weight
 草原村庄地图	cao yuan cun zhuang di tu	100
 槽位	cao wei	100
 槽位源	cao wei yuan	100
+侧翻	ce fan	100
+侧翻船首	ce fan chuan shou	100
+侧翻船尾	ce fan chuan wei	100
+侧翻完整	ce fan wan zheng	100
 测量单位	ce liang dan wei	100
 测量距离	ce liang ju li	100
 测重压力板	ce zhong ya li ban	100
+测试版	ce shi ban	100
 测试版本	ce shi ban ben	100
 测试披风	ce shi pi feng	100
 测试方块	ce shi fang kuai	100
 测试环境	ce shi huan jing	100
 测试实例	ce shi shi li	100
+层菇	ceng gu	100
+层孔菇	ceng kong gu	100
+层状菇	ceng zhuang gu	100
 丛林	cong lin	100
 丛林变种	cong lin bian zhong	100
 丛林边缘	cong lin bian yuan	100
@@ -6974,6 +7551,7 @@ sort: by_weight
 丛林木展示架	cong lin mu zhan shi jia	100
 丛林木船	cong lin mu chuan	100
 丛林木栅栏	cong lin mu shan lan	100
+丛林木双层台阶	cong lin mu shuang ceng tai jie	100
 丛林木压力板	cong lin mu ya li ban	100
 丛林木运输船	cong lin mu yun shu chuan	100
 丛林木按钮	cong lin mu an niu	100
@@ -6995,13 +7573,13 @@ sort: by_weight
 丛林树木	cong lin shu mu	100
 丛林树叶	cong lin shu ye	100
 丛林压板	cong lin ya ban	100
-丛林遗迹	cong lin yi ji	100
 丛林原木	cong lin yuan mu	100
 丛林按钮	cong lin an niu	100
 丛林恶物	cong lin e wu	100
 从零开始下界生存	cong ling kai shi xia jie sheng cun	100
 从下方挖掘型刷石机	cong xia fang wa jue xing shua shi ji	100
 丛书	cong shu	100
+刺鼻的药水	ci bi de yao shui	100
 慈鲷	ci diao	100
 刺探者	ci tan zhe	100
 次氯酸钠	ci lv suan na	100
@@ -7024,11 +7602,14 @@ sort: by_weight
 粗制药水	cu zhi yao shui	100
 醋酸钠	cu suan na	100
 错误	cuo wu	100
+错误方块	cuo wu fang kuai	100
 错误追踪器	cuo wu zhui zong qi	100
 错误纹理与模型	cuo wu wen li yu mo xing	100
+脆冰	cui bing	100
 催发体	cui fa ti	100
 翠绿蛙灯	cui lv wa deng	100
 脆弱的同盟	cui ruo de tong meng	100
+璀璨沟谷	cui can gou gu	100
 刌民	cun min	100
 村民	cun min	100
 村民补货	cun min bu huo	100
@@ -7042,7 +7623,9 @@ sort: by_weight
 村民交易的平衡性调整	cun min jiao yi de ping heng xing tiao zheng	100
 村民交易定义格式	cun min jiao yi ding yi ge shi	100
 村民交易所	cun min jiao yi suo	100
+村民救援	cun min jiu yuan	100
 村民僵尸	cun min jiang shi	100
+村民新闻	cun min xin wen	100
 村民职业	cun min zhi ye	100
 村民刷怪蛋	cun min shua guai dan	100
 村民养殖	cun min yang zhi	100
@@ -7052,6 +7635,7 @@ sort: by_weight
 存档会话锁文件格式	cun dang hui hua suo wen jian ge shi	100
 存档基础数据保存格式	cun dang ji chu shu ju bao cun ge shi	100
 存档基础数据存储格式	cun dang ji chu shu ju cun chu ge shi	100
+存活	cun huo	100
 村庄	cun zhuang	100
 村庄地图	cun zhuang di tu	100
 村庄堆叠	cun zhuang dui die	100
@@ -7089,6 +7673,7 @@ sort: by_weight
 松饼披风	song bing pi feng	100
 悚伏寒冬	song fu han dong	100
 松树	song shu	100
+四到六层走廊	si dao liu ceng zou lang	100
 撕裂者	si lie zhe	100
 死灵法师	si ling fa shi	100
 丝线	si xian	100
@@ -7158,6 +7743,7 @@ sort: by_weight
 锁链胸甲	suo lian xiong jia	100
 锁链靴子	suo lian xue zi	100
 锁存器	suo cun qi	100
+碎冰	sui bing	100
 碎片	sui pian	100
 随机斑块	sui ji ban kuai	100
 随机发生器	sui ji fa sheng qi	100
@@ -7185,6 +7771,7 @@ sort: by_weight
 言论	yan lun	100
 烟花	yan hua	100
 烟花棒	yan hua bang	100
+烟花弩	yan hua nu	100
 烟花火箭	yan hua huo jian	100
 烟花火箭棒	yan hua huo jian bang	100
 烟花火箭火箭	yan hua huo jian huo jian	100
@@ -7213,6 +7800,7 @@ sort: by_weight
 岩柱	yan zhu	100
 延迟技术预览	yan chi ji shu yu lan	100
 延迟渲染	yan chi xuan ran	100
+延伸	yan shen	100
 岩石	yan shi	100
 演示版	yan shi ban	100
 演示模式	yan shi mo shi	100
@@ -7221,13 +7809,33 @@ sort: by_weight
 烟囱跳	yan cong tiao	100
 颜色	yan se	100
 颜色代码	yan se dai ma	100
+颜色代码变更	yan se dai ma bian geng	100
 颜色值的十进制表示	yan se zhi de shi jin zhi biao shi	100
 眼药水	yan yao shui	100
 焰尾	yan wei	100
 羊毛	yang mao	100
 羊毛地毯	yang mao di tan	100
+羊毛台阶	yang mao tai jie	100
 羊毛牛	yang mao niu	100
+羊毛楼梯	yang mao lou ti	100
+羊毛双层台阶	yang mao shuang ceng tai jie	100
 羊毛染料	yang mao ran liao	100
+杨木	yang mu	100
+杨木门	yang mu men	100
+杨木木板	yang mu mu ban	100
+杨木台阶	yang mu tai jie	100
+杨木楼梯	yang mu lou ti	100
+杨木告示牌	yang mu gao shi pai	100
+杨木活板门	yang mu huo ban men	100
+杨木栅栏	yang mu zha lan	100
+杨木展示架	yang mu zhan shi jia	100
+杨木船	yang mu chuan	100
+杨木双层台阶	yang mu shuang ceng tai jie	100
+杨木压力板	yang mu ya li ban	100
+杨木原木	yang mu yuan mu	100
+杨木运输船	yang mu yun shu chuan	100
+杨木按钮	yang mu an niu	100
+羊帆起航	yang fan qi hang	100
 养蜂场	yang feng chang	100
 羊驼	yang tuo	100
 羊驼唾沫	yang tuo tuo mo	100
@@ -7270,6 +7878,7 @@ sort: by_weight
 氧化的切制铜台阶	yang hua de qie zhi tong tai jie	100
 氧化的切制铜楼梯	yang hua de qie zhi tong lou ti	100
 氧化的切制铜块	yang hua de qie zhi tong kuai	100
+氧化的切制铜双层台阶	yang hua de qie zhi tong shuang ceng tai jie	100
 氧化的凿刻铜块	yang hua de zao ke tong kuai	100
 氧化铜门	yang hua tong men	100
 氧化铜灯泡	yang hua tong deng pao	100
@@ -7298,6 +7907,9 @@ sort: by_weight
 氧气值	yang qi zhi	100
 养殖	yang zhi	100
 样式代码	yang shi dai ma	100
+杨树	yang shu	100
+杨树树苗	yang shu shu miao	100
+杨树树叶	yang shu shu ye	100
 羊刷怪蛋	yang shua guai dan	100
 羊肉	yang rou	100
 药箭	yao jian	100
@@ -7322,7 +7934,7 @@ sort: by_weight
 液体	ye ti	100
 野狼刷怪蛋	ye lang shua guai dan	100
 冶炼	ye lian	100
-叶盖森林变种	ye gai sen lin bian zhong	100
+叶盖森林	ye gai sen lin	100
 野花	ye hua	100
 野花簇	ye hua cu	100
 野火	ye huo	100
@@ -7339,6 +7951,7 @@ sort: by_weight
 夜晚	ye wan	100
 用命令操控实体	yong ming ling cao kong shi ti	100
 涌流气泡柱	yong liu qi pao zhu	100
+永恒的伙伴	yong heng de huo ban	100
 永恒之刃	yong heng zhi ren	100
 用户名	yong hu ming	100
 用户界面	yong hu jie mian	100
@@ -7365,6 +7978,7 @@ sort: by_weight
 幽匿催发体	you ni cui fa ti	100
 幽匿催化体	you ni cui hua ti	100
 幼年溺尸	you nian ni shi	100
+幼年骆驼尸壳	you nian luo tuo shi ke	100
 幼年僵尸	you nian jiang shi	100
 幼年生物	you nian sheng wu	100
 幼年尸壳	you nian shi ke	100
@@ -7385,12 +7999,14 @@ sort: by_weight
 幽静盔甲纹饰	you jing kui jia wen shi	100
 游戏版本	you xi ban ben	100
 游戏模式	you xi mo shi	100
+游戏档案	you xi dang an	100
 游戏提示	you xi ti shi	100
 游戏难度	you xi nan du	100
 游戏内时间流逝	you xi nei shi jian liu shi	100
 游戏内容	you xi nei rong	100
 游戏规则	you xi gui ze	100
 游戏刻	you xi ke	100
+游戏结束	you xi jie shu	100
 游戏直播	you xi zhi bo	100
 游戏事件	you xi shi jian	100
 游戏术语	you xi shu yu	100
@@ -7404,8 +8020,10 @@ sort: by_weight
 疣猪兽棚	you zhu shou peng	100
 疣猪兽刷怪蛋	you zhu shou shua guai dan	100
 游商	you shang	100
+右手	you shou	100
 游走	you zou	100
 有色玻璃	you se bo li	100
+优雅的药水	you ya de yao shui	100
 游泳	you yong	100
 友谊的治愈力	you yi de zhi yu li	100
 鱿鱼	you yu	100
@@ -7449,10 +8067,13 @@ sort: by_weight
 异界传送门	yi jie chuan song men	100
 已校准潜声感测器	yi jiao zhun qian sheng gan ce qi	100
 一箭双雕	yi jian shuang diao	100
+移心接木	yi xin jie mu	100
 异响苍白橡树	yi xiang cang bai xiang shu	100
 已蓄风	yi xu feng	100
 一只蚂蚁	yi zhi ma yi	100
 一叉戟	yi cha ji	100
+艺术	yi shu	100
+艺术作品	yi shu zuo pin	100
 一次一个方块更新	yi ci yi ge fang kuai geng xin	100
 乙酸钠	yi suan na	100
 以牙还牙	yi ya huan ya	100
@@ -7495,16 +8116,20 @@ sort: by_weight
 阴森的要塞	yin sen de yao sai	100
 阴影牛	yin ying niu	100
 音乐	yin yue	100
+音乐弹窗	yin yue dan chuang	100
 音乐盒	yin yue he	100
 音乐之声	yin yue zhi sheng	100
 音乐唱片	yin yue chang pian	100
 樱木架子	ying mu jia zi	100
+迎风之巅	ying feng zhi dian	100
 营地	ying di	100
+营地与社团	ying di yu she tuan	100
 硬度	ying du	100
 樱桃木架	ying tao mu jia	100
 英国短毛猫	ying guo duan mao mao	100
 荧光	ying guang	100
 荧光棒	ying guang bang	100
+荧光披风	ying guang pi feng	100
 荧光墨囊	ying guang mo nang	100
 荧光鱿鱼	ying guang you yu	100
 荧光物品展示框	ying guang wu pin zhan shi kuang	100
@@ -7523,6 +8148,7 @@ sort: by_weight
 樱花木船	ying hua mu chuan	100
 樱花木栅栏	ying hua mu shan lan	100
 樱花木双板	ying hua mu shuang ban	100
+樱花木双层台阶	ying hua mu shuang ceng tai jie	100
 樱花木压板	ying hua mu ya ban	100
 樱花木压力板	ying hua mu ya li ban	100
 樱花木运输船	ying hua mu yun shu chuan	100
@@ -7536,6 +8162,8 @@ sort: by_weight
 樱花树苗	ying hua shu miao	100
 樱花树木头	ying hua shu mu tou	100
 樱花树林	ying hua shu lin	100
+樱花树林废弃营地地图	ying hua shu lin fei qi ying di di tu	100
+樱花树林营地地图	ying hua shu lin ying di di tu	100
 樱花树叶	ying hua shu ye	100
 樱花树原木	ying hua shu yuan mu	100
 樱花原木	ying hua yuan mu	100
@@ -7562,6 +8190,7 @@ sort: by_weight
 萤石块	ying shi kuai	100
 樱树	ying shu	100
 罂粟	ying su	100
+罂粟盆栽	ying su pen zai	100
 营养价值	ying yang jia zhi	100
 鹦鹉	ying wu	100
 鹦鹉螺	ying wu luo	100
@@ -7609,15 +8238,19 @@ sort: by_weight
 远古之城	yuan gu zhi cheng	100
 远古植物	yuan gu zhi wu	100
 远古城市	yuan gu cheng shi	100
+远古城市地图	yuan gu cheng shi di tu	100
 远古狩猎	yuan gu shou lie	100
 远古守卫者	yuan gu shou wei zhe	100
 远古残骸	yuan gu can hai	100
+圆环方块	yuan huan fang kuai	100
 元件	yuan jian	100
 远见	yuan jian	100
 原主机版	yuan zhu ji ban	100
 远程攻击	yuan cheng gong ji	100
 远程控制台协议	yuan cheng kong zhi tai xie yi	100
+远程折跃	yuan cheng zhe yue	100
 远程武器	yuan cheng wu qi	100
+原声带	yuan sheng dai	100
 原生森林	yuan sheng sen lin	100
 圆石	yuan shi	100
 圆石板	yuan shi ban	100
@@ -7628,6 +8261,7 @@ sort: by_weight
 圆石墙	yuan shi qiang	100
 原始针叶林	yuan shi zhen ye lin	100
 圆石深板岩	yuan shi shen ban yan	100
+圆石双层台阶	yuan shi shuang ceng tai jie	100
 原始森林	yuan shi sen lin	100
 原始松木针叶林	yuan shi song mu zhen ye lin	100
 原始云杉针叶林	yuan shi yun shan zhen ye lin	100
@@ -7635,8 +8269,10 @@ sort: by_weight
 元素	yuan su	100
 元素背袋	yuan su bei dai	100
 元素背囊	yuan su bei nang	100
+元素动画	yuan su dong hua	100
 元素构造器	yuan su gou zao qi	100
 原油	yuan you	100
+云备份	yun bei fen	100
 运动	yun dong	100
 云更新	yun geng xin	100
 运气箭	yun qi jian	100
@@ -7663,6 +8299,7 @@ sort: by_weight
 云杉木栅栏	yun sha mu zha lan	100
 云杉木展示架	yun sha mu zhan shi jia	100
 云杉木船	yun sha mu chuan	100
+云杉木双层台阶	yun sha mu shuang ceng tai jie	100
 云杉木压板	yun sha mu ya ban	100
 云杉木压力板	yun sha mu ya li ban	100
 云杉木运输船	yun sha mu yun shu chuan	100
@@ -7681,9 +8318,11 @@ sort: by_weight
 运输竹筏	yun shu zhu fa	100
 运输船	yun shu chuan	100
 云层	yun ceng	100
+云存储	yun cun chu	100
 月亮	yue liang	100
 悦灵	yue ling	100
 悦灵刷怪蛋	yue ling shua guai dan	100
+月光小径	yue guang xiao jing	100
 月光传感器	yue guang chuan gan qi	100
 乐器	yue qi	100
 月球	yue qiu	100
@@ -7703,6 +8342,7 @@ sort: by_weight
 挖掘疲劳	wa jue pi lao	100
 挖掘等级	wa jue deng ji	100
 挖掘冷却	wa jue leng que	100
+挖掘工具	wa jue gong ju	100
 挖掘减速	wa jue jian su	100
 挖掘效率	wa jue xiao lv	100
 挖掘惩罚	wa jue cheng fa	100
@@ -7737,10 +8377,11 @@ sort: by_weight
 外露凿刻铜	wai lu zao ke tong	100
 外衣	wai yi	100
 弯刀	wan dao	100
+完好如初	wan hao ru chu	100
 玩家	wan jia	100
 玩家保存格式	wan jia bao cun ge shi	100
 玩家模型	wan jia mo xing	100
-玩家档案缓存存储格式	wan jia dang an huan cun cun chu ge shi	100
+玩家档案	wan jia dang an	100
 玩家的头	wan jia de tou	100
 玩家对战玩家	wan jia dui zhan wan jia	100
 玩家头	wan jia tou	100
@@ -7751,6 +8392,7 @@ sort: by_weight
 玩家存储格式	wan jia cun chu ge shi	100
 挽具	wan ju	100
 完整方块	wan zheng fang kuai	100
+完整带桅杆	wan zheng dai wei gan	100
 完成冒险	wan cheng mao xian	100
 万圣节	wan sheng jie	100
 万圣节更新	wan sheng jie geng xin	100
@@ -7769,6 +8411,9 @@ sort: by_weight
 网易版版本记录	wang yi ban ban ben ji lu	100
 网易版独有特性	wang yi ban du you te xing	100
 网易版网站	wang yi ban wang zhan	100
+网易账号	wang yi zhang hao	100
+网易游戏	wang yi you xi	100
+网易我的世界	wang yi wo de shi jie	100
 望远镜	wang yuan jing	100
 伪木台阶	wei mu tai jie	100
 微风	wei feng	100
@@ -7836,9 +8481,13 @@ sort: by_weight
 纹理包	wen li bao	100
 纹理图集	wen li tu ji	100
 纹理更新	wen li geng xin	100
+温和的药水	wen he de yao shui	100
 文件扩展名	wen jian kuo zhan ming	100
 纹饰	wen shi	100
+纹饰定义格式	wen shi ding yi ge shi	100
+纹饰图案	wen shi tu an	100
 纹饰盔甲	wen shi kui jia	100
+纹饰材料	wen shi cai liao	100
 温水海洋	wen shui hai yang	100
 温水深海	wen shui shen hai	100
 文字组件	wen zi zu jian	100
@@ -7851,6 +8500,7 @@ sort: by_weight
 我的生物	wo de sheng wu	100
 我的世界	wo de shi jie	100
 蜗牛披风	wo niu pi feng	100
+涡流	wo liu	100
 涡流盔甲纹饰	wo liu kui jia wen shi	100
 涡流气泡柱	wo liu qi pao zhu	100
 涡流旗帜图案	wo liu qi zhi tu an	100
@@ -7859,6 +8509,7 @@ sort: by_weight
 物品	wu pin	100
 物品标签	wu pin biao qian	100
 物品模型	wu pin mo xing	100
+物品默认组件	wu pin mo ren zu jian	100
 物品分类	wu pin fen lei	100
 物品复制	wu pin fu zhi	100
 物品电梯	wu pin dian ti	100
@@ -7871,6 +8522,7 @@ sort: by_weight
 物品格式	wu pin ge shi	100
 物品框架	wu pin kuang jia	100
 物品基础价值	wu pin ji chu jia zhi	100
+物品聚堆	wu pin ju dui	100
 物品效果	wu pin xiao guo	100
 物品修复	wu pin xiu fu	100
 物品修饰	wu pin xiu shi	100
@@ -7884,12 +8536,17 @@ sort: by_weight
 物品索引	wu pin suo yin	100
 物品运输	wu pin yun shu	100
 物品谓词	wu pin wei ci	100
+无面南瓜	wu mian nan gua	100
+无面熔炉	wu mian rong lu	100
 无名者	wu ming zhe	100
 无名之刃	wu ming zhi ren	100
 武木世纪	wu mu shi ji	100
 无法破坏	wu fa po huai	100
+无缝石台阶	wu feng shi tai jie	100
+无缝石头台阶	wu feng shi tou tai jie	100
 无缝双石台阶	wu feng shuang shi tai jie	100
 无敌模式	wu di mo shi	100
+无底漏斗	wu di lou dou	100
 无敌帧	wu di zhen	100
 无敌时间	wu di shi jian	100
 屋顶类型	wu ding lei xing	100
@@ -7898,10 +8555,13 @@ sort: by_weight
 无头活塞	wu tou huo sai	100
 无聊的时候做什么	wu liao de shi hou zuo shen me	100
 乌龟	wu gui	100
+污秽的药水	wu hui de yao shui	100
 无尽矿工	wu jin kuang gong	100
 武器	wu qi	100
 武器配方	wu qi pei fang	100
 武器匠	wu qi jiang	100
+武器商	wu qi shang	100
+无趣的药水	wu qu de yao shui	100
 无暇应对无谓事物的玩家的生物群系	wu xia ying dui wu wei shi wu de wan jia de sheng wu qun xi	100
 无懈可击	wu xie ke ji	100
 无效模型	wu xiao mo xing	100
@@ -7928,6 +8588,7 @@ sort: by_weight
 无延迟科技	wu yan chi ke ji	100
 无烟营火	wu yan ying huo	100
 午夜鸡	wu ye ji	100
+无味的药水	wu wei de yao shui	100
 阿莱	a lai	100
 阿莱克斯	a lai ke si	100
 阿莱刷怪蛋	a lai shua guai dan	100
@@ -7937,9 +8598,11 @@ sort: by_weight
 哀悼纹样陶片	ai dao wen yang tao pian	100
 爱的药水	ai de yao shui	100
 爱莉克斯	ai li ke si	100
+艾利克斯	ai li ke si	100
 艾莉克斯	ai li ke si	100
 矮干草丛	ai gan cao cong	100
 矮枯草丛	ai ku cao cong	100
+埃及神话原声带	ai ji shen hua yuan sheng dai	100
 爱心傀儡	ai xin kui lei	100
 爱心纹样陶片	ai xin wen yang tao pian	100
 爱之药水	ai zhi yao shui	100
@@ -7963,6 +8626,7 @@ sort: by_weight
 安山岩台阶	an shan yan tai jie	100
 安山岩楼梯	an shan yan lou ti	100
 安山岩墙	an shan yan qiang	100
+安山岩双层台阶	an shan yan shuang ceng tai jie	100
 暗树生物	an shu sheng wu	100
 鞍座	an zuo	100
 暗影行者	an ying xing zhe	100
@@ -7971,10 +8635,13 @@ sort: by_weight
 恶地	e di	100
 恶地高原	e di gao yuan	100
 恶毒马铃薯	e du ma ling shu	100
+俄罗斯方块原声带	e luo si fang kuai yuan sheng dai	100
 恶魂	e hun	100
 恶魂火球	e hun huo qiu	100
 恶魂之泪	e hun zhi lei	100
 恶魂刷怪蛋	e hun shua guai dan	100
+恶心的药水	e xin de yao shui	100
+恶臭的药水	e chou de yao shui	100
 恶意破坏	e yi po huai	100
 额外氧气	e wai yang qi	100
 饵钓	er diao	100
